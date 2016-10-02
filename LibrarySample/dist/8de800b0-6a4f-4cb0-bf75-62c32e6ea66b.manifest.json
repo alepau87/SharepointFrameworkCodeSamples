@@ -1,0 +1,18 @@
+{
+  "id": "8de800b0-6a4f-4cb0-bf75-62c32e6ea66b",
+  "componentType": "Library",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "loaderConfig": {
+    "entryModuleId": "calculator.bundle",
+    "internalModuleBaseUrls": [
+      "https://Softwares-MacBook-Pro.local:4321/"
+    ],
+    "scriptResources": {
+      "calculator.bundle": {
+        "type": "internal",
+        "path": "dist/calculator.bundle.js"
+      }
+    }
+  }
+}

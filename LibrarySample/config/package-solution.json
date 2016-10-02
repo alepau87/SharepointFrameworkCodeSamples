@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "library-sample-client-side-solution",
+    "id": "b2703488-34ea-471c-9a2f-22f5b5fd916b",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/library-sample.spapp"
+  }
+}
