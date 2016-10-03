@@ -1,3 +1,5 @@
+#Como crear librerias reutilizables para proyectos Sharepoint Framework
+
 Este codigo esta basado en mi blog post, que por facilidad tambien lo puedes leer [aqui](http://www.luisevalencia.com/2016/09/24/como-crear-librerias-reutilizables-para-proyectos-sharepoint-framework/)
 
 Para nosotros los desarrolladores es muy comun reutilizar codigo, en algunas de nuestras empresas ya tienen librerias que nos obligan a reutilizar, en otras utilizamos librerias comerciales, pero a a la final entre mas codigo reutilizemos mas facil es terminar nuestros proyectos.
