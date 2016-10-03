@@ -1,3 +1,6 @@
-# SharepointFrameworkCodeSamples
+#Ejemplos de Sharepoint Framework
 
-xyz
+#Sharepoint Framework Codigo reutilizable
+
+[Ejemplo](https://github.com/levalencia/SharepointFrameworkCodeSamples/tree/master/LibrarySample)
+
