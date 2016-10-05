@@ -226,5 +226,5 @@ export default class PropertiesSampleWebPart extends BaseClientSideWebPart<IProp
 
 #####Resultado final
 
-![](/Content/images/2016/09/2016-09-10_19-42-04.png)
+![](http://www.luisevalencia.com/Content/images/2016/09/2016-09-10_19-42-04.png)
 
