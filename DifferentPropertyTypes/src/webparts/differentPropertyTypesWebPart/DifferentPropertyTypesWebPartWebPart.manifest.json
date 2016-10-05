@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "086b16ff-aa80-4d3f-8895-79ccc2301025",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "086b16ff-aa80-4d3f-8895-79ccc2301025",
+    "group": { "default": "Under Development" },
+    "title": { "default": "DifferentPropertyTypesWebPart" },
+    "description": { "default": "DifferentPropertyTypesWebPart description" },
+    "officeFabricIconFontName": "Page",
+     "properties": {
+        "Name": "PropertiesSample",
+        "Bio": "Multi-line text field",
+        "SPDeveloper": true,
+        "LoveSP": "2",
+        "ReceiveEmails": true
+    }
+  }]
+}
