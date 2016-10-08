@@ -8,6 +8,9 @@ var ComplexCalculator = (function () {
     ComplexCalculator.prototype.multiply = function (v1, v2) {
         return v1 * v2;
     };
+    ComplexCalculator.prototype.sayHello3 = function () {
+        return "Hello";
+    };
     return ComplexCalculator;
 }());
 exports.ComplexCalculator = ComplexCalculator;

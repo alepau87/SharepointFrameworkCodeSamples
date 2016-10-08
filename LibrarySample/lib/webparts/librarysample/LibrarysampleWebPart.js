@@ -18,6 +18,9 @@ var LibrarysampleWebPart = (function (_super) {
         var element = React.createElement(Librarysample_1.default, {
             description: this.properties.description
         });
+        var complex = new ComplexCalculator();
+        var easyCalc = new EasyCalculator();
+        var result = easyCalc.sum(1, 2);
         ReactDom.render(element, this.domElement);
     };
     Object.defineProperty(LibrarysampleWebPart.prototype, "propertyPaneSettings", {
