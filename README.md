@@ -4,3 +4,7 @@
 
 [Ejemplo](https://github.com/levalencia/SharepointFrameworkCodeSamples/tree/master/LibrarySample)
 
+###Diferentes tipos de propiedades
+
+[Ejemplo](https://github.com/levalencia/SharepointFrameworkCodeSamples/tree/master/DifferentPropertyTypes)
+
