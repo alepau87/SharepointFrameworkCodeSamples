@@ -263,7 +263,7 @@ gulp watch-calculator-lib
 Ahora cada vez que cambiemos una clase, el archivo de typings se generara automaticamente.
 ![](/content/images/2016/09/5-2.png)
 
-And finally on the typings folder on file tsd.d.ts we have to add a reference
+Y por ultimo en el tsd.d.ts tenemos que agregar la referencia.
 
 ```javascript
 /// <reference path="calculator.d.ts" />
