@@ -43,5 +43,5 @@ El codigo es muy facil, simplemente copia el configured entries:
 Y el resultado final, mismo webpart, instancias diferentes, code reuse ftw!
 
 
-![](/content/images/2016/10/12.png)
+![](http://www.luisevalencia.com/content/images/2016/10/12.png)
 
