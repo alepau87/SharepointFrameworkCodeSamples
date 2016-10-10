@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "preconfigured-entries-sample-client-side-solution",
+    "id": "02784d39-acee-4c12-89cd-81c82241b7c8",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/preconfigured-entries-sample.spapp"
+  }
+}

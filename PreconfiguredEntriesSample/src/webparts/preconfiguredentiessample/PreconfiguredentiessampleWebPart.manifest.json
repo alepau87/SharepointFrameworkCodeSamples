@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "25232731-23c8-4329-9013-8ad4cfea8630",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [
+  {
+    "groupId": "25232731-23c8-4329-9013-8ad4cfea8630",
+    "group": { "default": "Under Development 1" },
+    "title": { "default": "Webpart number 1" },
+    "description": { "default": "preconfiguredentiessample description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "VALUE1"
+    }
+  },
+  {
+    "groupId": "25232731-23c8-4329-9013-8ad4cfea8630",
+    "group": { "default": "Under Development 2" },
+    "title": { "default": "Webpart number 2" },
+    "description": { "default": "preconfiguredentiessample description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "VALUE2"
+    }
+  }]
+}
