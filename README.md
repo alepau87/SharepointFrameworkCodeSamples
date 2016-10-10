@@ -8,3 +8,7 @@
 
 [Ejemplo](https://github.com/levalencia/SharepointFrameworkCodeSamples/tree/master/DifferentPropertyTypes)
 
+###Para que sirve el preconfigured entries en Sharepoint Framework y un ejemplo
+
+[Ejemplo](https://github.com/levalencia/SharepointFrameworkCodeSamples/tree/master/PreconfiguredEntriesSample)
+
