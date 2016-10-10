@@ -22,12 +22,10 @@ export default class LibrarysampleWebPart extends BaseClientSideWebPart<ILibrary
     const element: React.ReactElement<ILibrarysampleProps> = React.createElement(Librarysample, {
       description: this.properties.description
     });
-
-    var complex = new ComplexCalculator();
-    var easyCalc = new EasyCalculator();
-    var result = easyCalc.sum(1,  2);    
     
-
+    var easycalc = new calculator.EasyCalculator();
+    var result = easycalc.sum(1,2);
+    console.log(result);
     ReactDom.render(element, this.domElement);
   }
 

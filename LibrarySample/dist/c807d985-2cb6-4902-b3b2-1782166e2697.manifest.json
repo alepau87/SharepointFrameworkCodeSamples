@@ -31,6 +31,10 @@
         "type": "internal",
         "path": "dist/librarysample.bundle.js"
       },
+      "calculator": {
+        "type": "internal",
+        "path": "dist/calculator.bundle.js"
+      },
       "librarysampleStrings": {
         "defaultPath": "lib/webparts/librarysample/loc/en-us.js",
         "type": "localized",

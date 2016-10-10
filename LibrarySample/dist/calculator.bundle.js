@@ -67,6 +67,9 @@ define("2c251523a11b107c6252a34fcf690881", [], function() { return /******/ (fun
 	    ComplexCalculator.prototype.multiply = function (v1, v2) {
 	        return v1 * v2;
 	    };
+	    ComplexCalculator.prototype.sayHello3 = function () {
+	        return "Hello";
+	    };
 	    return ComplexCalculator;
 	}());
 	exports.ComplexCalculator = ComplexCalculator;

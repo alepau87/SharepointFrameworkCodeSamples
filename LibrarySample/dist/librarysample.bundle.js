@@ -1,4 +1,4 @@
-define("2c251523a11b107c6252a34fcf690881", ["react","react-dom","@microsoft/sp-client-preview","librarysampleStrings","office-ui-fabric-react"], function(__WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_4__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_6__, __WEBPACK_EXTERNAL_MODULE_8__) { return /******/ (function(modules) { // webpackBootstrap
+define("2c251523a11b107c6252a34fcf690881", ["react","react-dom","@microsoft/sp-client-preview","librarysampleStrings","office-ui-fabric-react","calculator"], function(__WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_4__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_6__, __WEBPACK_EXTERNAL_MODULE_8__, __WEBPACK_EXTERNAL_MODULE_14__) { return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -55,6 +55,7 @@ define("2c251523a11b107c6252a34fcf690881", ["react","react-dom","@microsoft/sp-c
 	var sp_client_preview_1 = __webpack_require__(5);
 	var strings = __webpack_require__(6);
 	var Librarysample_1 = __webpack_require__(7);
+	var calculator = __webpack_require__(14);
 	var LibrarysampleWebPart = (function (_super) {
 	    __extends(LibrarysampleWebPart, _super);
 	    function LibrarysampleWebPart(context) {
@@ -64,6 +65,9 @@ define("2c251523a11b107c6252a34fcf690881", ["react","react-dom","@microsoft/sp-c
 	        var element = React.createElement(Librarysample_1.default, {
 	            description: this.properties.description
 	        });
+	        var easycalc = new calculator.EasyCalculator();
+	        var result = easycalc.sum(1, 2);
+	        console.log(result);
 	        ReactDom.render(element, this.domElement);
 	    };
 	    Object.defineProperty(LibrarysampleWebPart.prototype, "propertyPaneSettings", {
@@ -502,6 +506,12 @@ define("2c251523a11b107c6252a34fcf690881", ["react","react-dom","@microsoft/sp-c
 	
 	
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
+
+/***/ },
+/* 14 */
+/***/ function(module, exports) {
+
+	module.exports = __WEBPACK_EXTERNAL_MODULE_14__;
 
 /***/ }
 /******/ ])});;

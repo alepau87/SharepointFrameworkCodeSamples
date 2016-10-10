@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "1.13.2",
-  "hash": "ded3030a924892437744",
+  "hash": "d863a29c150748b2b6bf",
   "publicPath": "",
   "assetsByChunkName": {
     "calculator.bundle": [
@@ -17,7 +17,7 @@
   "assets": [
     {
       "name": "calculator.bundle.js",
-      "size": 2635,
+      "size": 2727,
       "chunks": [
         0
       ],
@@ -27,7 +27,7 @@
     },
     {
       "name": "librarysample.bundle.js",
-      "size": 19195,
+      "size": 19516,
       "chunks": [
         1
       ],
@@ -37,7 +37,7 @@
     },
     {
       "name": "calculator.bundle.js.map",
-      "size": 2825,
+      "size": 2937,
       "chunks": [
         0
       ],
@@ -47,7 +47,7 @@
     },
     {
       "name": "librarysample.bundle.js.map",
-      "size": 28313,
+      "size": 28882,
       "chunks": [
         1
       ],
@@ -63,7 +63,7 @@
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 893,
+      "size": 982,
       "names": [
         "calculator.bundle"
       ],
@@ -71,13 +71,13 @@
         "calculator.bundle.js",
         "calculator.bundle.js.map"
       ],
-      "hash": "3e082d3f09ff3127d3db",
+      "hash": "906589661c5929e5d480",
       "parents": [],
       "origins": [
         {
           "moduleId": 0,
-          "module": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/libraries/calculator/Calculator.js",
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/libraries/calculator/Calculator.js",
+          "module": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/libraries/calculator/Calculator.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/libraries/calculator/Calculator.js",
           "moduleName": "./lib/libraries/calculator/Calculator.js",
           "loc": "",
           "name": "calculator.bundle",
@@ -91,7 +91,7 @@
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 16346,
+      "size": 16577,
       "names": [
         "librarysample.bundle"
       ],
@@ -99,13 +99,13 @@
         "librarysample.bundle.js",
         "librarysample.bundle.js.map"
       ],
-      "hash": "321eb522a721c8f7dd43",
+      "hash": "3079779f39a591e80f1a",
       "parents": [],
       "origins": [
         {
           "moduleId": 0,
-          "module": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+          "module": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
           "moduleName": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
           "loc": "",
           "name": "librarysample.bundle",
@@ -117,7 +117,7 @@
   "modules": [
     {
       "id": 0,
-      "identifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/libraries/calculator/Calculator.js",
+      "identifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/libraries/calculator/Calculator.js",
       "name": "./lib/libraries/calculator/Calculator.js",
       "index": 0,
       "index2": 2,
@@ -139,11 +139,11 @@
     },
     {
       "id": 0,
-      "identifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+      "identifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
       "name": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
       "index": 3,
-      "index2": 14,
-      "size": 2047,
+      "index2": 15,
+      "size": 2213,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -157,15 +157,15 @@
       "errors": 0,
       "warnings": 0,
       "reasons": [],
-      "source": "\"use strict\";\nvar __extends = (this && this.__extends) || function (d, b) {\n    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];\n    function __() { this.constructor = d; }\n    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n};\nvar React = require('react');\nvar ReactDom = require('react-dom');\nvar sp_client_preview_1 = require('@microsoft/sp-client-preview');\nvar strings = require('librarysampleStrings');\nvar Librarysample_1 = require('./components/Librarysample');\nvar LibrarysampleWebPart = (function (_super) {\n    __extends(LibrarysampleWebPart, _super);\n    function LibrarysampleWebPart(context) {\n        _super.call(this, context);\n    }\n    LibrarysampleWebPart.prototype.render = function () {\n        var element = React.createElement(Librarysample_1.default, {\n            description: this.properties.description\n        });\n        ReactDom.render(element, this.domElement);\n    };\n    Object.defineProperty(LibrarysampleWebPart.prototype, \"propertyPaneSettings\", {\n        get: function () {\n            return {\n                pages: [\n                    {\n                        header: {\n                            description: strings.PropertyPaneDescription\n                        },\n                        groups: [\n                            {\n                                groupName: strings.BasicGroupName,\n                                groupFields: [\n                                    sp_client_preview_1.PropertyPaneTextField('description', {\n                                        label: strings.DescriptionFieldLabel\n                                    })\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            };\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return LibrarysampleWebPart;\n}(sp_client_preview_1.BaseClientSideWebPart));\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.default = LibrarysampleWebPart;\n\n"
+      "source": "\"use strict\";\nvar __extends = (this && this.__extends) || function (d, b) {\n    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];\n    function __() { this.constructor = d; }\n    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n};\nvar React = require('react');\nvar ReactDom = require('react-dom');\nvar sp_client_preview_1 = require('@microsoft/sp-client-preview');\nvar strings = require('librarysampleStrings');\nvar Librarysample_1 = require('./components/Librarysample');\nvar calculator = require('calculator');\nvar LibrarysampleWebPart = (function (_super) {\n    __extends(LibrarysampleWebPart, _super);\n    function LibrarysampleWebPart(context) {\n        _super.call(this, context);\n    }\n    LibrarysampleWebPart.prototype.render = function () {\n        var element = React.createElement(Librarysample_1.default, {\n            description: this.properties.description\n        });\n        var easycalc = new calculator.EasyCalculator();\n        var result = easycalc.sum(1, 2);\n        console.log(result);\n        ReactDom.render(element, this.domElement);\n    };\n    Object.defineProperty(LibrarysampleWebPart.prototype, \"propertyPaneSettings\", {\n        get: function () {\n            return {\n                pages: [\n                    {\n                        header: {\n                            description: strings.PropertyPaneDescription\n                        },\n                        groups: [\n                            {\n                                groupName: strings.BasicGroupName,\n                                groupFields: [\n                                    sp_client_preview_1.PropertyPaneTextField('description', {\n                                        label: strings.DescriptionFieldLabel\n                                    })\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            };\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return LibrarysampleWebPart;\n}(sp_client_preview_1.BaseClientSideWebPart));\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.default = LibrarysampleWebPart;\n\n"
     },
     {
       "id": 1,
-      "identifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/libraries/calculator/ComplexCalculator.js",
+      "identifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/libraries/calculator/ComplexCalculator.js",
       "name": "./lib/libraries/calculator/ComplexCalculator.js",
       "index": 1,
       "index2": 0,
-      "size": 357,
+      "size": 446,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -174,14 +174,14 @@
         0
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/libraries/calculator/Calculator.js",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/libraries/calculator/Calculator.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 0,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/libraries/calculator/Calculator.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/libraries/calculator/Calculator.js",
           "module": "./lib/libraries/calculator/Calculator.js",
           "moduleName": "./lib/libraries/calculator/Calculator.js",
           "type": "cjs require",
@@ -189,11 +189,11 @@
           "loc": "5:9-39"
         }
       ],
-      "source": "\"use strict\";\nvar ComplexCalculator = (function () {\n    function ComplexCalculator() {\n    }\n    ComplexCalculator.prototype.sqr = function (v1) {\n        return v1 * v1;\n    };\n    ComplexCalculator.prototype.multiply = function (v1, v2) {\n        return v1 * v2;\n    };\n    return ComplexCalculator;\n}());\nexports.ComplexCalculator = ComplexCalculator;\n\n"
+      "source": "\"use strict\";\nvar ComplexCalculator = (function () {\n    function ComplexCalculator() {\n    }\n    ComplexCalculator.prototype.sqr = function (v1) {\n        return v1 * v1;\n    };\n    ComplexCalculator.prototype.multiply = function (v1, v2) {\n        return v1 * v2;\n    };\n    ComplexCalculator.prototype.sayHello3 = function () {\n        return \"Hello\";\n    };\n    return ComplexCalculator;\n}());\nexports.ComplexCalculator = ComplexCalculator;\n\n"
     },
     {
       "id": 2,
-      "identifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/libraries/calculator/EasyCalculator.js",
+      "identifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/libraries/calculator/EasyCalculator.js",
       "name": "./lib/libraries/calculator/EasyCalculator.js",
       "index": 2,
       "index2": 1,
@@ -206,14 +206,14 @@
         0
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/libraries/calculator/Calculator.js",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/libraries/calculator/Calculator.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 0,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/libraries/calculator/Calculator.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/libraries/calculator/Calculator.js",
           "module": "./lib/libraries/calculator/Calculator.js",
           "moduleName": "./lib/libraries/calculator/Calculator.js",
           "type": "cjs require",
@@ -238,14 +238,14 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 0,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
           "module": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
           "moduleName": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
           "type": "cjs require",
@@ -254,7 +254,7 @@
         },
         {
           "moduleId": 7,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
           "module": "./lib/webparts/librarysample/components/Librarysample.js",
           "moduleName": "./lib/webparts/librarysample/components/Librarysample.js",
           "type": "cjs require",
@@ -278,14 +278,14 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 0,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
           "module": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
           "moduleName": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
           "type": "cjs require",
@@ -309,14 +309,14 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 0,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
           "module": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
           "moduleName": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
           "type": "cjs require",
@@ -340,14 +340,14 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 0,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
           "module": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
           "moduleName": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
           "type": "cjs require",
@@ -358,7 +358,7 @@
     },
     {
       "id": 7,
-      "identifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
+      "identifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
       "name": "./lib/webparts/librarysample/components/Librarysample.js",
       "index": 8,
       "index2": 13,
@@ -371,14 +371,14 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 0,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
           "module": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
           "moduleName": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
           "type": "cjs require",
@@ -403,14 +403,14 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 7,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
           "module": "./lib/webparts/librarysample/components/Librarysample.js",
           "moduleName": "./lib/webparts/librarysample/components/Librarysample.js",
           "type": "cjs require",
@@ -421,7 +421,7 @@
     },
     {
       "id": 9,
-      "identifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/Librarysample.module.scss.js",
+      "identifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/Librarysample.module.scss.js",
       "name": "./lib/webparts/librarysample/Librarysample.module.scss.js",
       "index": 10,
       "index2": 12,
@@ -434,14 +434,14 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 7,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/components/Librarysample.js",
           "module": "./lib/webparts/librarysample/components/Librarysample.js",
           "moduleName": "./lib/webparts/librarysample/components/Librarysample.js",
           "type": "cjs require",
@@ -453,11 +453,11 @@
     },
     {
       "id": 10,
-      "identifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/@microsoft/loader-load-themed-styles/lib/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
+      "identifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/@microsoft/loader-load-themed-styles/lib/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
       "name": "./lib/webparts/librarysample/Librarysample.module.css",
       "index": 11,
       "index2": 11,
-      "size": 457,
+      "size": 480,
       "cacheable": false,
       "built": true,
       "optional": false,
@@ -466,14 +466,14 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/Librarysample.module.scss.js",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/Librarysample.module.scss.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 9,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/Librarysample.module.scss.js",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/Librarysample.module.scss.js",
           "module": "./lib/webparts/librarysample/Librarysample.module.scss.js",
           "moduleName": "./lib/webparts/librarysample/Librarysample.module.scss.js",
           "type": "cjs require",
@@ -481,11 +481,11 @@
           "loc": "2:0-35"
         }
       ],
-      "source": "var content = require(\"!!./../../../node_modules/css-loader/index.js!./Librarysample.module.css\");\nvar loader = require(\"/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/@microsoft/load-themed-styles/lib/index.js\");\n\nif(typeof content === \"string\") content = [[module.id, content]];\n\n// add the styles to the DOM\nfor (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1]);\n\nif(content.locals) module.exports = content.locals;"
+      "source": "var content = require(\"!!./../../../node_modules/css-loader/index.js!./Librarysample.module.css\");\nvar loader = require(\"/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/@microsoft/load-themed-styles/lib/index.js\");\n\nif(typeof content === \"string\") content = [[module.id, content]];\n\n// add the styles to the DOM\nfor (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1]);\n\nif(content.locals) module.exports = content.locals;"
     },
     {
       "id": 11,
-      "identifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
+      "identifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
       "name": "./~/css-loader!./lib/webparts/librarysample/Librarysample.module.css",
       "index": 12,
       "index2": 9,
@@ -498,14 +498,14 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/@microsoft/loader-load-themed-styles/lib/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/@microsoft/loader-load-themed-styles/lib/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 10,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/@microsoft/loader-load-themed-styles/lib/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/@microsoft/loader-load-themed-styles/lib/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
           "module": "./lib/webparts/librarysample/Librarysample.module.css",
           "moduleName": "./lib/webparts/librarysample/Librarysample.module.css",
           "type": "cjs require",
@@ -517,7 +517,7 @@
     },
     {
       "id": 12,
-      "identifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/css-loader/lib/css-base.js",
+      "identifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/css-loader/lib/css-base.js",
       "name": "./~/css-loader/lib/css-base.js",
       "index": 13,
       "index2": 8,
@@ -530,14 +530,14 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 11,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
           "module": "./~/css-loader!./lib/webparts/librarysample/Librarysample.module.css",
           "moduleName": "./~/css-loader!./lib/webparts/librarysample/Librarysample.module.css",
           "type": "cjs require",
@@ -549,7 +549,7 @@
     },
     {
       "id": 13,
-      "identifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/@microsoft/load-themed-styles/lib/index.js",
+      "identifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/@microsoft/load-themed-styles/lib/index.js",
       "name": "./~/@microsoft/load-themed-styles/lib/index.js",
       "index": 14,
       "index2": 10,
@@ -562,22 +562,53 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/@microsoft/loader-load-themed-styles/lib/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/@microsoft/loader-load-themed-styles/lib/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 10,
-          "moduleIdentifier": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/@microsoft/loader-load-themed-styles/lib/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/Samples/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/@microsoft/loader-load-themed-styles/lib/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/css-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/Librarysample.module.css",
           "module": "./lib/webparts/librarysample/Librarysample.module.css",
           "moduleName": "./lib/webparts/librarysample/Librarysample.module.css",
           "type": "cjs require",
-          "userRequest": "/Users/luis.valencia/Documents/Samples/LibrarySample/node_modules/@microsoft/load-themed-styles/lib/index.js",
-          "loc": "2:13-132"
+          "userRequest": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/@microsoft/load-themed-styles/lib/index.js",
+          "loc": "2:13-155"
         }
       ],
       "source": "/**\n * An IThemingInstruction can specify a rawString to be preserved or a theme slot and a default value\n * to use if that slot is not specified by the theme.\n */\n\"use strict\";\n// IE needs to inject styles using cssText. However, we need to evaluate this lazily, so this\n// value will initialize as undefined, and later will be set once on first loadStyles injection.\nvar _injectStylesWithCssText;\n// Store the theming state in __themeState__ global scope for reuse in the case of duplicate\n// load-themed-styles hosted on the page.\nvar _root = (typeof window === 'undefined') ? global : window; // tslint:disable-line:no-any\nvar _themeState = _root.__themeState__ = _root.__themeState__ || {\n    theme: undefined,\n    lastStyleElement: undefined,\n    registeredStyles: []\n};\n/**\n * Matches theming tokens. For example, \"[theme: themeSlotName, default: #FFF]\" (including the quotes).\n */\n/* tslint:disable: max-line-length */\nvar _themeTokenRegex = /[\\'\\\"]\\[theme:\\s*(\\w+)\\s*(?:\\,\\s*default:\\s*([\\\\\"\\']?[\\.\\,\\(\\)\\#\\-\\s\\w]*[\\.\\,\\(\\)\\#\\-\\w][\\\"\\']?))?\\s*\\][\\'\\\"]/g;\n/* tslint:enable: max-line-length */\n/** Maximum style text length, for supporting IE style restrictions. */\nvar MAX_STYLE_CONTENT_SIZE = 10000;\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load\n * event is fired.\n * @param {string | ThemableArray} styles Themable style text to register.\n */\nfunction loadStyles(styles) {\n    var styleParts = Array.isArray(styles) ? styles : splitStyles(styles);\n    if (_injectStylesWithCssText === undefined) {\n        _injectStylesWithCssText = shouldUseCssText();\n    }\n    applyThemableStyles(styleParts);\n}\nexports.loadStyles = loadStyles;\n/**\n * Allows for customizable loadStyles logic. e.g. for server side rendering application\n * @param {(styles: string) => void} a loadStyles callback that gets called when styles are loaded or reloaded\n */\nfunction configureLoadStyles(callback) {\n    _themeState.loadStyles = callback;\n}\nexports.configureLoadStyles = configureLoadStyles;\n/**\n * Loads a set of style text. If it is registered too early, we will register it when the window.load event\n * is fired.\n * @param {string} styleText Style to register.\n * @param {IStyleRecord} styleRecord Existing style record to re-apply.\n */\nfunction applyThemableStyles(stylesArray, styleRecord) {\n    if (_themeState.loadStyles) {\n        var styles = resolveThemableArray(stylesArray);\n        _themeState.loadStyles(styles);\n    }\n    else {\n        _injectStylesWithCssText ?\n            registerStylesIE(stylesArray, styleRecord) :\n            registerStyles(stylesArray, styleRecord);\n    }\n}\n/**\n * Registers a set theme tokens to find and replace. If styles were already registered, they will be\n * replaced.\n * @param {theme} theme JSON object of theme tokens to values.\n */\nfunction loadTheme(theme) {\n    _themeState.theme = theme;\n    // reload styles.\n    reloadStyles();\n}\nexports.loadTheme = loadTheme;\n/**\n * Reloads styles.\n */\nfunction reloadStyles() {\n    if (_themeState.theme) {\n        for (var _i = 0, _a = _themeState.registeredStyles; _i < _a.length; _i++) {\n            var styleRecord = _a[_i];\n            applyThemableStyles(styleRecord.themableStyle, styleRecord);\n        }\n    }\n}\n/**\n * Find theme tokens and replaces them with provided theme values.\n * @param {string} styles Tokenized styles to fix.\n */\nfunction detokenize(styles) {\n    if (styles) {\n        styles = resolveThemableArray(splitStyles(styles));\n    }\n    return styles;\n}\nexports.detokenize = detokenize;\n/**\n * Resolves ThemingInstruction objects in an array and joins the result into a string.\n * @param {ThemableArray} splitStyleArray ThemableArray to resolve and join.\n */\nfunction resolveThemableArray(splitStyleArray) {\n    var theme = _themeState.theme;\n    var resolvedCss;\n    if (splitStyleArray) {\n        // Resolve the array of theming instructions to an array of strings.\n        // Then join the array to produce the final CSS string.\n        var resolvedArray = splitStyleArray.map(function (currentValue) {\n            var themeSlot = currentValue.theme;\n            if (themeSlot) {\n                // A theming annotation. Resolve it.\n                var themedValue = theme ? theme[themeSlot] : undefined;\n                var defaultValue = currentValue.defaultValue;\n                // Warn to console if we hit an unthemed value even when themes are provided.\n                // Allow the themedValue to be undefined to explicitly request the default value.\n                if (theme && !themedValue && console && !(themeSlot in theme)) {\n                    /* tslint:disable: max-line-length */\n                    console.warn(\"Theming value not provided for \\\"\" + themeSlot + \"\\\". Falling back to \\\"\" + (defaultValue || 'inherit') + \"\\\".\");\n                }\n                return themedValue || defaultValue || 'inherit';\n            }\n            else {\n                // A non-themable string. Preserve it.\n                return currentValue.rawString;\n            }\n        });\n        resolvedCss = resolvedArray.join('');\n    }\n    return resolvedCss;\n}\n/**\n * Split tokenized CSS into an array of strings and theme specification objects\n * @param {string} styles Tokenized styles to split.\n */\nfunction splitStyles(styles) {\n    var result = [];\n    if (styles) {\n        var pos = 0; // Current position in styles.\n        var tokenMatch = void 0;\n        while (tokenMatch = _themeTokenRegex.exec(styles)) {\n            var matchIndex = tokenMatch.index;\n            if (matchIndex > pos) {\n                result.push({\n                    rawString: styles.substring(pos, matchIndex)\n                });\n            }\n            result.push({\n                theme: tokenMatch[1],\n                defaultValue: tokenMatch[2] // May be undefined\n            });\n            // index of the first character after the current match\n            pos = _themeTokenRegex.lastIndex;\n        }\n        // Push the rest of the string after the last match.\n        result.push({\n            rawString: styles.substring(pos)\n        });\n    }\n    return result;\n}\nexports.splitStyles = splitStyles;\n/**\n * Registers a set of style text. If it is registered too early, we will register it when the\n * window.load event is fired.\n * @param {ThemableArray} styleArray Array of IThemingInstruction objects to register.\n * @param {IStyleRecord} styleRecord May specify a style Element to update.\n */\nfunction registerStyles(styleArray, styleRecord) {\n    var head = document.getElementsByTagName('head')[0];\n    var styleElement = document.createElement('style');\n    styleElement.type = 'text/css';\n    styleElement.appendChild(document.createTextNode(resolveThemableArray(styleArray)));\n    if (styleRecord) {\n        head.replaceChild(styleElement, styleRecord.styleElement);\n        styleRecord.styleElement = styleElement;\n    }\n    else {\n        head.appendChild(styleElement);\n    }\n    if (!styleRecord) {\n        _themeState.registeredStyles.push({\n            styleElement: styleElement,\n            themableStyle: styleArray\n        });\n    }\n}\n/**\n * Registers a set of style text, for IE 9 and below, which has a ~30 style element limit so we need\n * to register slightly differently.\n * @param {ThemableArray} styleArray Array of IThemingInstruction objects to register.\n * @param {IStyleRecord} styleRecord May specify a style Element to update.\n */\nfunction registerStylesIE(styleArray, styleRecord) {\n    var head = document.getElementsByTagName('head')[0];\n    var lastStyleElement = _themeState.lastStyleElement, registeredStyles = _themeState.registeredStyles;\n    var stylesheet = lastStyleElement ? lastStyleElement.styleSheet : undefined;\n    var lastStyleContent = stylesheet ? stylesheet.cssText : '';\n    var lastRegisteredStyle = registeredStyles[registeredStyles.length - 1];\n    var resolvedStyleText = resolveThemableArray(styleArray);\n    if (!lastStyleElement || (lastStyleContent.length + resolvedStyleText.length) > MAX_STYLE_CONTENT_SIZE) {\n        lastStyleElement = document.createElement('style');\n        lastStyleElement.type = 'text/css';\n        if (styleRecord) {\n            head.replaceChild(lastStyleElement, styleRecord.styleElement);\n            styleRecord.styleElement = lastStyleElement;\n        }\n        else {\n            head.appendChild(lastStyleElement);\n        }\n        if (!styleRecord) {\n            lastRegisteredStyle = {\n                styleElement: lastStyleElement,\n                themableStyle: styleArray\n            };\n            registeredStyles.push(lastRegisteredStyle);\n        }\n    }\n    lastStyleElement.styleSheet.cssText += detokenize(resolvedStyleText);\n    Array.prototype.push.apply(lastRegisteredStyle.themableStyle, styleArray); // concat in-place\n    // Preserve the theme state.\n    _themeState.lastStyleElement = lastStyleElement;\n}\n/**\n * Checks to see if styleSheet exists as a property off of a style element.\n * This will determine if style registration should be done via cssText (<= IE9) or not\n */\nfunction shouldUseCssText() {\n    var useCSSText = false;\n    if (typeof document !== 'undefined') {\n        var emptyStyle = document.createElement('style');\n        emptyStyle.type = 'text/css';\n        useCSSText = !!emptyStyle.styleSheet;\n    }\n    return useCSSText;\n}\n\n"
+    },
+    {
+      "id": 14,
+      "identifier": "external \"calculator\"",
+      "name": "external \"calculator\"",
+      "index": 15,
+      "index2": 14,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/node_modules/source-map-loader/index.js!/Users/luis.valencia/Documents/SharepointFrameworkSamplesRepo/LibrarySample/lib/webparts/librarysample/LibrarysampleWebPart.js",
+          "module": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
+          "moduleName": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
+          "type": "cjs require",
+          "userRequest": "calculator",
+          "loc": "12:17-38"
+        }
+      ]
     }
   ],
   "filteredModules": 0,
