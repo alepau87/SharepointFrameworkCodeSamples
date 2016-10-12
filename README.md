@@ -12,3 +12,6 @@
 
 [Ejemplo](https://github.com/levalencia/SharepointFrameworkCodeSamples/tree/master/PreconfiguredEntriesSample)
 
+###Validando propiedades del webpart en Sharepoint Framework
+
+[Ejemplo](https://github.com/levalencia/SharepointFrameworkCodeSamples/tree/master/ValidationSample)
