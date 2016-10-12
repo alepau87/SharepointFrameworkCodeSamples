@@ -1,0 +1,6 @@
+{
+  "workingDir": "./temp/deploy/",
+  "account": "<!-- STORAGE ACCOUNT NAME -->",
+  "container": "pn-p-crud-sample",
+  "accessKey": "<!-- ACCESS KEY -->"
+}

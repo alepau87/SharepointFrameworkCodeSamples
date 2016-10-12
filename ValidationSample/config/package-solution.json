@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "validation-sample-client-side-solution",
+    "id": "b1586e8a-494b-47d6-aac4-6c29e3c78a6b",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/validation-sample.spapp"
+  }
+}
