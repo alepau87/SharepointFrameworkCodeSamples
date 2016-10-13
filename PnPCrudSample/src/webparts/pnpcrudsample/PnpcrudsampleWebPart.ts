@@ -34,7 +34,8 @@ export default class PnpcrudsampleWebPart extends BaseClientSideWebPart<IPnpcrud
   /// Generar contenido HTML
   public render(): void {
     const webPart: PnpcrudsampleWebPart = this;
-    webPart.readItems();
+    //webPart.readItems();
+    debugger;
 
     ModuleLoader.loadCss('//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css');
     if (this.renderedOnce === false) {
@@ -48,20 +49,23 @@ export default class PnpcrudsampleWebPart extends BaseClientSideWebPart<IPnpcrud
      this.domElement.innerHTML = `<table id="example" class="display" cellspacing="0" width="100%">
         <thead>
             <tr>
-                <th>Id</th>
                 <th>Title</th>
+                <th>NumberColumn</th>
+                <th>DateColumn</th>
+                <th>PersonColumn</th>
+                <th>BooleanColumn</th>
             </tr>
         </thead>
         <tfoot>
             <tr>
-                <th>id</th>
                 <th>Title</th>
+                <th>NumberColumn</th>
+                <th>DateColumn</th>
+                <th>PersonColumn</th>
+                <th>BooleanColumn</th>
             </tr>
         </tfoot>
     </table>`;
-    $(document).ready(() => {
-      $('#example').DataTable();
-    });
   }
 
   //Property pane fields
@@ -96,11 +100,24 @@ export default class PnpcrudsampleWebPart extends BaseClientSideWebPart<IPnpcrud
 
   //Read items from list
   private readItems(): void {
+    debugger;
     this.updateStatus('Loading all items...');
     pnp.sp.web.lists.getByTitle(this.properties.listName)
       .items.select('Title', 'Id').get()
       .then((items: IListItem[]): void => {
         this.updateStatus(`Successfully loaded ${items.length} items`, items);
+         $(document).ready(() => {
+          $('#example').DataTable( {
+            data: items,
+            columns: [
+                { title: "Title" },
+                { title: "NumberColumn" },
+                { title: "DateColumn" },
+                { title: "PersonColumn" },
+                { title: "BooleanColumn" }
+            ]
+          });
+        });
       }, (error: any): void => {
         this.updateStatus('Loading all items failed with error: ' + error);
       });

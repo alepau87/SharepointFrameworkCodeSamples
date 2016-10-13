@@ -1,3 +1,5 @@
 {
-  "cdnBasePath": "<!-- PATH TO CDN -->"
+  //"cdnBasePath": "https://azurecdntestspf.azureedge.net/cdnendpoint"
+  "cdnBasePath": "https://azurecdntestspf.blob.core.windows.net/cdnendpoint"
+  //https://azurecdntestspf.blob.core.windows.net/cdnendpoint
 }
