@@ -65,6 +65,7 @@ define("2c251523a11b107c6252a34fcf690881", ["react","react-dom","@microsoft/sp-c
 	        var element = React.createElement(Librarysample_1.default, {
 	            description: this.properties.description
 	        });
+	        debugger;
 	        var easycalc = new calculator.EasyCalculator();
 	        var result = easycalc.sum(1, 2);
 	        console.log(result);

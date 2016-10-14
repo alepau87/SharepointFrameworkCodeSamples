@@ -19,6 +19,7 @@ var LibrarysampleWebPart = (function (_super) {
         var element = React.createElement(Librarysample_1.default, {
             description: this.properties.description
         });
+        debugger;
         var easycalc = new calculator.EasyCalculator();
         var result = easycalc.sum(1, 2);
         console.log(result);

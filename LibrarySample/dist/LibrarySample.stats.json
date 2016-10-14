@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "1.13.2",
-  "hash": "d863a29c150748b2b6bf",
+  "hash": "2829b94d413f87a4888a",
   "publicPath": "",
   "assetsByChunkName": {
     "calculator.bundle": [
@@ -27,7 +27,7 @@
     },
     {
       "name": "librarysample.bundle.js",
-      "size": 19516,
+      "size": 19535,
       "chunks": [
         1
       ],
@@ -47,7 +47,7 @@
     },
     {
       "name": "librarysample.bundle.js.map",
-      "size": 28882,
+      "size": 28906,
       "chunks": [
         1
       ],
@@ -91,7 +91,7 @@
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 16577,
+      "size": 16595,
       "names": [
         "librarysample.bundle"
       ],
@@ -99,7 +99,7 @@
         "librarysample.bundle.js",
         "librarysample.bundle.js.map"
       ],
-      "hash": "3079779f39a591e80f1a",
+      "hash": "3152aea456025c52ee69",
       "parents": [],
       "origins": [
         {
@@ -143,7 +143,7 @@
       "name": "./lib/webparts/librarysample/LibrarysampleWebPart.js",
       "index": 3,
       "index2": 15,
-      "size": 2213,
+      "size": 2231,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -157,7 +157,7 @@
       "errors": 0,
       "warnings": 0,
       "reasons": [],
-      "source": "\"use strict\";\nvar __extends = (this && this.__extends) || function (d, b) {\n    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];\n    function __() { this.constructor = d; }\n    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n};\nvar React = require('react');\nvar ReactDom = require('react-dom');\nvar sp_client_preview_1 = require('@microsoft/sp-client-preview');\nvar strings = require('librarysampleStrings');\nvar Librarysample_1 = require('./components/Librarysample');\nvar calculator = require('calculator');\nvar LibrarysampleWebPart = (function (_super) {\n    __extends(LibrarysampleWebPart, _super);\n    function LibrarysampleWebPart(context) {\n        _super.call(this, context);\n    }\n    LibrarysampleWebPart.prototype.render = function () {\n        var element = React.createElement(Librarysample_1.default, {\n            description: this.properties.description\n        });\n        var easycalc = new calculator.EasyCalculator();\n        var result = easycalc.sum(1, 2);\n        console.log(result);\n        ReactDom.render(element, this.domElement);\n    };\n    Object.defineProperty(LibrarysampleWebPart.prototype, \"propertyPaneSettings\", {\n        get: function () {\n            return {\n                pages: [\n                    {\n                        header: {\n                            description: strings.PropertyPaneDescription\n                        },\n                        groups: [\n                            {\n                                groupName: strings.BasicGroupName,\n                                groupFields: [\n                                    sp_client_preview_1.PropertyPaneTextField('description', {\n                                        label: strings.DescriptionFieldLabel\n                                    })\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            };\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return LibrarysampleWebPart;\n}(sp_client_preview_1.BaseClientSideWebPart));\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.default = LibrarysampleWebPart;\n\n"
+      "source": "\"use strict\";\nvar __extends = (this && this.__extends) || function (d, b) {\n    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];\n    function __() { this.constructor = d; }\n    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\n};\nvar React = require('react');\nvar ReactDom = require('react-dom');\nvar sp_client_preview_1 = require('@microsoft/sp-client-preview');\nvar strings = require('librarysampleStrings');\nvar Librarysample_1 = require('./components/Librarysample');\nvar calculator = require('calculator');\nvar LibrarysampleWebPart = (function (_super) {\n    __extends(LibrarysampleWebPart, _super);\n    function LibrarysampleWebPart(context) {\n        _super.call(this, context);\n    }\n    LibrarysampleWebPart.prototype.render = function () {\n        var element = React.createElement(Librarysample_1.default, {\n            description: this.properties.description\n        });\n        debugger;\n        var easycalc = new calculator.EasyCalculator();\n        var result = easycalc.sum(1, 2);\n        console.log(result);\n        ReactDom.render(element, this.domElement);\n    };\n    Object.defineProperty(LibrarysampleWebPart.prototype, \"propertyPaneSettings\", {\n        get: function () {\n            return {\n                pages: [\n                    {\n                        header: {\n                            description: strings.PropertyPaneDescription\n                        },\n                        groups: [\n                            {\n                                groupName: strings.BasicGroupName,\n                                groupFields: [\n                                    sp_client_preview_1.PropertyPaneTextField('description', {\n                                        label: strings.DescriptionFieldLabel\n                                    })\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            };\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return LibrarysampleWebPart;\n}(sp_client_preview_1.BaseClientSideWebPart));\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.default = LibrarysampleWebPart;\n\n"
     },
     {
       "id": 1,

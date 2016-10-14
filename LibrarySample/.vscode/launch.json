@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome against localhost, with sourcemaps",
+            "type": "chrome",
+            "runtimeExecutable" : "/Applications/Google Chrome 2.app/Contents/MacOS/Google Chrome",
+            "request": "launch",
+            "url": "http://localhost:8080",
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "name": "Attach to Chrome, with sourcemaps",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+        "name": "Launch localhost with sourcemaps",
+        "type": "chrome",
+        //"runtimeExecutable" : "/Applications/Google Chrome .app/Contents/MacOS/Google Chrome",
+        "request": "attach",
+        "url": "http://localhost:4321/temp/workbench.html",
+        "webRoot": "${workspaceRoot}/src",
+        "sourceMaps": true,
+        "port": 9222
+        //"userDataDir": "${workspaceRoot}/.vscode/chrome"
+        }
+    ]
+}
