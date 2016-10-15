@@ -101,4 +101,4 @@ The end result: a very good looking grid, which I can sort, paginate, and even s
 
 Full code [here](https://github.com/levalencia/SharepointFrameworkCodeSamples/tree/master/Datatables)
 
-![](/content/images/2016/10/2016-10-15_18-44-19.png)
+![](http://www.luisevalencia.com/content/images/2016/10/2016-10-15_18-44-19.png)
