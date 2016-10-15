@@ -1,0 +1,2935 @@
+@charset "UTF-8";
+/****
+	TIPOGRAFIA
+****/
+/*
+font-family:
+font-family:'Neue Haas Unica W01 Thin';
+font-family:'Neue Haas Unica W01 Light';
+font-family:'Neue Haas Unica W01 Regular';
+font-family:'Neue Haas Unica W01 Medium It';
+
+
+*/
+.fots {
+  background: red; }
+
+body {
+  font-family: "Arial", "Helvetica", sans-serif; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+#header {
+  background: #002B5C;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  position: relative; }
+  #header li {
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 20px; }
+    #header li a {
+      color: #FFFFFF; }
+  #header .aeromexico {
+    position: absolute;
+    top: 10px;
+    left: 10px; }
+  #header .contact-nums {
+    margin-left: 200px; }
+  #header ul.menu {
+    display: none; }
+
+.LANGUAGE_es_ES #header {
+  margin-top: -15px !important; }
+
+#footer {
+  background: #002B5C;
+  margin-top: 20px;
+  padding: 30px 0px; }
+  #footer li {
+    color: #CCCCCC; }
+  #footer li:last-child {
+    border: 0; }
+    #footer li:last-child:after {
+      content: ""; }
+  #footer .advert-list a {
+    font-size: 11px;
+    color: #CCCCCC; }
+  #footer .click-dest, #footer .list {
+    display: none; }
+  #footer .logos {
+    padding: 0px 0 20px; }
+    #footer .logos a {
+      padding: 5px 5px 10px; }
+
+/********
+
+	botones
+
+***********/
+.btn, .btn-red, .yui-module .ft .button-group button:last-child, .messagePopup button, .VIEW_ITINERARY_PAGE #plusgrade-offering-content #plusgrade-bid, .ANCILLARIES_MTO_CONFIRMATION_PAGE #plusgrade-offering-content #plusgrade-bid, .SEATS_MTO_CONFIRMATION_PAGE #plusgrade-offering-content #plusgrade-bid, .SEATS_MTO_SEATS_PAGE .seat-map-header-links .submit-placeholder input[type="submit"], .ANCILLARIES_MTO_SEATS_PAGE .seat-map-header-links .submit-placeholder input[type="submit"], .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #btn-next-id2, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #btn-next-id2, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #btn-next-id2, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #btn-next-id2, .SEATS_MTO_SEATS_PAGE .seats-overlays #btn-accept, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays #btn-accept, .SEATS_MTO_PURCHASE_PAGE .buttons input[type="submit"], .ANCILLARIES_MTO_PURCHASE_PAGE .buttons input[type="submit"], .SEATS_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_ANCILLARY_PAGE #btn-search-input #btn-search, .btn-white, .yui-module .ft .button-group button:first-child, .fare-rules li a, #fare-rules-container-initialized .yui-navset-top .yui-navset-top ul.yui-nav li a, .VIEW_ITINERARY_PAGE #payment-summary .payment-wrapper .details-button-container .details-button, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .details-button-container .details-button, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .details-button-container .details-button, .SEATS_MTO_SEATS_PAGE .seat-map-header-links #link-next-skipSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-header-links #link-next-skipSeatSelection, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #seat-map-skip-selection-link, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #seat-map-skip-selection-link, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #seat-map-skip-selection-link, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #seat-map-skip-selection-link, .SEATS_MTO_SEATS_PAGE .flight-controls .prevFlight, .ANCILLARIES_MTO_SEATS_PAGE .flight-controls .prevFlight, .SEATS_MTO_SEATS_PAGE .flight-controls .nextFlight, .ANCILLARIES_MTO_SEATS_PAGE .flight-controls .nextFlight, .SEATS_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #selectSeat, .SEATS_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection #cancelSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection #cancelSeatSelection, .SEATS_MTO_SEATS_PAGE .seat-map-plane .flight-controls a.disabled, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-plane .flight-controls a.disabled, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-button-remove, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-component-redesign .ancillary-button-edit, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-details-footer .ancillary-price-button, #ROOT .ancillary-button-close-details, .btn-lightblue, .fare-rules li.selected a, #fare-rules-container-initialized .yui-navset-top .yui-navset-top ul.yui-nav li.selected a, .SEATS_MTO_SEATS_PAGE .seats-overlays #btn-no, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays #btn-no, .SEATS_MTO_SEATS_PAGE .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_SEATS_PAGE .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_SEATS_PAGE .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .buttons .button-smaller #selectSeat, .btn-grey {
+  margin: 20px auto;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 14px !important;
+  border: 0;
+  display: inline-block;
+  text-transform: none;
+  text-decoration: none;
+  padding: 0 10px;
+  font-weight: bold;
+  text-transform: uppercase; }
+  .btn:hover, .btn-red:hover, .yui-module .ft .button-group button:hover:last-child, .messagePopup button:hover, .VIEW_ITINERARY_PAGE #plusgrade-offering-content #plusgrade-bid:hover, .ANCILLARIES_MTO_CONFIRMATION_PAGE #plusgrade-offering-content #plusgrade-bid:hover, .SEATS_MTO_CONFIRMATION_PAGE #plusgrade-offering-content #plusgrade-bid:hover, .SEATS_MTO_SEATS_PAGE .seat-map-header-links .submit-placeholder input[type="submit"]:hover, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-header-links .submit-placeholder input[type="submit"]:hover, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #btn-next-id2:hover, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #btn-next-id2:hover, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #btn-next-id2:hover, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #btn-next-id2:hover, .SEATS_MTO_SEATS_PAGE .seats-overlays #btn-accept:hover, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays #btn-accept:hover, .SEATS_MTO_PURCHASE_PAGE .buttons input[type="submit"]:hover, .ANCILLARIES_MTO_PURCHASE_PAGE .buttons input[type="submit"]:hover, .SEATS_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection:hover, .SEATS_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #selectSeat:hover, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection:hover, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #selectSeat:hover, .ANCILLARIES_MTO_ANCILLARY_PAGE #btn-search-input #btn-search:hover, .btn-white:hover, .yui-module .ft .button-group button:hover:first-child, .fare-rules li a:hover, #fare-rules-container-initialized .yui-navset-top .yui-navset-top ul.yui-nav li a:hover, .VIEW_ITINERARY_PAGE #payment-summary .payment-wrapper .details-button-container .details-button:hover, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .details-button-container .details-button:hover, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .details-button-container .details-button:hover, .SEATS_MTO_SEATS_PAGE .seat-map-header-links #link-next-skipSeatSelection:hover, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-header-links #link-next-skipSeatSelection:hover, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #seat-map-skip-selection-link:hover, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #seat-map-skip-selection-link:hover, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #seat-map-skip-selection-link:hover, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #seat-map-skip-selection-link:hover, .SEATS_MTO_SEATS_PAGE .flight-controls .prevFlight:hover, .ANCILLARIES_MTO_SEATS_PAGE .flight-controls .prevFlight:hover, .SEATS_MTO_SEATS_PAGE .flight-controls .nextFlight:hover, .ANCILLARIES_MTO_SEATS_PAGE .flight-controls .nextFlight:hover, .SEATS_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection #cancelSeatSelection:hover, .ANCILLARIES_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection #cancelSeatSelection:hover, .SEATS_MTO_SEATS_PAGE .seat-map-plane .flight-controls a.disabled:hover, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-plane .flight-controls a.disabled:hover, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-button-remove:hover, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-component-redesign .ancillary-button-edit:hover, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-details-footer .ancillary-price-button:hover, #ROOT .ancillary-button-close-details:hover, .btn-lightblue:hover, .SEATS_MTO_SEATS_PAGE .seats-overlays #btn-no:hover, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays #btn-no:hover, .SEATS_MTO_SEATS_PAGE .buttons .button-smaller #cancelSeatSelection:hover, .SEATS_MTO_SEATS_PAGE .buttons .button-smaller #selectSeat:hover, .ANCILLARIES_MTO_SEATS_PAGE .buttons .button-smaller #cancelSeatSelection:hover, .ANCILLARIES_MTO_SEATS_PAGE .buttons .button-smaller #selectSeat:hover, .btn-grey:hover {
+    background: #E91B2F;
+    color: #FFFFFF; }
+
+.btn-red, .yui-module .ft .button-group button:last-child, .messagePopup button, .VIEW_ITINERARY_PAGE #plusgrade-offering-content #plusgrade-bid, .ANCILLARIES_MTO_CONFIRMATION_PAGE #plusgrade-offering-content #plusgrade-bid, .SEATS_MTO_CONFIRMATION_PAGE #plusgrade-offering-content #plusgrade-bid, .SEATS_MTO_SEATS_PAGE .seat-map-header-links .submit-placeholder input[type="submit"], .ANCILLARIES_MTO_SEATS_PAGE .seat-map-header-links .submit-placeholder input[type="submit"], .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #btn-next-id2, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #btn-next-id2, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #btn-next-id2, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #btn-next-id2, .SEATS_MTO_SEATS_PAGE .seats-overlays #btn-accept, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays #btn-accept, .SEATS_MTO_PURCHASE_PAGE .buttons input[type="submit"], .ANCILLARIES_MTO_PURCHASE_PAGE .buttons input[type="submit"], .SEATS_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_ANCILLARY_PAGE #btn-search-input #btn-search {
+  background: #E91B2F;
+  color: #FFFFFF; }
+
+.btn-white, .yui-module .ft .button-group button:first-child, .fare-rules li a, #fare-rules-container-initialized .yui-navset-top .yui-navset-top ul.yui-nav li a, .VIEW_ITINERARY_PAGE #payment-summary .payment-wrapper .details-button-container .details-button, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .details-button-container .details-button, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .details-button-container .details-button, .SEATS_MTO_SEATS_PAGE .seat-map-header-links #link-next-skipSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-header-links #link-next-skipSeatSelection, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #seat-map-skip-selection-link, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #seat-map-skip-selection-link, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #seat-map-skip-selection-link, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #seat-map-skip-selection-link, .SEATS_MTO_SEATS_PAGE .flight-controls .prevFlight, .ANCILLARIES_MTO_SEATS_PAGE .flight-controls .prevFlight, .SEATS_MTO_SEATS_PAGE .flight-controls .nextFlight, .ANCILLARIES_MTO_SEATS_PAGE .flight-controls .nextFlight, .SEATS_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #selectSeat, .SEATS_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection #cancelSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection #cancelSeatSelection, .SEATS_MTO_SEATS_PAGE .seat-map-plane .flight-controls a.disabled, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-plane .flight-controls a.disabled, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-button-remove, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-component-redesign .ancillary-button-edit, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-details-footer .ancillary-price-button, #ROOT .ancillary-button-close-details {
+  background: #FFFFFF;
+  color: #002B5C;
+  border: 1px solid #E5E5E5; }
+
+.btn-lightblue, .fare-rules li.selected a, #fare-rules-container-initialized .yui-navset-top .yui-navset-top ul.yui-nav li.selected a, .SEATS_MTO_SEATS_PAGE .seats-overlays #btn-no, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays #btn-no, .SEATS_MTO_SEATS_PAGE .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_SEATS_PAGE .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_SEATS_PAGE .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .buttons .button-smaller #selectSeat {
+  background: #002B5C;
+  color: #FFFFFF;
+  border: 1px solid #E5E5E5; }
+
+.btn-grey {
+  background: #CCCCCC;
+  color: #FFFFFF;
+  border: 1px solid #E5E5E5; }
+
+.btn-small, .yui-module .ft .button-group button:first-child, .yui-module .ft .button-group button:last-child, .yui-module .ft .button-group button, .SEATS_MTO_SEATS_PAGE .flight-controls .prevFlight, .ANCILLARIES_MTO_SEATS_PAGE .flight-controls .prevFlight, .SEATS_MTO_SEATS_PAGE .flight-controls .nextFlight, .ANCILLARIES_MTO_SEATS_PAGE .flight-controls .nextFlight, .SEATS_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #selectSeat, .SEATS_MTO_SEATS_PAGE .seat-map-plane .flight-controls a.disabled, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-plane .flight-controls a.disabled, .SEATS_MTO_SEATS_PAGE .seats-overlays #btn-no, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays #btn-no, .SEATS_MTO_SEATS_PAGE .seats-overlays #btn-accept, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays #btn-accept, .SEATS_MTO_SEATS_PAGE .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_SEATS_PAGE .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_SEATS_PAGE .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .buttons .button-smaller #selectSeat, .SEATS_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-button-remove, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-component-redesign .ancillary-button-edit, #ROOT .ancillary-button-close-details {
+  height: 35px;
+  line-height: 35px; }
+
+#btn-search {
+  font-family: "Arial", "Helvetica", sans-serif;
+  text-shadow: none; }
+
+/********
+popup
+
+***********/
+.messagePopup .bd h2 {
+  padding-top: 20px;
+  color: #004990;
+  font-size: 16px; }
+
+.popup-content {
+  font-family: "Arial", "Helvetica", sans-serif; }
+
+fieldset .yui-module {
+  background: #E91B2F;
+  overflow: hidden;
+  width: 0;
+  color: #FFFFFF;
+  border: 0;
+  padding: 0; }
+
+.yui-module .bd {
+  min-height: 50px; }
+
+.yui-module .ft {
+  clear: both;
+  overflow: auto; }
+  .yui-module .ft .button-group {
+    background: yellow; }
+    .yui-module .ft .button-group button:first-child {
+      width: 45% !important; }
+    .yui-module .ft .button-group button:last-child {
+      width: 45% !important;
+      float: right; }
+    .yui-module .ft .button-group button {
+      width: 45%;
+      float: left;
+      margin: 20px 1%; }
+
+.timeout .bd {
+  font-size: 16px; }
+
+.timeout .yui-module {
+  border: 0;
+  background: #FFFFFF;
+  color: #0B2343;
+  border-top: 10px solid #007DC3; }
+  .timeout .yui-module h3 {
+    margin-top: 20px;
+    padding-top: 20px; }
+
+button.container-close {
+  background: #FFFFFF url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/close-black.png") no-repeat center center;
+  width: 30px;
+  height: 30px;
+  right: -15px;
+  top: -40px; }
+  button.container-close:hover {
+    background: #FFFFFF url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/close-black.png") no-repeat center center !important; }
+
+#buildInfo {
+  display: none; }
+
+#farerules {
+  width: 750px; }
+  #farerules .heading-farerules {
+    padding-left: 0; }
+  #farerules p a {
+    color: #002B5C; }
+
+.farerules {
+  margin: 0 auto;
+  width: 750px;
+  padding: 40px 0 0 !important; }
+  .farerules .heading-farerules {
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0 0;
+    color: #0B2343;
+    font-size: 32px; }
+
+.fare-rules {
+  padding: 0; }
+  .fare-rules li {
+    padding: 0 1%;
+    width: 48%;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    display: block;
+    float: left; }
+    .fare-rules li a {
+      margin: 0;
+      color: #002B5C !important; }
+  .fare-rules li.selected a {
+    margin: 0;
+    color: #FFFFFF !important; }
+
+#fare-rules-container-initialized .yui-navset-top .yui-navset-top ul.yui-nav {
+  background: #FFFFFF;
+  color: #007DC3; }
+  #fare-rules-container-initialized .yui-navset-top .yui-navset-top ul.yui-nav li {
+    padding: 0 1%;
+    width: 48%;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    display: block;
+    float: left; }
+    #fare-rules-container-initialized .yui-navset-top .yui-navset-top ul.yui-nav li a {
+      margin: 0;
+      text-transform: normal !important; }
+      #fare-rules-container-initialized .yui-navset-top .yui-navset-top ul.yui-nav li a:hover {
+        color: #FFFFFF !important; }
+  #fare-rules-container-initialized .yui-navset-top .yui-navset-top ul.yui-nav li.selected a {
+    background: #002B5C !important;
+    color: #FFFFFF !important;
+    margin: 0; }
+
+#farerules_2 .fare-rules-container .yui-content {
+  height: 300px;
+  border: 1px solid #E5E5E5;
+  padding: 5px; }
+
+#fare-rules .fare-rules-unavailable {
+  background: #FECC2F;
+  font-size: 16px;
+  text-align: center;
+  color: #0B2343;
+  padding: 20px;
+  line-height: 150%; }
+  #fare-rules .fare-rules-unavailable a {
+    font-weight: bold; }
+
+.farerules-content, .fareruleA, .farerules-wrapper {
+  background-image: none; }
+  .farerules-content pre, .fareruleA pre, .farerules-wrapper pre {
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 11px; }
+
+.yui-navset li.selected, .yui-navset li {
+  height: auto;
+  margin: 0 0 10px !important; }
+  .yui-navset li.selected a, .yui-navset li a {
+    height: 35px;
+    line-height: 35px; }
+    .yui-navset li.selected a:hover, .yui-navset li a:hover {
+      color: #FFFFFF !important; }
+
+#terms_and_conditions .confirm-payment {
+  font-size: 16px;
+  width: 600px; }
+
+.flow-message-error {
+  border: 0; }
+  .flow-message-error li {
+    font-size: 16px; }
+
+.flow-message-error, .flow-message-info, .flow-message-warn {
+  text-align: center;
+  background: #FECC2F;
+  background-image: none;
+  padding: 10px 0 20px;
+  margin: 0 0 20px; }
+  .flow-message-error .flow-message-title h2, .flow-message-info .flow-message-title h2, .flow-message-warn .flow-message-title h2 {
+    color: #0B2343;
+    font-weight: bold; }
+  .flow-message-error .flow-message-text, .flow-message-info .flow-message-text, .flow-message-warn .flow-message-text {
+    max-width: 600px;
+    font-size: 16px;
+    margin: 0 auto;
+    line-height: 150%; }
+    .flow-message-error .flow-message-text a, .flow-message-info .flow-message-text a, .flow-message-warn .flow-message-text a {
+      text-decoration: underline;
+      color: #002B5C; }
+
+#booking-process .process-bar li.stepFuture.prevFuture {
+  background: none; }
+
+/*************************** 
+		breadcrumb
+ **************************/
+#booking-process .process-bar {
+  min-height: 75px;
+  border-bottom: 1px solid #E5E5E5; }
+  #booking-process .process-bar ol li {
+    text-transform: none;
+    color: #004990;
+    background: none;
+    border-top: 2px solid #CCCCCC;
+    margin: 0 3% 0 0;
+    text-align: left; }
+    #booking-process .process-bar ol li .navigation-steps, #booking-process .process-bar ol li a, #booking-process .process-bar ol li span {
+      color: #004990;
+      padding: 10px 0 0;
+      font-size: 16px; }
+  #booking-process .process-bar ol li.stepCurrent {
+    color: #0B2343;
+    font-weight: bold;
+    font-size: 32px;
+    background: none;
+    border-top: 2px solid #0B2343; }
+    #booking-process .process-bar ol li.stepCurrent .navigation-steps {
+      color: #0B2343;
+      font-size: 32px; }
+  #booking-process .process-bar ol li.stepFuture.prevCurrent, #booking-process .process-bar ol li.firstStep, #booking-process .process-bar ol li.stepPast {
+    background: none; }
+
+#booking-process .process-bar #step-1 a {
+  padding-left: 0; }
+
+a.button-toggle-details {
+  background-image: url(https://s3.amazonaws.com/aeromexico/booking/MYBimg/flechas.png) !important; }
+
+.trip-actions-makeChanges {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  text-indent: -2000px;
+  width: 0; }
+
+#cart-component .total-top span.total-price-label {
+  font-size: 14px; }
+
+div.messagePopup .bd p {
+  font-size: 16px; }
+
+body {
+  background: #FFFFFF; }
+
+.MY_BOOKING_PAGE {
+  box-sizing: border-box; }
+  .MY_BOOKING_PAGE #ROOT {
+    height: 100%; }
+  .MY_BOOKING_PAGE #myb_cnt_4 {
+    min-height: 600px; }
+  .MY_BOOKING_PAGE #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; }
+  .MY_BOOKING_PAGE #cnt_0_0_3_4 {
+    background: #007DC3; }
+  .MY_BOOKING_PAGE #myb_cnt_3, .MY_BOOKING_PAGE #myb_cnt_5 {
+    display: none; }
+  .MY_BOOKING_PAGE #cnt_0_1_2_3, .MY_BOOKING_PAGE #cnt_0_0_2_4, .MY_BOOKING_PAGE #cnt_0_0_2_3, .MY_BOOKING_PAGE #cnt_0_0_3_4, .MY_BOOKING_PAGE #cnt_0_0_1_3, .MY_BOOKING_PAGE #cnt_0_0_2_4 {
+    width: 100%; }
+  .MY_BOOKING_PAGE .bookingretrieval {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 3px;
+    float: none;
+    margin: 0 auto; }
+  .MY_BOOKING_PAGE .component, .MY_BOOKING_PAGE .component-tabs {
+    background: none; }
+  .MY_BOOKING_PAGE .component-333-wrapper .component-content {
+    background: none;
+    padding: 0; }
+  .MY_BOOKING_PAGE .manageyourflights .scc-component-content {
+    text-align: center; }
+    .MY_BOOKING_PAGE .manageyourflights .scc-component-content h2 {
+      font-weight: normal;
+      color: #FFFFFF;
+      font-size: 42px;
+      margin: 0;
+      padding: 0; }
+  .MY_BOOKING_PAGE .manage-flights {
+    padding: 0; }
+    .MY_BOOKING_PAGE .manage-flights .component-333-wrapper {
+      background: rgba(255, 255, 255, 0.8);
+      background: #FFFFFF;
+      padding: 20px;
+      border-radius: 5px; }
+      .MY_BOOKING_PAGE .manage-flights .component-333-wrapper .component {
+        padding: 0;
+        background: none; }
+      .MY_BOOKING_PAGE .manage-flights .component-333-wrapper h3 {
+        margin: 0;
+        color: #0B2343;
+        font-weight: bold; }
+      .MY_BOOKING_PAGE .manage-flights .component-333-wrapper .field-required-legend {
+        padding: 10px 0; }
+      .MY_BOOKING_PAGE .manage-flights .component-333-wrapper label {
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: left;
+        color: #0B2343;
+        margin-right: 0;
+        padding: 10px 0;
+        font-size: 13px; }
+      .MY_BOOKING_PAGE .manage-flights .component-333-wrapper .button {
+        background: none;
+        margin: 0;
+        width: 100%; }
+        .MY_BOOKING_PAGE .manage-flights .component-333-wrapper .button input[type="submit"] {
+          margin: 20px auto;
+          width: 100%;
+          background: #E91B2F;
+          height: 60px;
+          line-height: 60px;
+          color: #FFFFFF;
+          text-align: center;
+          border-radius: 50px;
+          text-shadow: none;
+          font-family: "Arial", "Helvetica", sans-serif; }
+    .MY_BOOKING_PAGE .manage-flights .textfield, .MY_BOOKING_PAGE .manage-flights textarea, .MY_BOOKING_PAGE .manage-flights select {
+      height: 100%;
+      padding: 10px 5px;
+      border: 1px solid #CCCCCC;
+      width: 100%;
+      float: none;
+      display: block;
+      margin-right: 0;
+      font-size: 14px; }
+  .MY_BOOKING_PAGE fieldset .yui-module {
+    padding: 0; }
+  .MY_BOOKING_PAGE .yui-module {
+    border: 0;
+    color: #0B2343; }
+
+.flow-message-error {
+  text-align: center;
+  background: #FECC2F;
+  padding: 10px 0 20px;
+  margin: 0 0 20px; }
+  .flow-message-error .flow-message-title h2 {
+    color: #0B2343;
+    font-weight: bold; }
+  .flow-message-error .flow-message-text {
+    max-width: 600px;
+    font-size: 15px;
+    margin: 0 auto;
+    line-height: 150%; }
+    .flow-message-error .flow-message-text a {
+      text-decoration: underline;
+      color: #002B5C; }
+
+.buildInfo {
+  display: none; }
+
+.VIEW_ITINERARY_PAGE, .ANCILLARIES_MTO_CONFIRMATION_PAGE, .SEATS_MTO_CONFIRMATION_PAGE {
+  /******* confirmation ********/ }
+  .VIEW_ITINERARY_PAGE .itinerary-wrapper, .VIEW_ITINERARY_PAGE #payment-summary.payment-summary-multiFop .payment-wrapper, .ANCILLARIES_MTO_CONFIRMATION_PAGE .itinerary-wrapper, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary.payment-summary-multiFop .payment-wrapper, .SEATS_MTO_CONFIRMATION_PAGE .itinerary-wrapper, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary.payment-summary-multiFop .payment-wrapper {
+    width: 750px; }
+  .VIEW_ITINERARY_PAGE .flow-message-warn, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flow-message-warn, .SEATS_MTO_CONFIRMATION_PAGE .flow-message-warn {
+    margin-bottom: 0; }
+  .VIEW_ITINERARY_PAGE .flight-bags-quantity .included-prefix, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flight-bags-quantity .included-prefix, .SEATS_MTO_CONFIRMATION_PAGE .flight-bags-quantity .included-prefix {
+    width: 45px !important;
+    margin-right: 5px !important; }
+  .VIEW_ITINERARY_PAGE .flights-pax-border, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flights-pax-border, .SEATS_MTO_CONFIRMATION_PAGE .flights-pax-border {
+    margin-left: 0; }
+  .VIEW_ITINERARY_PAGE .flight-layover, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flight-layover, .SEATS_MTO_CONFIRMATION_PAGE .flight-layover {
+    border: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 16px; }
+    .VIEW_ITINERARY_PAGE .flight-layover .flight-layover-label, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flight-layover .flight-layover-label, .SEATS_MTO_CONFIRMATION_PAGE .flight-layover .flight-layover-label {
+      padding: 0; }
+  .VIEW_ITINERARY_PAGE #header, .ANCILLARIES_MTO_CONFIRMATION_PAGE #header, .SEATS_MTO_CONFIRMATION_PAGE #header {
+    margin: 0; }
+  .VIEW_ITINERARY_PAGE #tabview .yui-navset li.selected, .VIEW_ITINERARY_PAGE #tabview .yui-navset .yui-nav li a, .VIEW_ITINERARY_PAGE #tabview .component-tabs li, .ANCILLARIES_MTO_CONFIRMATION_PAGE #tabview .yui-navset li.selected, .ANCILLARIES_MTO_CONFIRMATION_PAGE #tabview .yui-navset .yui-nav li a, .ANCILLARIES_MTO_CONFIRMATION_PAGE #tabview .component-tabs li, .SEATS_MTO_CONFIRMATION_PAGE #tabview .yui-navset li.selected, .SEATS_MTO_CONFIRMATION_PAGE #tabview .yui-navset .yui-nav li a, .SEATS_MTO_CONFIRMATION_PAGE #tabview .component-tabs li {
+    text-transform: none !important; }
+  .VIEW_ITINERARY_PAGE #cnt_2, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_2, .SEATS_MTO_CONFIRMATION_PAGE #cnt_2 {
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+    .VIEW_ITINERARY_PAGE #cnt_2 .yui-navset .yui-nav li a, .VIEW_ITINERARY_PAGE #cnt_2 .yui-navset-top .yui-nav li a, .VIEW_ITINERARY_PAGE #cnt_2 .yui-navset-bottom .yui-nav li a, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_2 .yui-navset .yui-nav li a, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_2 .yui-navset-top .yui-nav li a, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_2 .yui-navset-bottom .yui-nav li a, .SEATS_MTO_CONFIRMATION_PAGE #cnt_2 .yui-navset .yui-nav li a, .SEATS_MTO_CONFIRMATION_PAGE #cnt_2 .yui-navset-top .yui-nav li a, .SEATS_MTO_CONFIRMATION_PAGE #cnt_2 .yui-navset-bottom .yui-nav li a {
+      background-image: none; }
+  .VIEW_ITINERARY_PAGE .component-container-top, .ANCILLARIES_MTO_CONFIRMATION_PAGE .component-container-top, .SEATS_MTO_CONFIRMATION_PAGE .component-container-top {
+    width: 750px; }
+  .VIEW_ITINERARY_PAGE #tabs_1 .yui-navset-top ul.yui-nav, .ANCILLARIES_MTO_CONFIRMATION_PAGE #tabs_1 .yui-navset-top ul.yui-nav, .SEATS_MTO_CONFIRMATION_PAGE #tabs_1 .yui-navset-top ul.yui-nav {
+    background: #007DC3;
+    color: #FFFFFF; }
+    .VIEW_ITINERARY_PAGE #tabs_1 .yui-navset-top ul.yui-nav li, .ANCILLARIES_MTO_CONFIRMATION_PAGE #tabs_1 .yui-navset-top ul.yui-nav li, .SEATS_MTO_CONFIRMATION_PAGE #tabs_1 .yui-navset-top ul.yui-nav li {
+      width: 100%;
+      font-weight: normal;
+      color: #FFFFFF;
+      font-size: 42px;
+      margin: 0;
+      text-align: center;
+      padding: 40px 0;
+      height: 100%; }
+      .VIEW_ITINERARY_PAGE #tabs_1 .yui-navset-top ul.yui-nav li a, .ANCILLARIES_MTO_CONFIRMATION_PAGE #tabs_1 .yui-navset-top ul.yui-nav li a, .SEATS_MTO_CONFIRMATION_PAGE #tabs_1 .yui-navset-top ul.yui-nav li a {
+        color: #FFFFFF;
+        width: 100%; }
+    .VIEW_ITINERARY_PAGE #tabs_1 .yui-navset-top ul.yui-nav li.selected, .ANCILLARIES_MTO_CONFIRMATION_PAGE #tabs_1 .yui-navset-top ul.yui-nav li.selected, .SEATS_MTO_CONFIRMATION_PAGE #tabs_1 .yui-navset-top ul.yui-nav li.selected {
+      background: none; }
+  .VIEW_ITINERARY_PAGE #trip-actions, .ANCILLARIES_MTO_CONFIRMATION_PAGE #trip-actions, .SEATS_MTO_CONFIRMATION_PAGE #trip-actions {
+    margin: 0;
+    padding: 0; }
+  .VIEW_ITINERARY_PAGE #ctaButtons a, .ANCILLARIES_MTO_CONFIRMATION_PAGE #ctaButtons a, .SEATS_MTO_CONFIRMATION_PAGE #ctaButtons a {
+    width: 48%;
+    float: left;
+    border: 1px solid #CCCCCC; }
+  .VIEW_ITINERARY_PAGE #ctaButtons a:last-child, .ANCILLARIES_MTO_CONFIRMATION_PAGE #ctaButtons a:last-child, .SEATS_MTO_CONFIRMATION_PAGE #ctaButtons a:last-child {
+    float: right; }
+  .VIEW_ITINERARY_PAGE #cnt_0_0_3_4, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_0_0_3_4, .SEATS_MTO_CONFIRMATION_PAGE #cnt_0_0_3_4 {
+    background: #007DC3; }
+  .VIEW_ITINERARY_PAGE #login_1, .VIEW_ITINERARY_PAGE #myb_cnt_5, .VIEW_ITINERARY_PAGE #cnt_1_1_2_3, .ANCILLARIES_MTO_CONFIRMATION_PAGE #login_1, .ANCILLARIES_MTO_CONFIRMATION_PAGE #myb_cnt_5, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_1_1_2_3, .SEATS_MTO_CONFIRMATION_PAGE #login_1, .SEATS_MTO_CONFIRMATION_PAGE #myb_cnt_5, .SEATS_MTO_CONFIRMATION_PAGE #cnt_1_1_2_3 {
+    display: none; }
+  .VIEW_ITINERARY_PAGE #cnt_0_1_2_3, .VIEW_ITINERARY_PAGE #cnt_0_0_2_4, .VIEW_ITINERARY_PAGE #cnt_0_0_2_3, .VIEW_ITINERARY_PAGE #cnt_0_0_3_4, .VIEW_ITINERARY_PAGE #cnt_0_0_1_3, .VIEW_ITINERARY_PAGE #cnt_0_0_2_4, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_0_1_2_3, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_0_0_2_4, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_0_0_2_3, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_0_0_3_4, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_0_0_1_3, .ANCILLARIES_MTO_CONFIRMATION_PAGE #cnt_0_0_2_4, .SEATS_MTO_CONFIRMATION_PAGE #cnt_0_1_2_3, .SEATS_MTO_CONFIRMATION_PAGE #cnt_0_0_2_4, .SEATS_MTO_CONFIRMATION_PAGE #cnt_0_0_2_3, .SEATS_MTO_CONFIRMATION_PAGE #cnt_0_0_3_4, .SEATS_MTO_CONFIRMATION_PAGE #cnt_0_0_1_3, .SEATS_MTO_CONFIRMATION_PAGE #cnt_0_0_2_4 {
+    width: 100%; }
+  .VIEW_ITINERARY_PAGE .component, .VIEW_ITINERARY_PAGE .component-tabs, .VIEW_ITINERARY_PAGE .component-container-top, .VIEW_ITINERARY_PAGE .component-container-bottom, .VIEW_ITINERARY_PAGE .confirmation-info, .VIEW_ITINERARY_PAGE .itinerary-info,
+  .VIEW_ITINERARY_PAGE .view-itinerary-info, .VIEW_ITINERARY_PAGE .itinerary-wrapper, .VIEW_ITINERARY_PAGE .itinerary-content, .VIEW_ITINERARY_PAGE h2.heading-flights, .VIEW_ITINERARY_PAGE h2.heading-payment,
+  .VIEW_ITINERARY_PAGE #payment-summary.payment-summary-multiFop .payment-content, .VIEW_ITINERARY_PAGE .component-container-center,
+  .VIEW_ITINERARY_PAGE #payment-summary.payment-summary-multiFop div.payment, .ANCILLARIES_MTO_CONFIRMATION_PAGE .component, .ANCILLARIES_MTO_CONFIRMATION_PAGE .component-tabs, .ANCILLARIES_MTO_CONFIRMATION_PAGE .component-container-top, .ANCILLARIES_MTO_CONFIRMATION_PAGE .component-container-bottom, .ANCILLARIES_MTO_CONFIRMATION_PAGE .confirmation-info, .ANCILLARIES_MTO_CONFIRMATION_PAGE .itinerary-info,
+  .ANCILLARIES_MTO_CONFIRMATION_PAGE .view-itinerary-info, .ANCILLARIES_MTO_CONFIRMATION_PAGE .itinerary-wrapper, .ANCILLARIES_MTO_CONFIRMATION_PAGE .itinerary-content, .ANCILLARIES_MTO_CONFIRMATION_PAGE h2.heading-flights, .ANCILLARIES_MTO_CONFIRMATION_PAGE h2.heading-payment,
+  .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary.payment-summary-multiFop .payment-content, .ANCILLARIES_MTO_CONFIRMATION_PAGE .component-container-center,
+  .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary.payment-summary-multiFop div.payment, .SEATS_MTO_CONFIRMATION_PAGE .component, .SEATS_MTO_CONFIRMATION_PAGE .component-tabs, .SEATS_MTO_CONFIRMATION_PAGE .component-container-top, .SEATS_MTO_CONFIRMATION_PAGE .component-container-bottom, .SEATS_MTO_CONFIRMATION_PAGE .confirmation-info, .SEATS_MTO_CONFIRMATION_PAGE .itinerary-info,
+  .SEATS_MTO_CONFIRMATION_PAGE .view-itinerary-info, .SEATS_MTO_CONFIRMATION_PAGE .itinerary-wrapper, .SEATS_MTO_CONFIRMATION_PAGE .itinerary-content, .SEATS_MTO_CONFIRMATION_PAGE h2.heading-flights, .SEATS_MTO_CONFIRMATION_PAGE h2.heading-payment,
+  .SEATS_MTO_CONFIRMATION_PAGE #payment-summary.payment-summary-multiFop .payment-content, .SEATS_MTO_CONFIRMATION_PAGE .component-container-center,
+  .SEATS_MTO_CONFIRMATION_PAGE #payment-summary.payment-summary-multiFop div.payment {
+    background: none; }
+  .VIEW_ITINERARY_PAGE .component-container-top, .VIEW_ITINERARY_PAGE .component-container-content, .ANCILLARIES_MTO_CONFIRMATION_PAGE .component-container-top, .ANCILLARIES_MTO_CONFIRMATION_PAGE .component-container-content, .SEATS_MTO_CONFIRMATION_PAGE .component-container-top, .SEATS_MTO_CONFIRMATION_PAGE .component-container-content {
+    margin: 0 auto;
+    background: none; }
+  .VIEW_ITINERARY_PAGE .reloc-box, .ANCILLARIES_MTO_CONFIRMATION_PAGE .reloc-box, .SEATS_MTO_CONFIRMATION_PAGE .reloc-box {
+    width: 100%;
+    float: none;
+    background: none;
+    margin: 0;
+    padding-bottom: 20px; }
+    .VIEW_ITINERARY_PAGE .reloc-box span, .ANCILLARIES_MTO_CONFIRMATION_PAGE .reloc-box span, .SEATS_MTO_CONFIRMATION_PAGE .reloc-box span {
+      width: 100%;
+      font-size: 16px !important; }
+    .VIEW_ITINERARY_PAGE .reloc-box .reloc, .ANCILLARIES_MTO_CONFIRMATION_PAGE .reloc-box .reloc, .SEATS_MTO_CONFIRMATION_PAGE .reloc-box .reloc {
+      font-size: 25px;
+      margin: 10px 0;
+      padding: 0; }
+      .VIEW_ITINERARY_PAGE .reloc-box .reloc strong, .ANCILLARIES_MTO_CONFIRMATION_PAGE .reloc-box .reloc strong, .SEATS_MTO_CONFIRMATION_PAGE .reloc-box .reloc strong {
+        font-size: 25px;
+        color: #0B2343; }
+    .VIEW_ITINERARY_PAGE .reloc-box .status, .ANCILLARIES_MTO_CONFIRMATION_PAGE .reloc-box .status, .SEATS_MTO_CONFIRMATION_PAGE .reloc-box .status {
+      font-weight: normal;
+      font-size: 18px !important;
+      border: 0;
+      padding: 0 0 10px;
+      border-bottom: 1px solid #E5E5E5; }
+    .VIEW_ITINERARY_PAGE .reloc-box .reloc-inner-box, .ANCILLARIES_MTO_CONFIRMATION_PAGE .reloc-box .reloc-inner-box, .SEATS_MTO_CONFIRMATION_PAGE .reloc-box .reloc-inner-box {
+      padding: 0; }
+  .VIEW_ITINERARY_PAGE .trip-info, .VIEW_ITINERARY_PAGE .flight-info, .ANCILLARIES_MTO_CONFIRMATION_PAGE .trip-info, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flight-info, .SEATS_MTO_CONFIRMATION_PAGE .trip-info, .SEATS_MTO_CONFIRMATION_PAGE .flight-info {
+    padding: 0;
+    width: 100%; }
+  .VIEW_ITINERARY_PAGE .pnr-content, .VIEW_ITINERARY_PAGE .pnr-wrapper, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-content, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-wrapper, .SEATS_MTO_CONFIRMATION_PAGE .pnr-content, .SEATS_MTO_CONFIRMATION_PAGE .pnr-wrapper {
+    padding: 0;
+    margin: 0; }
+  .VIEW_ITINERARY_PAGE .pnrinfo strong.separator, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnrinfo strong.separator, .SEATS_MTO_CONFIRMATION_PAGE .pnrinfo strong.separator {
+    font-size: 16px; }
+  .VIEW_ITINERARY_PAGE .pnr-info .origin, .VIEW_ITINERARY_PAGE .pnr-info .destination, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .origin, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .destination, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .origin, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .destination {
+    width: 40%;
+    font-size: 16px; }
+    .VIEW_ITINERARY_PAGE .pnr-info .origin span, .VIEW_ITINERARY_PAGE .pnr-info .destination span, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .origin span, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .destination span, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .origin span, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .destination span {
+      float: left;
+      width: 100%; }
+    .VIEW_ITINERARY_PAGE .pnr-info .origin span:first-child, .VIEW_ITINERARY_PAGE .pnr-info .destination span:first-child, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .origin span:first-child, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .destination span:first-child, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .origin span:first-child, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .destination span:first-child {
+      padding: 0 5px 0px 0;
+      font-weight: bold; }
+    .VIEW_ITINERARY_PAGE .pnr-info .origin span:last-child, .VIEW_ITINERARY_PAGE .pnr-info .destination span:last-child, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .origin span:last-child, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .destination span:last-child, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .origin span:last-child, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .destination span:last-child {
+      width: 100%;
+      display: block;
+      float: none; }
+    .VIEW_ITINERARY_PAGE .pnr-info .origin .translate, .VIEW_ITINERARY_PAGE .pnr-info .destination .translate, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .origin .translate, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .destination .translate, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .origin .translate, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .destination .translate {
+      color: #0B2343; }
+    .VIEW_ITINERARY_PAGE .pnr-info .origin > strong, .VIEW_ITINERARY_PAGE .pnr-info .destination > strong, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .origin > strong, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .destination > strong, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .origin > strong, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .destination > strong {
+      width: 20%;
+      text-align: center; }
+  .VIEW_ITINERARY_PAGE .pnr-info .flight-details-table, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .flight-details-table, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .flight-details-table {
+    width: 100%;
+    font-size: 16px; }
+    .VIEW_ITINERARY_PAGE .pnr-info .flight-details-table th, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info .flight-details-table th, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info .flight-details-table th {
+      background: none;
+      color: #004990; }
+  .VIEW_ITINERARY_PAGE .flightsdetails-component, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component {
+    width: 750px;
+    margin: 0 auto; }
+    .VIEW_ITINERARY_PAGE .flightsdetails-component .heading-flights, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .heading-flights, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .heading-flights {
+      /*
+			margin: 0;
+			padding: 0;
+			text-transform: uppercase;
+			font-weight: normal;
+			font-size: 18px;
+			*/
+      display: none; }
+    .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-summary-1, .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-summary-2, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-summary-1, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-summary-2, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-summary-1, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-summary-2 {
+      background: none;
+      font-size: 16px; }
+      .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-summary-1 h3, .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-summary-2 h3, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-summary-1 h3, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-summary-2 h3, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-summary-1 h3, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-summary-2 h3 {
+        padding-left: 0; }
+    .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-particulars, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-particulars, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-particulars {
+      width: 100%;
+      float: none;
+      clear: both;
+      padding: 20px;
+      margin: 0;
+      overflow: auto;
+      border: 1px solid #E5E5E5; }
+      .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-particulars span span, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-particulars span span, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-particulars span span {
+        width: 50%;
+        float: left;
+        font-size: 16px; }
+    .VIEW_ITINERARY_PAGE .flightsdetails-component h3.flight-summary1-label, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component h3.flight-summary1-label, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component h3.flight-summary1-label {
+      font-weight: bold;
+      font-size: 32px; }
+    .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-number-label, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-number-label, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-number-label {
+      padding-left: 0; }
+    .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-reminder-image, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-reminder-image, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-reminder-image {
+      display: none; }
+    .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-reminder, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-reminder, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-reminder {
+      padding: 0 0 10px 0; }
+      .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-reminder a, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-reminder a, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-reminder a {
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        padding-left: 50px;
+        color: #004990;
+        background: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/outlook.png") no-repeat center left; }
+    .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-passengers, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers {
+      width: 100%;
+      float: none;
+      clear: both;
+      padding: 20px;
+      margin: 0;
+      overflow: auto;
+      border: 1px solid #E5E5E5; }
+      .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-passengers .flight-paxList, .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-passengers .flight-pax-entry, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-paxList, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-entry, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-paxList, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-entry {
+        width: 100%;
+        margin: 0;
+        float: none;
+        padding-top: 20px; }
+      .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-passengers .flight-paxList, .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-passengers .flight-passengers, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-paxList, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-passengers, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-paxList, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-passengers {
+        padding: 0; }
+      .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-passengers .flight-pax-name-section, .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-passengers .flight-pax-seat-section, .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-passengers .flight-pax-extras-section, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-name-section, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-seat-section, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-extras-section, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-name-section, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-seat-section, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-extras-section {
+        padding: 0;
+        float: left;
+        width: 33%;
+        font-size: 16px; }
+      .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-passengers .flight-pax-seat-section, .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-passengers .flight-pax-extras-section, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-seat-section, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-extras-section, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-seat-section, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-passengers .flight-pax-extras-section {
+        width: 30%;
+        padding: 0 1.5%; }
+    .VIEW_ITINERARY_PAGE .flightsdetails-component .flightsdetails-bagslabel, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flightsdetails-bagslabel, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flightsdetails-bagslabel {
+      text-transform: normal; }
+    .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-bags-quantity, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-bags-quantity, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-bags-quantity {
+      width: 85px; }
+    .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-bags-details, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-bags-details, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-bags-details {
+      width: 100px;
+      font-size: 16px; }
+      .VIEW_ITINERARY_PAGE .flightsdetails-component .flight-bags-details span, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-bags-details span, .SEATS_MTO_CONFIRMATION_PAGE .flightsdetails-component .flight-bags-details span {
+        width: auto; }
+  .VIEW_ITINERARY_PAGE #payment-summary, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary {
+    margin: 20px auto 0;
+    width: 750px; }
+    .VIEW_ITINERARY_PAGE #payment-summary .payment-breakdown, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown {
+      margin-left: 0;
+      width: 100%; }
+      .VIEW_ITINERARY_PAGE #payment-summary .payment-breakdown .paymentSummary, .VIEW_ITINERARY_PAGE #payment-summary .payment-breakdown .paymentSummary, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown .paymentSummary, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown .paymentSummary, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown .paymentSummary, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown .paymentSummary {
+        font-size: 16px;
+        width: 87%; }
+      .VIEW_ITINERARY_PAGE #payment-summary .payment-breakdown .ancillaries-extras, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown .ancillaries-extras, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown .ancillaries-extras {
+        font-size: 16px; }
+      .VIEW_ITINERARY_PAGE #payment-summary .payment-breakdown .payment-summary-fare-amount, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown .payment-summary-fare-amount, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown .payment-summary-fare-amount {
+        width: 13%;
+        float: right;
+        text-align: right; }
+      .VIEW_ITINERARY_PAGE #payment-summary .payment-breakdown span, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown span, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown span {
+        font-size: 14px !important;
+        padding-left: 0 !important; }
+    .VIEW_ITINERARY_PAGE #payment-summary .payment-wrapper, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper {
+      background: none; }
+      .VIEW_ITINERARY_PAGE #payment-summary .payment-wrapper .payment .header, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .payment .header, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .payment .header {
+        background: none;
+        overflow: auto; }
+        .VIEW_ITINERARY_PAGE #payment-summary .payment-wrapper .payment .header h3, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .payment .header h3, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .payment .header h3 {
+          font-weight: bold;
+          margin: 0;
+          padding: 10px 0 0;
+          color: #0B2343;
+          font-size: 32px; }
+      .VIEW_ITINERARY_PAGE #payment-summary .payment-wrapper .details-button-container, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .details-button-container, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .details-button-container {
+        float: right; }
+        .VIEW_ITINERARY_PAGE #payment-summary .payment-wrapper .details-button-container .details-button, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .details-button-container .details-button, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-wrapper .details-button-container .details-button {
+          width: 260px;
+          margin-top: 0;
+          margin-bottom: 0; }
+    .VIEW_ITINERARY_PAGE #payment-summary .heading-payment, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .heading-payment, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .heading-payment {
+      /*
+			background: none;
+			font-size: 18px;
+		    font-weight: normal;
+		    margin: 0;
+		    padding: 0;
+		    text-transform: uppercase;
+		    */
+      display: none; }
+    .VIEW_ITINERARY_PAGE #payment-summary .payment-summary, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-summary, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-summary {
+      width: 50%;
+      background: #F6FAFD;
+      padding: 1.5%;
+      float: left;
+      border: 0 !important;
+      min-height: 140px; }
+      .VIEW_ITINERARY_PAGE #payment-summary .payment-summary h4, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-summary h4, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-summary h4 {
+        color: #004990;
+        font-size: 16px;
+        font-family: normal;
+        font-family: "Arial", "Helvetica", sans-serif; }
+    .VIEW_ITINERARY_PAGE #payment-summary .multiple-payments, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments {
+      margin: 0;
+      background: #F7FBFD;
+      width: 100%;
+      padding: 20px;
+      /*float: left;
+			padding: 1.5%;
+			width: 50%;
+			*/
+      border: 0;
+      min-height: 140px; }
+      .VIEW_ITINERARY_PAGE #payment-summary .multiple-payments .payment-type, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-type, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-type {
+        width: 100%;
+        border: 0;
+        background: none; }
+        .VIEW_ITINERARY_PAGE #payment-summary .multiple-payments .payment-type .paymenttype, .VIEW_ITINERARY_PAGE #payment-summary .multiple-payments .payment-type .paymenttype-dd, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-type .paymenttype, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-type .paymenttype-dd, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-type .paymenttype, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-type .paymenttype-dd {
+          padding: 0;
+          float: left;
+          width: 50%;
+          font-size: 14px;
+          font-weight: normal; }
+      .VIEW_ITINERARY_PAGE #payment-summary .multiple-payments .payment-total .total, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-total .total, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-total .total {
+        padding: 0;
+        width: 50%;
+        float: left;
+        font-size: 14px; }
+      .VIEW_ITINERARY_PAGE #payment-summary .multiple-payments .payment-total .payment-amounts, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-total .payment-amounts, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-total .payment-amounts {
+        width: 50%;
+        float: left;
+        text-align: left;
+        font-size: 14px; }
+      .VIEW_ITINERARY_PAGE #payment-summary .multiple-payments .payment-total .payment-details, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-total .payment-details, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .multiple-payments .payment-total .payment-details {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+        font-size: 14px; }
+  .VIEW_ITINERARY_PAGE .yui-navset li.selected, .VIEW_ITINERARY_PAGE .yui-navset li, .ANCILLARIES_MTO_CONFIRMATION_PAGE .yui-navset li.selected, .ANCILLARIES_MTO_CONFIRMATION_PAGE .yui-navset li, .SEATS_MTO_CONFIRMATION_PAGE .yui-navset li.selected, .SEATS_MTO_CONFIRMATION_PAGE .yui-navset li {
+    background-image: none; }
+  .VIEW_ITINERARY_PAGE .bag-image, .ANCILLARIES_MTO_CONFIRMATION_PAGE .bag-image, .SEATS_MTO_CONFIRMATION_PAGE .bag-image {
+    background: transparent url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/maleta.png") repeat scroll 0 0;
+    display: block;
+    float: left;
+    height: 28px;
+    margin-right: 4px;
+    width: 30px;
+    background-size: 100% auto; }
+  .VIEW_ITINERARY_PAGE #flow-messages-component, .ANCILLARIES_MTO_CONFIRMATION_PAGE #flow-messages-component, .SEATS_MTO_CONFIRMATION_PAGE #flow-messages-component {
+    padding: 0; }
+  .VIEW_ITINERARY_PAGE #plusgrade-offering-content, .ANCILLARIES_MTO_CONFIRMATION_PAGE #plusgrade-offering-content, .SEATS_MTO_CONFIRMATION_PAGE #plusgrade-offering-content {
+    background: #F7FBFD;
+    width: 750px;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 20px;
+    font-size: 16px; }
+    .VIEW_ITINERARY_PAGE #plusgrade-offering-content img, .ANCILLARIES_MTO_CONFIRMATION_PAGE #plusgrade-offering-content img, .SEATS_MTO_CONFIRMATION_PAGE #plusgrade-offering-content img {
+      float: left;
+      padding-right: 20px; }
+    .VIEW_ITINERARY_PAGE #plusgrade-offering-content div, .ANCILLARIES_MTO_CONFIRMATION_PAGE #plusgrade-offering-content div, .SEATS_MTO_CONFIRMATION_PAGE #plusgrade-offering-content div {
+      padding: 20px 50px 20px;
+      line-height: 150%; }
+    .VIEW_ITINERARY_PAGE #plusgrade-offering-content #plusgrade-bid, .ANCILLARIES_MTO_CONFIRMATION_PAGE #plusgrade-offering-content #plusgrade-bid, .SEATS_MTO_CONFIRMATION_PAGE #plusgrade-offering-content #plusgrade-bid {
+      border: 0;
+      max-width: 250px;
+      margin: 0 auto;
+      display: block; }
+  .VIEW_ITINERARY_PAGE #fare-rules .fare-rules-unavailable, .ANCILLARIES_MTO_CONFIRMATION_PAGE #fare-rules .fare-rules-unavailable, .SEATS_MTO_CONFIRMATION_PAGE #fare-rules .fare-rules-unavailable {
+    background: #FECC2F;
+    font-size: 16px;
+    text-align: center;
+    color: #0B2343;
+    padding: 20px; }
+  .VIEW_ITINERARY_PAGE .price-summary-in-detail, .ANCILLARIES_MTO_CONFIRMATION_PAGE .price-summary-in-detail, .SEATS_MTO_CONFIRMATION_PAGE .price-summary-in-detail {
+    padding-left: 0;
+    padding-right: 0; }
+  .VIEW_ITINERARY_PAGE #payment-summary .payment-breakdown, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown {
+    width: 100%; }
+    .VIEW_ITINERARY_PAGE #payment-summary .payment-breakdown span, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown span, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-breakdown span {
+      padding-right: 5px; }
+  .VIEW_ITINERARY_PAGE #payment-summary .payment-summary, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .payment-summary, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .payment-summary {
+    padding: 20px !important;
+    width: 100%;
+    clear: both; }
+  .VIEW_ITINERARY_PAGE #payment-summary .fop-summary, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary {
+    float: none;
+    width: 100%;
+    padding: 20px;
+    background: #F7FBFD;
+    margin-bottom: 20px; }
+    .VIEW_ITINERARY_PAGE #payment-summary .fop-summary .payment-details, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary .payment-details, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary .payment-details {
+      padding: 20px 0;
+      font-size: 16px; }
+    .VIEW_ITINERARY_PAGE #payment-summary .fop-summary .price-dt, .VIEW_ITINERARY_PAGE #payment-summary .fop-summary .payment-amounts, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary .price-dt, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary .payment-amounts, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary .price-dt, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary .payment-amounts {
+      float: left;
+      font-size: 16px; }
+    .VIEW_ITINERARY_PAGE #payment-summary .fop-summary .payment-item, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary .payment-item, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary .payment-item {
+      width: 100%;
+      min-height: 100px;
+      padding: 20px 0; }
+    .VIEW_ITINERARY_PAGE #payment-summary .fop-summary .payment-summary-total-myb, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary .payment-summary-total-myb, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary .payment-summary-total-myb {
+      width: 100%;
+      clear: both; }
+    .VIEW_ITINERARY_PAGE #payment-summary .fop-summary h4, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary h4, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary .fop-summary h4 {
+      color: #004990;
+      font-size: 16px; }
+  .VIEW_ITINERARY_PAGE #payment-summary.payment-summary-multiFop .payment-total, .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary.payment-summary-multiFop .payment-total, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary.payment-summary-multiFop .payment-total {
+    width: 100%; }
+
+.ANCILLARIES_MTO_CONFIRMATION_PAGE, .SEATS_MTO_CONFIRMATION_PAGE {
+  /***************
+		PNR
+	****************/ }
+  .ANCILLARIES_MTO_CONFIRMATION_PAGE #payment-summary.payment-summary-multiFop-display-below .payment .payment-summary, .SEATS_MTO_CONFIRMATION_PAGE #payment-summary.payment-summary-multiFop-display-below .payment .payment-summary {
+    width: 100%;
+    padding: 20px; }
+  .ANCILLARIES_MTO_CONFIRMATION_PAGE .flomes, .SEATS_MTO_CONFIRMATION_PAGE .flomes {
+    width: 750px;
+    margin: 0 auto; }
+    .ANCILLARIES_MTO_CONFIRMATION_PAGE .flomes .flow-message-info, .SEATS_MTO_CONFIRMATION_PAGE .flomes .flow-message-info {
+      padding: 20px;
+      margin-bottom: 20px; }
+  .ANCILLARIES_MTO_CONFIRMATION_PAGE #flow-message-ancillariesMTOConfirmationsuccess, .SEATS_MTO_CONFIRMATION_PAGE #flow-message-ancillariesMTOConfirmationsuccess {
+    text-align: center;
+    background: none;
+    border: 0;
+    padding: 40px 0 20px;
+    margin: 0; }
+    .ANCILLARIES_MTO_CONFIRMATION_PAGE #flow-message-ancillariesMTOConfirmationsuccess h2, .SEATS_MTO_CONFIRMATION_PAGE #flow-message-ancillariesMTOConfirmationsuccess h2 {
+      color: #3f6b09;
+      margin: 0 auto;
+      font-size: 18px;
+      font-weight: normal;
+      width: 260px;
+      padding-left: 35px;
+      height: 36px;
+      line-height: 36px;
+      background: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb_check.png") no-repeat top left; }
+  .ANCILLARIES_MTO_CONFIRMATION_PAGE #flow-message-ssrFailedToAddSomeSeats, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flow-message-warn, .SEATS_MTO_CONFIRMATION_PAGE #flow-message-ssrFailedToAddSomeSeats, .SEATS_MTO_CONFIRMATION_PAGE .flow-message-warn {
+    background: #FECC2F;
+    border: 0;
+    color: #0B2343;
+    text-align: center; }
+    .ANCILLARIES_MTO_CONFIRMATION_PAGE #flow-message-ssrFailedToAddSomeSeats h2, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flow-message-warn h2, .SEATS_MTO_CONFIRMATION_PAGE #flow-message-ssrFailedToAddSomeSeats h2, .SEATS_MTO_CONFIRMATION_PAGE .flow-message-warn h2 {
+      margin: 0;
+      text-align: center;
+      color: #0B2343;
+      font-size: 18px;
+      padding: 10px 0 5px; }
+    .ANCILLARIES_MTO_CONFIRMATION_PAGE #flow-message-ssrFailedToAddSomeSeats .flow-message-text, .ANCILLARIES_MTO_CONFIRMATION_PAGE .flow-message-warn .flow-message-text, .SEATS_MTO_CONFIRMATION_PAGE #flow-message-ssrFailedToAddSomeSeats .flow-message-text, .SEATS_MTO_CONFIRMATION_PAGE .flow-message-warn .flow-message-text {
+      font-size: 16px;
+      line-height: 150%;
+      padding: 5px 40px; }
+  .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-wrapper, .SEATS_MTO_CONFIRMATION_PAGE .pnr-wrapper {
+    width: 750px;
+    margin: 0 auto; }
+    .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-wrapper .view-itinerary-code, .SEATS_MTO_CONFIRMATION_PAGE .pnr-wrapper .view-itinerary-code {
+      float: none;
+      width: 100%;
+      background: none;
+      color: #0B2343;
+      display: block;
+      border-top: 1px solid #E5E5E5;
+      border-bottom: 1px solid #E5E5E5;
+      padding: 20px 0;
+      margin: 20px auto;
+      text-align: center; }
+      .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-wrapper .view-itinerary-code em, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-wrapper .view-itinerary-code span, .SEATS_MTO_CONFIRMATION_PAGE .pnr-wrapper .view-itinerary-code em, .SEATS_MTO_CONFIRMATION_PAGE .pnr-wrapper .view-itinerary-code span {
+        display: block;
+        width: 100%;
+        float: none;
+        padding: 0;
+        font-size: 16px; }
+      .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-wrapper .view-itinerary-code span, .SEATS_MTO_CONFIRMATION_PAGE .pnr-wrapper .view-itinerary-code span {
+        font-size: 25px !important;
+        color: #0B2343;
+        margin-top: 14px; }
+  .ANCILLARIES_MTO_CONFIRMATION_PAGE #pnr-info .trip-actions, .SEATS_MTO_CONFIRMATION_PAGE #pnr-info .trip-actions {
+    margin: 0; }
+  .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-content, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-info, .ANCILLARIES_MTO_CONFIRMATION_PAGE .pnr-wrapper, .SEATS_MTO_CONFIRMATION_PAGE .pnr-content, .SEATS_MTO_CONFIRMATION_PAGE .pnr-info, .SEATS_MTO_CONFIRMATION_PAGE .pnr-wrapper {
+    background: none;
+    background-image: none; }
+  .ANCILLARIES_MTO_CONFIRMATION_PAGE .trip-summary, .ANCILLARIES_MTO_CONFIRMATION_PAGE .trip-dates, .SEATS_MTO_CONFIRMATION_PAGE .trip-summary, .SEATS_MTO_CONFIRMATION_PAGE .trip-dates {
+    font-size: 16px; }
+    .ANCILLARIES_MTO_CONFIRMATION_PAGE .trip-summary h2, .ANCILLARIES_MTO_CONFIRMATION_PAGE .trip-dates h2, .SEATS_MTO_CONFIRMATION_PAGE .trip-summary h2, .SEATS_MTO_CONFIRMATION_PAGE .trip-dates h2 {
+      color: #004990;
+      font-weight: bold;
+      margin: 0; }
+
+#payment-summary.payment-summary-multiFop .payment .details-content .payment-breakdown {
+  font-size: 16px; }
+
+#payment-summary.payment-summary-multiFop .details-trigger.open, #payment-summary.payment-summary-multiFop .details-trigger {
+  background-image: none; }
+
+#payment-summary.payment-summary-multiFop .payment .details-content .payment-breakdown {
+  width: 50%;
+  margin: 20px 0; }
+
+.SEATS_MTO_SEATS_PAGE #booking-process .process-bar ol li {
+  width: 30%; }
+
+.asientos-desy-prueba {
+  background: none; }
+
+.ANCILLARIES_MTO_SEATS_PAGE #btn-search {
+  width: 200px; }
+
+.ANCILLARIES_MTO_SEATS_PAGE .process-bar, .ANCILLARIES_MTO_SEATS_PAGE #booking-process {
+  min-height: 100px;
+  width: 100%; }
+  .ANCILLARIES_MTO_SEATS_PAGE .process-bar ol li, .ANCILLARIES_MTO_SEATS_PAGE #booking-process ol li {
+    width: auto; }
+  .ANCILLARIES_MTO_SEATS_PAGE .process-bar ol #step-2, .ANCILLARIES_MTO_SEATS_PAGE #booking-process ol #step-2 {
+    width: 196px; }
+  .ANCILLARIES_MTO_SEATS_PAGE .process-bar ol li:last-child, .ANCILLARIES_MTO_SEATS_PAGE #booking-process ol li:last-child {
+    margin-right: 0; }
+
+.ANCILLARIES_MTO_SEATS_PAGE .process-bar, .ANCILLARIES_MTO_SEATS_PAGE #booking-process ol li {
+  width: 21%;
+  background: none; }
+
+.ANCILLARIES_MTO_SEATS_PAGE #booking-process .process-bar ol {
+  width: 100%; }
+
+.ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-list, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-empty-flights-list {
+  text-indent: -99999999px; }
+
+.ANCILLARIES_MTO_SEATS_PAGE #booking-process .process-bar {
+  min-height: 100px;
+  width: 100%; }
+
+.SEATS_MTO_SEATS_PAGE, .ANCILLARIES_MTO_SEATS_PAGE {
+  box-sizing: border-box;
+  /*sidebar*/ }
+  .SEATS_MTO_SEATS_PAGE #customhtmltaxesandfee, .ANCILLARIES_MTO_SEATS_PAGE #customhtmltaxesandfee {
+    display: none; }
+  .SEATS_MTO_SEATS_PAGE .seat-map, .ANCILLARIES_MTO_SEATS_PAGE .seat-map {
+    font-size: 16px; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-flights-chosen .seat-map-flights-action, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-chosen .seat-map-flights-action {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: 5px 0 0 10px;
+    background: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/new-close.png") no-repeat center center;
+    background-size: 100% auto; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-flights-chosen .seat-map-flights-action img, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-chosen .seat-map-flights-action img {
+      text-indent: -9999999px;
+      display: none; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-info, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-info {
+    width: 100%; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-plane, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-plane {
+    clear: both;
+    margin: 20px auto;
+    float: none;
+    width: 500px; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-plane .seat-map-planemap, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-plane .seat-map-planemap {
+      width: 100%; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-plane .seat-map-planemap td, .SEATS_MTO_SEATS_PAGE .seat-map-plane th, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-plane .seat-map-planemap td, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-plane th {
+      text-align: center; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-flights-chosen .seat-map-flights-status, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-chosen .seat-map-flights-status {
+    background-image: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb_check.png");
+    background-position: 0 2px;
+    background-size: 90% auto; }
+  .SEATS_MTO_SEATS_PAGE #flight-list-infobox, .ANCILLARIES_MTO_SEATS_PAGE #flight-list-infobox {
+    width: 100%;
+    padding: 0px 0px 10px;
+    border: 0; }
+  .SEATS_MTO_SEATS_PAGE #cnt_0_0_2_4, .ANCILLARIES_MTO_SEATS_PAGE #cnt_0_0_2_4 {
+    width: 100%; }
+  .SEATS_MTO_SEATS_PAGE #cnt_0_1_2_3, .ANCILLARIES_MTO_SEATS_PAGE #cnt_0_1_2_3 {
+    max-width: 750px;
+    margin: 0 auto; }
+  .SEATS_MTO_SEATS_PAGE #cnt_2, .ANCILLARIES_MTO_SEATS_PAGE #cnt_2 {
+    width: 100%; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-header h2, .SEATS_MTO_SEATS_PAGE .login-component, .SEATS_MTO_SEATS_PAGE #lang_1, .SEATS_MTO_SEATS_PAGE #cnt_3, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-header h2, .ANCILLARIES_MTO_SEATS_PAGE .login-component, .ANCILLARIES_MTO_SEATS_PAGE #lang_1, .ANCILLARIES_MTO_SEATS_PAGE #cnt_3 {
+    display: none; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-header-links, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-header-links {
+    width: 100%;
+    margin: 0 auto; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-header-links #link-next-skipSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-header-links #link-next-skipSeatSelection {
+      width: 48%;
+      float: left; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-header-links .submit-placeholder input[type="submit"], .ANCILLARIES_MTO_SEATS_PAGE .seat-map-header-links .submit-placeholder input[type="submit"] {
+      width: 48%;
+      float: right; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-content, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-content {
+    background: none;
+    border: 0;
+    padding: 0; }
+  .SEATS_MTO_SEATS_PAGE .marketing-text1, .ANCILLARIES_MTO_SEATS_PAGE .marketing-text1 {
+    font-size: 16px;
+    line-height: 180%; }
+    .SEATS_MTO_SEATS_PAGE .marketing-text1 strong, .ANCILLARIES_MTO_SEATS_PAGE .marketing-text1 strong {
+      color: #004990;
+      display: block;
+      font-weight: normal; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-invocation, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-invocation {
+    padding: 20px 0; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-keys h3, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-keys h3 {
+    display: none; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-keys ul, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-keys ul {
+    background: none;
+    border: 0; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-keys ul li, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-keys ul li {
+      box-sizing: none; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-seat strong, .SEATS_MTO_SEATS_PAGE .seat-map-standard strong, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-seat strong, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-standard strong {
+    background: none;
+    border: 1px solid #007DC3 !important; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-infobox, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-infobox {
+    margin: 20px 0 5px;
+    padding: 0;
+    width: 100%; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-infobox h3, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-infobox h3 {
+      background: none;
+      color: #0B2343;
+      font-size: 18px; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-flights li, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights li {
+    border: 0; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-flights li div, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights li div {
+      background: none; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-flights li ul, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights li ul {
+      border: 0; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-flights li .seats-map-panel, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights li .seats-map-panel {
+      width: 100%; }
+      .SEATS_MTO_SEATS_PAGE .seat-map-flights li .seats-map-panel .segment-pax, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights li .seats-map-panel .segment-pax {
+        width: 100%;
+        overflow: visible;
+        height: auto !important; }
+        .SEATS_MTO_SEATS_PAGE .seat-map-flights li .seats-map-panel .segment-pax li, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights li .seats-map-panel .segment-pax li {
+          width: 100%;
+          padding-right: 0;
+          margin: 0; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-flights .seat-map-flights-selected, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights .seat-map-flights-selected {
+    background: none;
+    color: #0B2343; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-flights-pax, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-pax {
+    border-bottom: 1px solid #E5E5E5 !important; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-flights-pax-no, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-pax-no {
+    width: 27px;
+    background: none !important; }
+  .SEATS_MTO_SEATS_PAGE .seat-labels .num-seat-label, .SEATS_MTO_SEATS_PAGE .seat-labels .price-seat-label, .ANCILLARIES_MTO_SEATS_PAGE .seat-labels .num-seat-label, .ANCILLARIES_MTO_SEATS_PAGE .seat-labels .price-seat-label {
+    width: 50%;
+    text-align: center; }
+  .SEATS_MTO_SEATS_PAGE .seat-labels .price-seat-label, .ANCILLARIES_MTO_SEATS_PAGE .seat-labels .price-seat-label {
+    width: 40%;
+    text-align: right; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-flights-place-no, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-place-no {
+    background: none;
+    color: #007DC3;
+    font-size: 16px;
+    font-weight: bold;
+    width: 50%;
+    text-decoration: none;
+    clear: left;
+    text-align: center;
+    margin: 0; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-flights-price, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-price {
+    padding-top: 5px; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-flights-flight-no, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-flight-no {
+    color: #004990;
+    font-size: 16px;
+    font-weight: normal; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-infobox h3 span, .SEATS_MTO_SEATS_PAGE .seat-map-flights-returning h3 span, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-infobox h3 span, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-returning h3 span {
+    background: none;
+    padding: 0; }
+  .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 {
+    width: 100%; }
+    .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .component-top, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .component-top {
+      padding: 0; }
+    .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 #cart-component, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 #cart-component {
+      width: 100%;
+      background: #F7FBFD; }
+      .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 #cart-component h2, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 #cart-component h2 {
+        font-size: 32px;
+        color: #0B2343;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        background: #FFFFFF;
+        display: block; }
+      .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 #cart-component .component-top, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 #cart-component .component-top {
+        padding: 0 !important;
+        background-image: none !important; }
+      .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 #cart-component .prices-alternative, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 #cart-component .prices-alternative {
+        color: #004990;
+        font-style: normal; }
+    .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .total-top, .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .cart-pax, .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .price-details, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .total-top, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .cart-pax, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .price-details {
+      margin: 20px;
+      font-size: 16px; }
+    .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .cart-total-price .total-top, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .cart-total-price .total-top {
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #0B2343;
+      font-weight: normal;
+      padding: 0; }
+    .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .cart-pax, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .cart-pax {
+      padding: 20px 0 0; }
+      .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .cart-pax h3, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .cart-pax h3 {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #0B2343;
+        margin: 0 0 20px;
+        font-weight: normal;
+        padding: 0;
+        background: none; }
+    .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .price-details h3, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .price-details h3 {
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #0B2343;
+      margin: 0 0 20px;
+      font-weight: normal;
+      padding: 0; }
+    .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .cartPrices, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .cartPrices {
+      overflow: auto;
+      margin: 10px 0; }
+      .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .cartPrices li, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .cartPrices li {
+        width: 50%;
+        float: left;
+        min-height: 40px;
+        clear: none;
+        overflow: visible; }
+        .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .cartPrices li li, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .cartPrices li li {
+          width: 100%;
+          overflow: visible; }
+    .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .total-bottom, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .total-bottom {
+      margin: 0 auto;
+      background: #0B2343; }
+      .SEATS_MTO_SEATS_PAGE #cnt_1_1_2_3 .total-bottom .prices-alternative, .ANCILLARIES_MTO_SEATS_PAGE #cnt_1_1_2_3 .total-bottom .prices-alternative {
+        color: #FFFFFF !important; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links {
+    width: 100%; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #seat-map-skip-selection-link, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #seat-map-skip-selection-link, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #seat-map-skip-selection-link, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #seat-map-skip-selection-link {
+      width: 49%; }
+    .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #btn-next-id2, .SEATS_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #btn-next-id2, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-header-links #btn-next-id2, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-footer .seat-map-footer-links #btn-next-id2 {
+      width: 49%; }
+  .SEATS_MTO_SEATS_PAGE .flight-controls .prevFlight, .ANCILLARIES_MTO_SEATS_PAGE .flight-controls .prevFlight {
+    width: 49%;
+    font-size: 12px;
+    box-shadow: none; }
+  .SEATS_MTO_SEATS_PAGE .flight-controls .nextFlight, .ANCILLARIES_MTO_SEATS_PAGE .flight-controls .nextFlight {
+    width: 49%;
+    font-size: 12px;
+    box-shadow: none; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-segment-info, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-segment-info {
+    color: #0B2343;
+    background: #FFFFFF;
+    font-size: 16px; }
+  .SEATS_MTO_SEATS_PAGE .seatLegend .seat-map-keys-desc, .ANCILLARIES_MTO_SEATS_PAGE .seatLegend .seat-map-keys-desc {
+    font-weight: lighter;
+    font-size: 14px; }
+  .SEATS_MTO_SEATS_PAGE #seatmaps-seatMapsNotAvailable .flow-message-info, .ANCILLARIES_MTO_SEATS_PAGE #seatmaps-seatMapsNotAvailable .flow-message-info {
+    background: #FECC2F;
+    background-image: none;
+    border: 0;
+    text-align: center;
+    padding: 20px 0 30px; }
+  .SEATS_MTO_SEATS_PAGE #seatmaps-seatMapsNotAvailable .flow-message-title, .ANCILLARIES_MTO_SEATS_PAGE #seatmaps-seatMapsNotAvailable .flow-message-title {
+    color: #0b2343;
+    font-weight: bold; }
+    .SEATS_MTO_SEATS_PAGE #seatmaps-seatMapsNotAvailable .flow-message-title div, .ANCILLARIES_MTO_SEATS_PAGE #seatmaps-seatMapsNotAvailable .flow-message-title div {
+      font-size: 1.35em; }
+  .SEATS_MTO_SEATS_PAGE #seatmaps-seatMapsNotAvailable .flow-message-text, .ANCILLARIES_MTO_SEATS_PAGE #seatmaps-seatMapsNotAvailable .flow-message-text {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto; }
+  .SEATS_MTO_SEATS_PAGE .yui-module, .ANCILLARIES_MTO_SEATS_PAGE .yui-module {
+    background-image: none;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    padding: 0; }
+    .SEATS_MTO_SEATS_PAGE .yui-module .hd, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .hd {
+      background: #007DC3; }
+    .SEATS_MTO_SEATS_PAGE .yui-module .buttons, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .buttons {
+      overflow: hidden;
+      margin: 0;
+      padding: 0; }
+      .SEATS_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .buttons .button-smaller #selectSeat {
+        margin-bottom: 0;
+        background-image: none;
+        font-family: "Arial", "Helvetica", sans-serif; }
+      .SEATS_MTO_SEATS_PAGE .yui-module .buttons #selectSeat, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .buttons #selectSeat {
+        background: #E91B2F !important;
+        color: #FFFFFF !important; }
+    .SEATS_MTO_SEATS_PAGE .yui-module .seat-with-discount-color, .SEATS_MTO_SEATS_PAGE .yui-module .tier-inheritance, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .seat-with-discount-color, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .tier-inheritance {
+      color: #3f6b09; }
+    .SEATS_MTO_SEATS_PAGE .yui-module .seat-price, .SEATS_MTO_SEATS_PAGE .yui-module .seat-position, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .seat-price, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .seat-position {
+      font-size: 16px; }
+    .SEATS_MTO_SEATS_PAGE .yui-module .seat-map-flights-segment, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .seat-map-flights-segment {
+      font-size: 16px;
+      color: #007DC3; }
+    .SEATS_MTO_SEATS_PAGE .yui-module .button-smaller, .SEATS_MTO_SEATS_PAGE .yui-module .button-smaller input, .SEATS_MTO_SEATS_PAGE .yui-module .button-smaller-accept, .SEATS_MTO_SEATS_PAGE .yui-module .button-smaller-accept input, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .button-smaller, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .button-smaller input, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .button-smaller-accept, .ANCILLARIES_MTO_SEATS_PAGE .yui-module .button-smaller-accept input {
+      background: none; }
+  .SEATS_MTO_SEATS_PAGE .seat-refund-exchange-info, .SEATS_MTO_SEATS_PAGE .seat-map-flights-price, .ANCILLARIES_MTO_SEATS_PAGE .seat-refund-exchange-info, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-price {
+    font-size: 16px; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-flights-price, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-flights-price {
+    width: 40%; }
+  .SEATS_MTO_SEATS_PAGE #cart-component .component-bottom, .ANCILLARIES_MTO_SEATS_PAGE #cart-component .component-bottom {
+    background-image: none; }
+  .SEATS_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection #cancelSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection #cancelSeatSelection {
+    font-family: "Arial", "Helvetica", sans-serif; }
+  .SEATS_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection #selectSeat, .ANCILLARIES_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection #selectSeat {
+    font-family: "Arial", "Helvetica", sans-serif; }
+  .SEATS_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection .pax-data, .ANCILLARIES_MTO_SEATS_PAGE .seat-details-overlay #cancelSeatSelection .pax-data {
+    font-weight: bold; }
+  .SEATS_MTO_SEATS_PAGE .seat-map-plane .flight-controls a.disabled, .ANCILLARIES_MTO_SEATS_PAGE .seat-map-plane .flight-controls a.disabled {
+    width: 50%; }
+  .SEATS_MTO_SEATS_PAGE .seats-overlays .exitRowText, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays .exitRowText {
+    font-size: 13px; }
+  .SEATS_MTO_SEATS_PAGE .seats-overlays .buttons, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays .buttons {
+    width: 275px;
+    margin: 0 auto; }
+  .SEATS_MTO_SEATS_PAGE .seats-overlays #btn-no, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays #btn-no {
+    min-width: 100px; }
+  .SEATS_MTO_SEATS_PAGE .seats-overlays #btn-accept, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays #btn-accept {
+    min-width: 100px; }
+  .SEATS_MTO_SEATS_PAGE .seats-overlays .button-smaller-no, .SEATS_MTO_SEATS_PAGE .seats-overlays .button-smaller-no input, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays .button-smaller-no, .ANCILLARIES_MTO_SEATS_PAGE .seats-overlays .button-smaller-no input {
+    background: none;
+    background-image: none; }
+  .SEATS_MTO_SEATS_PAGE .buttons, .ANCILLARIES_MTO_SEATS_PAGE .buttons {
+    overflow: hidden;
+    margin: 0;
+    padding: 0; }
+    .SEATS_MTO_SEATS_PAGE .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_SEATS_PAGE .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_SEATS_PAGE .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_SEATS_PAGE .buttons .button-smaller #selectSeat {
+      margin-bottom: 0;
+      background-image: none; }
+
+.popupSessionTimeoutWarning h3 {
+  font-size: 20px;
+  font-weight: bold; }
+
+#seat-map-flights-pax-0-0-button {
+  font-size: 16px; }
+
+#ROOT .seat-map-header h2 {
+  background: url("https://s3.amazonaws.com/aeromexico/booking/img/blue-icon_v2.png");
+  background-repeat: no-repeat;
+  background-position: left 50%;
+  margin-left: 0;
+  padding-left: 30px;
+  padding-top: 8px; }
+
+#ROOT .seat-map-content {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background: none; }
+
+/*********
+		asiento disponible
+******************************/
+.seatAvailable, #ROOT .seat-map-seat-selectable-exit strong,
+#ROOT .seat-map-seat-selectable strong, #ROOT .seat-map-standard.seat-map-seat-selectable-exit strong, #ROOT table.aircraft-788 [id*="23E"] strong, #ROOT table.aircraft-788 [id*="23F"] strong,
+#ROOT table.aircraft-783 [id*="23D"] strong,
+#ROOT table.aircraft-783 [id*="23E"] strong, #ROOT table.aircraft-783 [id*="23F"] strong, #ROOT .seat-map-infobox .seat-map-legend.seat-map-seat_reserved strong {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #007DC3;
+  background-color: #FFFFFF; }
+
+.seat-map-plane-left_side, .seat-map-plane-right_side {
+  background: #FFFFFF !important; }
+
+#ROOT .seat-map-plane-left_side strong {
+  background: url("https://s3.amazonaws.com/aeromexico/ancillaries/new_v_wallleft.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block; }
+
+#ROOT td.seat-map-plane-left_side strong, #ROOT td.seat-map-plane-wing-left_side strong {
+  background: url("https://s3.amazonaws.com/aeromexico/ancillaries/new_v_wallleft.png") !important;
+  background-repeat: no-repeat !important;
+  width: 20px !important;
+  height: 20px !important;
+  display: inline-block !important;
+  float: left !important; }
+
+#ROOT td.seat-map-plane-right_side strong, #ROOT td.seat-map-plane-wing-right_side strong {
+  background: url("https://s3.amazonaws.com/aeromexico/ancillaries/new_v_wallright.png") !important;
+  background-repeat: no-repeat !important;
+  width: 20px !important;
+  height: 20px !important;
+  display: inline-block !important;
+  float: right !important; }
+
+/*******
+		SALIDAS
+***********/
+#ROOT td.seat-map-plane-left_side strong span, #ROOT td.seat-map-plane-wing-left_side strong span {
+  background: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb-exito-left.png") no-repeat center center !important;
+  text-indent: -55555px;
+  display: block;
+  width: 20px;
+  height: 20px; }
+
+#ROOT td.seat-map-plane-right_side strong span, #ROOT td.seat-map-plane-wing-right_side strong span {
+  background: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb-exito-right.png") no-repeat center center !important;
+  text-indent: -55555px;
+  display: block;
+  width: 20px;
+  height: 20px; }
+
+#ROOT .seat-map-plane-wing-wing_end {
+  vertical-align: top; }
+
+#ROOT .seat-map-legend b {
+  width: 20px;
+  height: 20px; }
+
+.seat-details-overlay #selectSeat,
+.seat-details-overlay #cancelSeatSelection {
+  height: auto;
+  padding: 10px;
+  line-height: 1em; }
+
+#ROOT .skipSeatsSelection {
+  height: 36px;
+  background: none repeat scroll 0% 0% #ef4716;
+  width: 150px;
+  color: #333333;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  line-height: 36px;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 0;
+  border: 0; }
+
+#ROOT .flight-controls a .seat-map-plane .flight-controls {
+  overflow: auto;
+  height: 50px;
+  position: relative;
+  width: 350px;
+  right: 0;
+  margin-left: -35px; }
+
+.AIR_SELECT_PAGE .yui-module {
+  border: 0; }
+
+#origin_airport0-cont,
+#destination_airport0-cont,
+#container-date0,
+#container-date1 {
+  background: none; }
+
+.seat-map-flights-chosen.seat-map-flights-status,
+.seat-map-flights-pax-no {
+  background-color: #00377b !important; }
+
+/*SEAT */
+.AIR_SELECT_PAGE .seat-map-header h2 {
+  background: url("https://s3.amazonaws.com/aeromexico/booking/title-seat.png");
+  background-repeat: no-repeat;
+  background-position: left 50%;
+  margin-left: 0;
+  padding-left: 30px;
+  padding-top: 8px; }
+
+.AIR_SELECT_PAGE .seat-map-content {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background: none; }
+
+.AIR_SELECT_PAGE .seat-map-seat-selectable-exit strong,
+.AIR_SELECT_PAGE .seat-map-seat-selectable strong {
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #007DC3; }
+
+.AIR_SELECT_PAGE .seat-map-seat strong,
+.AIR_SELECT_PAGE .seat-map-standard strong {
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #007DC3; }
+
+.AIR_SELECT_PAGE .seat-map-standard.unavailable strong {
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #E5E5E5 !important;
+  background-color: #E5E5E5;
+  background-image: none;
+  background: #E5E5E5 !important; }
+
+.AIR_SELECT_PAGE .seat-map-legend.unavailable strong,
+.AIR_SELECT_PAGE .seat-map-seat_unavailable strong {
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #E5E5E5 !important;
+  background-color: #E5E5E5;
+  background-image: none;
+  background: #E5E5E5 !important; }
+
+.AIR_SELECT_PAGE .seat-map-plane-left_side strong,
+.AIR_SELECT_PAGE thead .seat-map-plane-left_side strong,
+.AIR_SELECT_PAGE .seat-map-plane-wing-left_side.seat-map-plane-wing-wing_begin strong,
+.AIR_SELECT_PAGE .seat-map-plane-wing-left_side.seat-map-plane-wing-wing_end strong,
+.AIR_SELECT_PAGE .seat-map-plane-right_side strong {
+  background: none; }
+
+.AIR_SELECT_PAGE .seat-map-plane-left_side strong {
+  background: url("https://s3.amazonaws.com/aeromexico/ancillaries/new_v_wallleft.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  float: left; }
+
+.AIR_SELECT_PAGE .seat-map-plane-wing-left_side strong, .AIR_SELECT_PAGE .seat-map-plane-wing-left_side.seat-map-plane-wing-wing_end strong {
+  background: url("https://s3.amazonaws.com/aeromexico/ancillaries/new_v_wallleft.png") !important;
+  background-repeat: no-repeat !important;
+  width: 20px !important;
+  height: 20px !important;
+  display: inline-block !important;
+  float: left !important;
+  margin: 0 !important; }
+
+.AIR_SELECT_PAGE .seat-map-plane-right_side strong {
+  background: url("https://s3.amazonaws.com/aeromexico/ancillaries/new_v_wallright.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  float: right; }
+
+.AIR_SELECT_PAGE .seat-map-plane-wing.seat-map-plane-wing-right_side strong,
+.AIR_SELECT_PAGE .seat-map-plane-wing-right_side.seat-map-plane-wing-wing_begin strong {
+  background: url("https://s3.amazonaws.com/aeromexico/ancillaries/new_v_wallright.png") !important;
+  background-repeat: no-repeat !important;
+  width: 20px !important;
+  height: 20px !important;
+  display: inline-block !important;
+  float: right !important;
+  margin: 0 !important; }
+
+.AIR_SELECT_PAGE .seat-map-plane-wing-wing_end {
+  vertical-align: top; }
+
+.AIR_SELECT_PAGE .seat-map-legend b {
+  width: 20px;
+  height: 20px; }
+
+.AIR_SELECT_PAGE .skipSeatsSelection {
+  height: 36px;
+  background: none repeat scroll 0% 0% #ef4716;
+  width: 150px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  line-height: 36px;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 0;
+  border: 0; }
+
+.AIR_SELECT_PAGE .flight-controls a .seat-map-plane .flight-controls {
+  overflow: auto;
+  height: 50px;
+  position: relative;
+  width: 350px;
+  right: 0;
+  margin-left: -35px; }
+
+.AIR_SELECT_PAGE .seat-map-legend strong {
+  width: 22px;
+  height: 22px;
+  line-height: 20px;
+  font-size: 11px; }
+
+.AIR_SELECT_PAGE .seat-map-row_label {
+  text-indent: 9999px; }
+
+.AIR_SELECT_PAGE .preview-inner.seat-map-info-inner,
+.AIR_SELECT_PAGE .preview-inner.seat-map-info-inner h2 {
+  color: #424242;
+  font-weight: 300; }
+
+.AIR_SELECT_PAGE #seats-readonly-popup .brand-id-dropdown-inner {
+  border-radius: 0;
+  width: 300px; }
+
+.AIR_SELECT_PAGE #seats-readonly-popup .brand-id-dropdown-inner h2 {
+  color: #424242;
+  font-size: 20px;
+  font-weight: normal; }
+
+.AIR_SELECT_PAGE .seat-map-infobox h3 {
+  background: #424242;
+  border-radius: 0px 0px 0px 0px; }
+
+/*SEAT_ENDS*/
+.list {
+  width: 230px;
+  float: right; }
+
+.list li {
+  list-style: none; }
+
+.list li img {
+  float: left;
+  margin-right: 5px; }
+
+.list li span {
+  line-height: 24px; }
+
+.seat-map-legend strong {
+  padding: 0; }
+
+.seat-map-planemap {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+.seat-map-planemap td {
+  height: 20px;
+  line-height: 10px; }
+
+.seat-map-planemap .seat-map-legend strong {
+  line-height: 15px; }
+
+/***************************
+****************************
+
+
+								Nueva configuracion 
+												de asientos
+
+
+****************************
+***************************/
+/* ASIENTOS PREMIUM NORMALES
+Para todos los aviones con asientos premium que se pinten en color verde*/
+#ROOT .seat-map-premium strong,
+#ROOT .seat-map-price_0_premium strong,
+#ROOT .seat-map-price_1_premium strong,
+#ROOT .seat-map-price_2_premium strong,
+#ROOT .seat-map-price_3_premium strong {
+  background: #FFFFFF url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/moneda-blue.png") no-repeat center center;
+  border-color: #007DC3; }
+
+/* ASIENTOS PREMIUM EUROPA Y ASIA
+Para los aviones 788 783 773 y 77L que los de pago se pinten en azul*/
+#ROOT table.aircraft-773 .seat-map-premium strong,
+#ROOT table.aircraft-773 .seat-map-price_0_premium strong,
+#ROOT table.aircraft-773 .seat-map-price_1_premium strong,
+#ROOT table.aircraft-773 .seat-map-price_2_premium strong,
+#ROOT table.aircraft-773 .seat-map-price_3_premium strong,
+#ROOT table.aircraft-73R .seat-map-premium strong,
+#ROOT table.aircraft-73R .seat-map-price_0_premium strong,
+#ROOT table.aircraft-73R .seat-map-price_1_premium strong,
+#ROOT table.aircraft-73R .seat-map-price_2_premium strong,
+#ROOT table.aircraft-73R .seat-map-price_3_premium strong,
+#ROOT table.aircraft-77L .seat-map-premium strong,
+#ROOT table.aircraft-77L .seat-map-price_0_premium strong,
+#ROOT table.aircraft-77L .seat-map-price_1_premium strong,
+#ROOT table.aircraft-77L .seat-map-price_2_premium strong,
+#ROOT table.aircraft-77L .seat-map-price_3_premium strong,
+#ROOT table.aircraft-72R .seat-map-premium strong,
+#ROOT table.aircraft-72R .seat-map-price_0_premium strong,
+#ROOT table.aircraft-72R .seat-map-price_1_premium strong,
+#ROOT table.aircraft-72R .seat-map-price_2_premium strong,
+#ROOT table.aircraft-72R .seat-map-price_3_premium strong,
+#ROOT table.aircraft-788 .seat-map-premium strong,
+#ROOT table.aircraft-788 .seat-map-price_0_premium strong,
+#ROOT table.aircraft-788 .seat-map-price_1_premium strong,
+#ROOT table.aircraft-788 .seat-map-price_2_premium strong,
+#ROOT table.aircraft-788 .seat-map-price_3_premium strong,
+#ROOT table.aircraft-783 .seat-map-premium strong,
+#ROOT table.aircraft-783 .seat-map-price_0_premium strong,
+#ROOT table.aircraft-783 .seat-map-price_1_premium strong,
+#ROOT table.aircraft-783 .seat-map-price_2_premium strong,
+#ROOT table.aircraft-783 .seat-map-price_3_premium strong,
+#ROOT table.aircraft-789 .seat-map-premium strong,
+#ROOT table.aircraft-789 .seat-map-price_0_premium strong,
+#ROOT table.aircraft-789 .seat-map-price_1_premium strong,
+#ROOT table.aircraft-789 .seat-map-price_2_premium strong,
+#ROOT table.aircraft-789 .seat-map-price_3_premium strong {
+  background: #FFFFFF url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/moneda-blue.png") no-repeat center center;
+  border-color: #007DC3; }
+
+/* ASIENTOS AM PLUS
+Para todos los aviones generales toda la primera fila de asientos va en naranja y de los aviones 772 777 738 737 E90 E95 773 77L 788 783 los AM PLUS */
+#ROOT tr.row-0 [data-seat] strong,
+#ROOT table.aircraft-772 [id^="seat-0-8"] strong, #ROOT table.aircraft-772 [id^="seat-0-9"] strong, #ROOT table.aircraft-772 [id^="seat-0-10"] strong,
+#ROOT table.aircraft-772 [id^="seat-1-8"] strong, #ROOT table.aircraft-772 [id^="seat-1-9"] strong, #ROOT table.aircraft-772 [id^="seat-1-10"] strong,
+#ROOT table.aircraft-772 [id^="seat-2-8"] strong, #ROOT table.aircraft-772 [id^="seat-2-9"] strong, #ROOT table.aircraft-772 [id^="seat-2-10"] strong,
+#ROOT table.aircraft-772 [id^="seat-3-8"] strong, #ROOT table.aircraft-772 [id^="seat-3-9"] strong, #ROOT table.aircraft-772 [id^="seat-3-10"] strong,
+#ROOT table.aircraft-772 [id^="seat-4-8"] strong, #ROOT table.aircraft-772 [id^="seat-4-9"] strong, #ROOT table.aircraft-772 [id^="seat-4-10"] strong,
+#ROOT table.aircraft-772 [id^="seat-5-8"] strong, #ROOT table.aircraft-772 [id^="seat-5-9"] strong, #ROOT table.aircraft-772 [id^="seat-5-10"] strong,
+#ROOT table.aircraft-772 [id^="seat-6-8"] strong, #ROOT table.aircraft-772 [id^="seat-6-9"] strong, #ROOT table.aircraft-772 [id^="seat-6-10"] strong,
+#ROOT table.aircraft-777 [id^="seat-0-8"] strong, #ROOT table.aircraft-777 [id^="seat-0-9"] strong, #ROOT table.aircraft-777 [id^="seat-0-10"] strong,
+#ROOT table.aircraft-777 [id^="seat-1-8"] strong, #ROOT table.aircraft-777 [id^="seat-1-9"] strong, #ROOT table.aircraft-777 [id^="seat-1-10"] strong,
+#ROOT table.aircraft-777 [id^="seat-2-8"] strong, #ROOT table.aircraft-777 [id^="seat-2-9"] strong, #ROOT table.aircraft-777 [id^="seat-2-10"] strong,
+#ROOT table.aircraft-777 [id^="seat-3-8"] strong, #ROOT table.aircraft-777 [id^="seat-3-9"] strong, #ROOT table.aircraft-777 [id^="seat-3-10"] strong,
+#ROOT table.aircraft-777 [id^="seat-4-8"] strong, #ROOT table.aircraft-777 [id^="seat-4-9"] strong, #ROOT table.aircraft-777 [id^="seat-4-10"] strong,
+#ROOT table.aircraft-777 [id^="seat-5-8"] strong, #ROOT table.aircraft-777 [id^="seat-5-9"] strong, #ROOT table.aircraft-777 [id^="seat-5-10"] strong,
+#ROOT table.aircraft-777 [id^="seat-6-8"] strong, #ROOT table.aircraft-777 [id^="seat-6-9"] strong, #ROOT table.aircraft-777 [id^="seat-6-10"] strong,
+#ROOT table.aircraft-738 tr.row-0 [data-seat] strong, #ROOT table.aircraft-738 tr.row-1 [data-seat] strong, #ROOT table.aircraft-738 tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-L38 tr.row-0 [data-seat] strong, #ROOT table.aircraft-L38 tr.row-1 [data-seat] strong, #ROOT table.aircraft-L38 tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-LS8 tr.row-0 [data-seat] strong, #ROOT table.aircraft-LS8 tr.row-1 [data-seat] strong, #ROOT table.aircraft-LS8 tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-789 tr.row-0 [data-seat] strong, #ROOT table.aircraft-789 tr.row-1 [data-seat] strong, #ROOT table.aircraft-789 tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-38S tr.row-0 [data-seat] strong, #ROOT table.aircraft-38S tr.row-1 [data-seat] strong, #ROOT table.aircraft-38S tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-7S8 tr.row-0 [data-seat] strong, #ROOT table.aircraft-7S8 tr.row-1 [data-seat] strong, #ROOT table.aircraft-7S8 tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-3S8 tr.row-0 [data-seat] strong, #ROOT table.aircraft-3S8 tr.row-1 [data-seat] strong, #ROOT table.aircraft-3S8 tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-737 tr.row-0 [data-seat] strong, #ROOT table.aircraft-737 tr.row-1 [data-seat] strong, #ROOT table.aircraft-737 tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-37S tr.row-0 [data-seat] strong, #ROOT table.aircraft-37S tr.row-1 [data-seat] strong, #ROOT table.aircraft-37S tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-89S tr.row-0 [data-seat] strong, #ROOT table.aircraft-89S tr.row-1 [data-seat] strong, #ROOT table.aircraft-89S tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-73H tr.row-0 [data-seat] strong, #ROOT table.aircraft-73H tr.row-1 [data-seat] strong, #ROOT table.aircraft-73H tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-73H [id^="seat-0-1A"] strong, #ROOT table.aircraft-73H [id^="seat-1-1A"] strong, #ROOT table.aircraft-73H [id^="seat-2-1A"] strong,
+#ROOT table.aircraft-73H [id^="seat-3-1A"] strong, #ROOT table.aircraft-73H [id^="seat-4-1A"] strong, #ROOT table.aircraft-73H [id^="seat-5-1A"] strong,
+#ROOT table.aircraft-73H [id^="seat-6-1A"] strong, #ROOT table.aircraft-73H [id^="seat-0-2A"] strong, #ROOT table.aircraft-73H [id^="seat-1-2A"] strong,
+#ROOT table.aircraft-73H [id^="seat-2-2A"] strong, #ROOT table.aircraft-73H [id^="seat-3-2A"] strong, #ROOT table.aircraft-73H [id^="seat-4-2A"] strong,
+#ROOT table.aircraft-73H [id^="seat-5-2A"] strong, #ROOT table.aircraft-73H [id^="seat-6-2A"] strong, #ROOT table.aircraft-73H [id^="seat-0-3A"] strong,
+#ROOT table.aircraft-73H [id^="seat-1-3A"] strong, #ROOT table.aircraft-73H [id^="seat-2-3A"] strong, #ROOT table.aircraft-73H [id^="seat-3-3A"] strong,
+#ROOT table.aircraft-73H [id^="seat-4-3A"] strong, #ROOT table.aircraft-73H [id^="seat-5-3A"] strong, #ROOT table.aircraft-73H [id^="seat-6-3A"] strong,
+#ROOT table.aircraft-8AS tr.row-0 [data-seat] strong, #ROOT table.aircraft-8AS tr.row-1 [data-seat] strong, #ROOT table.aircraft-8AS tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-8AS [id^="seat-0-1A"] strong, #ROOT table.aircraft-8AS [id^="seat-1-1A"] strong, #ROOT table.aircraft-8AS [id^="seat-2-1A"] strong,
+#ROOT table.aircraft-8AS [id^="seat-3-1A"] strong, #ROOT table.aircraft-8AS [id^="seat-4-1A"] strong, #ROOT table.aircraft-8AS [id^="seat-5-1A"] strong,
+#ROOT table.aircraft-8AS [id^="seat-6-1A"] strong, #ROOT table.aircraft-8AS [id^="seat-0-2A"] strong, #ROOT table.aircraft-8AS [id^="seat-1-2A"] strong,
+#ROOT table.aircraft-8AS [id^="seat-2-2A"] strong, #ROOT table.aircraft-8AS [id^="seat-3-2A"] strong, #ROOT table.aircraft-8AS [id^="seat-4-2A"] strong,
+#ROOT table.aircraft-8AS [id^="seat-5-2A"] strong, #ROOT table.aircraft-8AS [id^="seat-6-2A"] strong, #ROOT table.aircraft-8AS [id^="seat-0-3A"] strong,
+#ROOT table.aircraft-8AS [id^="seat-1-3A"] strong, #ROOT table.aircraft-8AS [id^="seat-2-3A"] strong, #ROOT table.aircraft-8AS [id^="seat-3-3A"] strong,
+#ROOT table.aircraft-8AS [id^="seat-4-3A"] strong, #ROOT table.aircraft-8AS [id^="seat-5-3A"] strong, #ROOT table.aircraft-8AS [id^="seat-6-3A"] strong,
+#ROOT table.aircraft-E95 tr.row-0 [data-seat] strong, #ROOT table.aircraft-E95 tr.row-1 [data-seat] strong, #ROOT table.aircraft-E95 tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-E95 tr.row-3 [data-seat] strong,
+#ROOT table.aircraft-92S tr.row-0 [data-seat] strong, #ROOT table.aircraft-92S tr.row-1 [data-seat] strong, #ROOT table.aircraft-92S tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-92S tr.row-3 [data-seat] strong,
+#ROOT table.aircraft-E92 tr.row-0 [data-seat] strong, #ROOT table.aircraft-E92 tr.row-1 [data-seat] strong, #ROOT table.aircraft-E92 tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-E92 tr.row-3 [data-seat] strong,
+#ROOT table.aircraft-9AS tr.row-0 [data-seat] strong, #ROOT table.aircraft-9AS tr.row-1 [data-seat] strong, #ROOT table.aircraft-9AS tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-9AS tr.row-3 [data-seat] strong,
+#ROOT table.aircraft-773 tr.row-1 [data-seat] strong, #ROOT table.aircraft-773 tr.row-2 [data-seat] strong, #ROOT table.aircraft-77L tr.row-1 [data-seat] strong,
+#ROOT table.aircraft-73R tr.row-1 [data-seat] strong, #ROOT table.aircraft-73R tr.row-2 [data-seat] strong, #ROOT table.aircraft-73R tr.row-1 [data-seat] strong,
+#ROOT table.aircraft-77L tr.row-2 [data-seat] strong, #ROOT table.aircraft-783 tr.row-1 [data-seat] strong, #ROOT table.aircraft-783 tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-72R tr.row-2 [data-seat] strong, #ROOT table.aircraft-72R tr.row-1 [data-seat] strong, #ROOT table.aircraft-72R tr.row-2 [data-seat] strong {
+  background: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/moneda-purple.png") no-repeat center center !important;
+  border-color: #5F3FB1; }
+
+/* SALIDAS DE EMERGENCIA
+Daniela Soler 130715 Para todos los aviones no especificados las salidas de emergencia van en naranja excepto las de adelante van azul normal*/
+#ROOT .seat-map-premium.seat-map-seat-selectable-exit strong, #ROOT .seat-map-price_0_premium.seat-map-seat-selectable-exit strong,
+#ROOT .seat-map-price_1_premium.seat-map-seat-selectable-exit strong, #ROOT .seat-map-price_2_premium.seat-map-seat-selectable-exit strong,
+#ROOT .seat-map-price_3_premium.seat-map-seat-selectable-exit strong {
+  background: #FFFFFF url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/moneda-blue.png") no-repeat center center;
+  border-color: #007DC3; }
+
+/* ASIENTOS PREMIUM SELECTIVOS */
+/* DanielaSoler 130715 Otros aviones 787, 738, 737, 73H, ERJ, E70, E75*/
+#ROOT table.aircraft-787 [id^="seat-0-9A"] strong, #ROOT table.aircraft-787 [id^="seat-1-9A"] strong, #ROOT table.aircraft-787 [id^="seat-2-9A"] strong, #ROOT table.aircraft-787 [id^="seat-4-9A"] strong, #ROOT table.aircraft-787 [id^="seat-5-9A"] strong, #ROOT table.aircraft-787 [id^="seat-6-9A"] strong,
+#ROOT table.aircraft-787 [id^="seat-0-9C"] strong, #ROOT table.aircraft-787 [id^="seat-1-9C"] strong, #ROOT table.aircraft-787 [id^="seat-2-9C"] strong, #ROOT table.aircraft-787 [id^="seat-4-9C"] strong, #ROOT table.aircraft-787 [id^="seat-5-9C"] strong, #ROOT table.aircraft-787 [id^="seat-6-9C"] strong,
+#ROOT table.aircraft-787 [id^="seat-0-9D"] strong, #ROOT table.aircraft-787 [id^="seat-1-9D"] strong, #ROOT table.aircraft-787 [id^="seat-2-9D"] strong, #ROOT table.aircraft-787 [id^="seat-4-9D"] strong, #ROOT table.aircraft-787 [id^="seat-5-9D"] strong, #ROOT table.aircraft-787 [id^="seat-6-9D"] strong,
+#ROOT table.aircraft-787 [id^="seat-0-9J"] strong, #ROOT table.aircraft-787 [id^="seat-1-9J"] strong, #ROOT table.aircraft-787 [id^="seat-2-9J"] strong, #ROOT table.aircraft-787 [id^="seat-4-9J"] strong, #ROOT table.aircraft-787 [id^="seat-5-9J"] strong, #ROOT table.aircraft-787 [id^="seat-6-9J"] strong,
+#ROOT table.aircraft-787 [id*="10A"] strong, #ROOT table.aircraft-787 [id*="10C"] strong, #ROOT table.aircraft-787 [id*="10D"] strong, #ROOT table.aircraft-787 [id*="10F"] strong, #ROOT table.aircraft-787 [id*="10G"] strong,
+#ROOT table.aircraft-787 [id*="10J"] strong, #ROOT table.aircraft-787 [id*="11A"] strong, #ROOT table.aircraft-787 [id*="11C"] strong, #ROOT table.aircraft-787 [id*="11D"] strong, #ROOT table.aircraft-787 [id*="11F"] strong,
+#ROOT table.aircraft-787 [id*="11G"] strong, #ROOT table.aircraft-787 [id*="11J"] strong, #ROOT table.aircraft-787 [id*="22D"] strong, #ROOT table.aircraft-787 [id*="22E"] strong, #ROOT table.aircraft-787 [id*="22F"] strong,
+#ROOT table.aircraft-78R [id^="seat-0-9A"] strong, #ROOT table.aircraft-78R [id^="seat-1-9A"] strong, #ROOT table.aircraft-78R [id^="seat-2-9A"] strong, #ROOT table.aircraft-78R [id^="seat-4-9A"] strong, #ROOT table.aircraft-78R [id^="seat-5-9A"] strong, #ROOT table.aircraft-78R [id^="seat-6-9A"] strong,
+#ROOT table.aircraft-78R [id^="seat-0-9C"] strong, #ROOT table.aircraft-78R [id^="seat-1-9C"] strong, #ROOT table.aircraft-78R [id^="seat-2-9C"] strong, #ROOT table.aircraft-78R [id^="seat-4-9C"] strong, #ROOT table.aircraft-78R [id^="seat-5-9C"] strong, #ROOT table.aircraft-78R [id^="seat-6-9C"] strong,
+#ROOT table.aircraft-78R [id^="seat-0-9D"] strong, #ROOT table.aircraft-78R [id^="seat-1-9D"] strong, #ROOT table.aircraft-78R [id^="seat-2-9D"] strong, #ROOT table.aircraft-78R [id^="seat-4-9D"] strong, #ROOT table.aircraft-78R [id^="seat-5-9D"] strong, #ROOT table.aircraft-78R [id^="seat-6-9D"] strong,
+#ROOT table.aircraft-78R [id^="seat-0-9J"] strong, #ROOT table.aircraft-78R [id^="seat-1-9J"] strong, #ROOT table.aircraft-78R [id^="seat-2-9J"] strong, #ROOT table.aircraft-78R [id^="seat-4-9J"] strong, #ROOT table.aircraft-78R [id^="seat-5-9J"] strong, #ROOT table.aircraft-78R [id^="seat-6-9J"] strong,
+#ROOT table.aircraft-78R [id*="10A"] strong, #ROOT table.aircraft-78R [id*="10C"] strong, #ROOT table.aircraft-78R [id*="10D"] strong, #ROOT table.aircraft-78R [id*="10F"] strong, #ROOT table.aircraft-78R [id*="10G"] strong,
+#ROOT table.aircraft-78R [id*="10J"] strong, #ROOT table.aircraft-78R [id*="11A"] strong, #ROOT table.aircraft-78R [id*="11C"] strong, #ROOT table.aircraft-78R [id*="11D"] strong, #ROOT table.aircraft-78R [id*="11F"] strong,
+#ROOT table.aircraft-78R [id*="11G"] strong, #ROOT table.aircraft-78R [id*="11J"] strong, #ROOT table.aircraft-78R [id*="22D"] strong, #ROOT table.aircraft-78R [id*="22E"] strong, #ROOT table.aircraft-78R [id*="22F"] strong,
+#ROOT table.aircraft-737 [id^="seat-0-9A"] strong, #ROOT table.aircraft-737 [id^="seat-0-9F"] strong, #ROOT table.aircraft-737 [id^="seat-1-9A"] strong,
+#ROOT table.aircraft-737 [id^="seat-1-9F"] strong, #ROOT table.aircraft-737 [id^="seat-2-9A"] strong, #ROOT table.aircraft-737 [id^="seat-2-9F"] strong,
+#ROOT table.aircraft-737 [id^="seat-3-9A"] strong, #ROOT table.aircraft-737 [id^="seat-3-9F"] strong, #ROOT table.aircraft-737 [id^="seat-4-9A"] strong,
+#ROOT table.aircraft-737 [id^="seat-4-9F"] strong, #ROOT table.aircraft-737 [id^="seat-5-9A"] strong, #ROOT table.aircraft-737 [id^="seat-5-9F"] strong,
+#ROOT table.aircraft-737 [id^="seat-6-9A"] strong, #ROOT table.aircraft-737 [id^="seat-6-9F"] strong, #ROOT table.aircraft-737 [id*="10A"] strong,
+#ROOT table.aircraft-737 [id*="10C"] strong, #ROOT table.aircraft-737 [id*="10D"] strong, #ROOT table.aircraft-737 [id*="10F"] strong,
+#ROOT table.aircraft-37S [id^="seat-0-9A"] strong, #ROOT table.aircraft-37S [id^="seat-0-9F"] strong, #ROOT table.aircraft-37S [id^="seat-1-9A"] strong,
+#ROOT table.aircraft-37S [id^="seat-1-9F"] strong, #ROOT table.aircraft-37S [id^="seat-2-9A"] strong, #ROOT table.aircraft-37S [id^="seat-2-9F"] strong,
+#ROOT table.aircraft-37S [id^="seat-3-9A"] strong, #ROOT table.aircraft-37S [id^="seat-3-9F"] strong, #ROOT table.aircraft-37S [id^="seat-4-9A"] strong,
+#ROOT table.aircraft-37S [id^="seat-4-9F"] strong, #ROOT table.aircraft-37S [id^="seat-5-9A"] strong, #ROOT table.aircraft-37S [id^="seat-5-9F"] strong,
+#ROOT table.aircraft-37S [id^="seat-6-9A"] strong, #ROOT table.aircraft-37S [id^="seat-6-9F"] strong, #ROOT table.aircraft-37S [id*="10A"] strong,
+#ROOT table.aircraft-37S [id*="10C"] strong, #ROOT table.aircraft-37S [id*="10D"] strong, #ROOT table.aircraft-37S [id*="10F"] strong,
+#ROOT table.aircraft-738 [id^="seat-0-9A"] strong, #ROOT table.aircraft-738 [id^="seat-0-9F"] strong, #ROOT table.aircraft-738 [id^="seat-1-9A"] strong,
+#ROOT table.aircraft-738 [id^="seat-1-9F"] strong, #ROOT table.aircraft-738 [id^="seat-2-9A"] strong, #ROOT table.aircraft-738 [id^="seat-2-9F"] strong,
+#ROOT table.aircraft-738 [id^="seat-3-9A"] strong, #ROOT table.aircraft-738 [id^="seat-3-9F"] strong, #ROOT table.aircraft-738 [id^="seat-4-9A"] strong,
+#ROOT table.aircraft-738 [id^="seat-4-9F"] strong, #ROOT table.aircraft-738 [id^="seat-5-9A"] strong, #ROOT table.aircraft-738 [id^="seat-5-9F"] strong,
+#ROOT table.aircraft-738 [id^="seat-6-9A"] strong, #ROOT table.aircraft-738 [id^="seat-6-9F"] strong, #ROOT table.aircraft-738 [id*="10A"] strong,
+#ROOT table.aircraft-738 [id*="10C"] strong, #ROOT table.aircraft-738 [id*="10D"] strong, #ROOT table.aircraft-738 [id*="10F"] strong,
+#ROOT table.aircraft-L38 [id^="seat-0-9A"] strong, #ROOT table.aircraft-L38 [id^="seat-0-9F"] strong, #ROOT table.aircraft-L38 [id^="seat-1-9A"] strong,
+#ROOT table.aircraft-L38 [id^="seat-1-9F"] strong, #ROOT table.aircraft-L38 [id^="seat-2-9A"] strong, #ROOT table.aircraft-L38 [id^="seat-2-9F"] strong,
+#ROOT table.aircraft-L38 [id^="seat-3-9A"] strong, #ROOT table.aircraft-L38 [id^="seat-3-9F"] strong, #ROOT table.aircraft-L38 [id^="seat-4-9A"] strong,
+#ROOT table.aircraft-L38 [id^="seat-4-9F"] strong, #ROOT table.aircraft-L38 [id^="seat-5-9A"] strong, #ROOT table.aircraft-L38 [id^="seat-5-9F"] strong,
+#ROOT table.aircraft-L38 [id^="seat-6-9A"] strong, #ROOT table.aircraft-L38 [id^="seat-6-9F"] strong, #ROOT table.aircraft-L38 [id*="10A"] strong,
+#ROOT table.aircraft-L38 [id*="10C"] strong, #ROOT table.aircraft-L38 [id*="10D"] strong, #ROOT table.aircraft-L38 [id*="10F"] strong,
+#ROOT table.aircraft-LS8 [id^="seat-0-9A"] strong, #ROOT table.aircraft-LS8 [id^="seat-0-9F"] strong, #ROOT table.aircraft-LS8 [id^="seat-1-9A"] strong,
+#ROOT table.aircraft-LS8 [id^="seat-1-9F"] strong, #ROOT table.aircraft-LS8 [id^="seat-2-9A"] strong, #ROOT table.aircraft-LS8 [id^="seat-2-9F"] strong,
+#ROOT table.aircraft-LS8 [id^="seat-3-9A"] strong, #ROOT table.aircraft-LS8 [id^="seat-3-9F"] strong, #ROOT table.aircraft-LS8 [id^="seat-4-9A"] strong,
+#ROOT table.aircraft-LS8 [id^="seat-4-9F"] strong, #ROOT table.aircraft-LS8 [id^="seat-5-9A"] strong, #ROOT table.aircraft-LS8 [id^="seat-5-9F"] strong,
+#ROOT table.aircraft-LS8 [id^="seat-6-9A"] strong, #ROOT table.aircraft-LS8 [id^="seat-6-9F"] strong, #ROOT table.aircraft-LS8 [id*="10A"] strong,
+#ROOT table.aircraft-LS8 [id*="10C"] strong, #ROOT table.aircraft-LS8 [id*="10D"] strong, #ROOT table.aircraft-LS8 [id*="10F"] strong,
+#ROOT table.aircraft-38S [id^="seat-0-9A"] strong, #ROOT table.aircraft-38S [id^="seat-0-9F"] strong, #ROOT table.aircraft-38S [id^="seat-1-9A"] strong,
+#ROOT table.aircraft-38S [id^="seat-1-9F"] strong, #ROOT table.aircraft-38S [id^="seat-2-9A"] strong, #ROOT table.aircraft-38S [id^="seat-2-9F"] strong,
+#ROOT table.aircraft-38S [id^="seat-3-9A"] strong, #ROOT table.aircraft-38S [id^="seat-3-9F"] strong, #ROOT table.aircraft-38S [id^="seat-4-9A"] strong,
+#ROOT table.aircraft-38S [id^="seat-4-9F"] strong, #ROOT table.aircraft-38S [id^="seat-5-9A"] strong, #ROOT table.aircraft-38S [id^="seat-5-9F"] strong,
+#ROOT table.aircraft-38S [id^="seat-6-9A"] strong, #ROOT table.aircraft-38S [id^="seat-6-9F"] strong, #ROOT table.aircraft-38S [id*="10A"] strong,
+#ROOT table.aircraft-38S [id*="10C"] strong, #ROOT table.aircraft-38S [id*="10D"] strong, #ROOT table.aircraft-38S [id*="10F"] strong,
+#ROOT table.aircraft-7S8 [id^="seat-0-9A"] strong, #ROOT table.aircraft-7S8 [id^="seat-0-9F"] strong, #ROOT table.aircraft-7S8 [id^="seat-1-9A"] strong,
+#ROOT table.aircraft-7S8 [id^="seat-1-9F"] strong, #ROOT table.aircraft-7S8 [id^="seat-2-9A"] strong, #ROOT table.aircraft-7S8 [id^="seat-2-9F"] strong,
+#ROOT table.aircraft-7S8 [id^="seat-3-9A"] strong, #ROOT table.aircraft-7S8 [id^="seat-3-9F"] strong, #ROOT table.aircraft-7S8 [id^="seat-4-9A"] strong,
+#ROOT table.aircraft-7S8 [id^="seat-4-9F"] strong, #ROOT table.aircraft-7S8 [id^="seat-5-9A"] strong, #ROOT table.aircraft-7S8 [id^="seat-5-9F"] strong,
+#ROOT table.aircraft-7S8 [id^="seat-6-9A"] strong, #ROOT table.aircraft-7S8 [id^="seat-6-9F"] strong, #ROOT table.aircraft-7S8 [id*="10A"] strong,
+#ROOT table.aircraft-7S8 [id*="10C"] strong, #ROOT table.aircraft-7S8 [id*="10D"] strong, #ROOT table.aircraft-7S8 [id*="10F"] strong,
+#ROOT table.aircraft-3S8 [id^="seat-0-9A"] strong, #ROOT table.aircraft-3S8 [id^="seat-0-9F"] strong, #ROOT table.aircraft-3S8 [id^="seat-1-9A"] strong,
+#ROOT table.aircraft-3S8 [id^="seat-1-9F"] strong, #ROOT table.aircraft-3S8 [id^="seat-2-9A"] strong, #ROOT table.aircraft-3S8 [id^="seat-2-9F"] strong,
+#ROOT table.aircraft-3S8 [id^="seat-3-9A"] strong, #ROOT table.aircraft-3S8 [id^="seat-3-9F"] strong, #ROOT table.aircraft-3S8 [id^="seat-4-9A"] strong,
+#ROOT table.aircraft-3S8 [id^="seat-4-9F"] strong, #ROOT table.aircraft-3S8 [id^="seat-5-9A"] strong, #ROOT table.aircraft-3S8 [id^="seat-5-9F"] strong,
+#ROOT table.aircraft-3S8 [id^="seat-6-9A"] strong, #ROOT table.aircraft-3S8 [id^="seat-6-9F"] strong, #ROOT table.aircraft-3S8 [id*="10A"] strong,
+#ROOT table.aircraft-3S8 [id*="10C"] strong, #ROOT table.aircraft-3S8 [id*="10D"] strong, #ROOT table.aircraft-3S8 [id*="10F"] strong,
+#ROOT table.aircraft-73H [id^="seat-0-4A"] strong, #ROOT table.aircraft-73H [id^="seat-1-4A"] strong, #ROOT table.aircraft-73H [id^="seat-2-4A"] strong,
+#ROOT table.aircraft-73H [id^="seat-3-4A"] strong, #ROOT table.aircraft-73H [id^="seat-4-4A"] strong, #ROOT table.aircraft-73H [id^="seat-5-4A"] strong,
+#ROOT table.aircraft-73H [id^="seat-4-4F"] strong, #ROOT table.aircraft-73H [id^="seat-5-4F"] strong, #ROOT table.aircraft-73H [id^="seat-6-4F"] strong,
+#ROOT table.aircraft-73H [id^="seat-0-5A"] strong, #ROOT table.aircraft-73H [id^="seat-1-5A"] strong, #ROOT table.aircraft-73H [id^="seat-2-5A"] strong,
+#ROOT table.aircraft-73H [id^="seat-3-5A"] strong, #ROOT table.aircraft-73H [id^="seat-4-5A"] strong, #ROOT table.aircraft-73H [id^="seat-5-5A"] strong,
+#ROOT table.aircraft-73H [id^="seat-6-5A"] strong, #ROOT table.aircraft-73H [id^="seat-0-5C"] strong, #ROOT table.aircraft-73H [id^="seat-1-5C"] strong,
+#ROOT table.aircraft-73H [id^="seat-2-5C"] strong, #ROOT table.aircraft-73H [id^="seat-3-5C"] strong, #ROOT table.aircraft-73H [id^="seat-4-5C"] strong,
+#ROOT table.aircraft-73H [id^="seat-5-5C"] strong, #ROOT table.aircraft-73H [id^="seat-6-5C"] strong, #ROOT table.aircraft-73H [id^="seat-0-5D"] strong,
+#ROOT table.aircraft-73H [id^="seat-1-5D"] strong, #ROOT table.aircraft-73H [id^="seat-2-5D"] strong, #ROOT table.aircraft-73H [id^="seat-3-5D"] strong,
+#ROOT table.aircraft-73H [id^="seat-4-5D"] strong, #ROOT table.aircraft-73H [id^="seat-5-5D"] strong, #ROOT table.aircraft-73H [id^="seat-6-5D"] strong,
+#ROOT table.aircraft-73H [id^="seat-0-5F"] strong, #ROOT table.aircraft-73H [id^="seat-1-5F"] strong, #ROOT table.aircraft-73H [id^="seat-2-5F"] strong,
+#ROOT table.aircraft-73H [id^="seat-3-5F"] strong, #ROOT table.aircraft-73H [id^="seat-4-5F"] strong, #ROOT table.aircraft-73H [id^="seat-5-5F"] strong,
+#ROOT table.aircraft-73H [id^="seat-6-5F"] strong, #ROOT table.aircraft-73H tr.row-14 [data-seat] strong,
+#ROOT table.aircraft-8AS [id^="seat-0-4A"] strong, #ROOT table.aircraft-8AS [id^="seat-1-4A"] strong, #ROOT table.aircraft-8AS [id^="seat-2-4A"] strong,
+#ROOT table.aircraft-8AS [id^="seat-3-4A"] strong, #ROOT table.aircraft-8AS [id^="seat-4-4A"] strong, #ROOT table.aircraft-8AS [id^="seat-5-4A"] strong,
+#ROOT table.aircraft-8AS [id^="seat-4-4F"] strong, #ROOT table.aircraft-8AS [id^="seat-5-4F"] strong, #ROOT table.aircraft-8AS [id^="seat-6-4F"] strong,
+#ROOT table.aircraft-8AS [id^="seat-0-5A"] strong, #ROOT table.aircraft-8AS [id^="seat-1-5A"] strong, #ROOT table.aircraft-8AS [id^="seat-2-5A"] strong,
+#ROOT table.aircraft-8AS [id^="seat-3-5A"] strong, #ROOT table.aircraft-8AS [id^="seat-4-5A"] strong, #ROOT table.aircraft-8AS [id^="seat-5-5A"] strong,
+#ROOT table.aircraft-8AS [id^="seat-6-5A"] strong, #ROOT table.aircraft-8AS [id^="seat-0-5C"] strong, #ROOT table.aircraft-8AS [id^="seat-1-5C"] strong,
+#ROOT table.aircraft-8AS [id^="seat-2-5C"] strong, #ROOT table.aircraft-8AS [id^="seat-3-5C"] strong, #ROOT table.aircraft-8AS [id^="seat-4-5C"] strong,
+#ROOT table.aircraft-8AS [id^="seat-5-5C"] strong, #ROOT table.aircraft-8AS [id^="seat-6-5C"] strong, #ROOT table.aircraft-8AS [id^="seat-0-5D"] strong,
+#ROOT table.aircraft-8AS [id^="seat-1-5D"] strong, #ROOT table.aircraft-8AS [id^="seat-2-5D"] strong, #ROOT table.aircraft-8AS [id^="seat-3-5D"] strong,
+#ROOT table.aircraft-8AS [id^="seat-4-5D"] strong, #ROOT table.aircraft-8AS [id^="seat-5-5D"] strong, #ROOT table.aircraft-8AS [id^="seat-6-5D"] strong,
+#ROOT table.aircraft-8AS [id^="seat-0-5F"] strong, #ROOT table.aircraft-8AS [id^="seat-1-5F"] strong, #ROOT table.aircraft-8AS [id^="seat-2-5F"] strong,
+#ROOT table.aircraft-8AS [id^="seat-3-5F"] strong, #ROOT table.aircraft-8AS [id^="seat-4-5F"] strong, #ROOT table.aircraft-8AS [id^="seat-5-5F"] strong,
+#ROOT table.aircraft-8AS [id^="seat-6-5F"] strong, #ROOT table.aircraft-8AS tr.row-14 [data-seat] strong,
+#ROOT table.aircraft-ER4 tr.row-0 [data-seat] strong, #ROOT table.aircraft-ER4 tr.row-1 [data-seat] strong, #ROOT table.aircraft-ER4 tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-ER4 tr.row-3 [data-seat] strong,
+#ROOT table.aircraft-ERJ tr.row-0 [data-seat] strong, #ROOT table.aircraft-ERJ tr.row-1 [data-seat] strong, #ROOT table.aircraft-ERJ tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-ERJ tr.row-3 [data-seat] strong,
+#ROOT table.aircraft-EMJ tr.row-0 [data-seat] strong, #ROOT table.aircraft-EMJ tr.row-1 [data-seat] strong, #ROOT table.aircraft-EMJ tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-EMJ tr.row-3 [data-seat] strong,
+#ROOT table.aircraft-ERS tr.row-0 [data-seat] strong, #ROOT table.aircraft-ERS tr.row-1 [data-seat] strong, #ROOT table.aircraft-ERS tr.row-2 [data-seat] strong,
+#ROOT table.aircraft-ERS tr.row-3 [data-seat] strong,
+#ROOT table.aircraft-E90 tr.row-1 [data-seat] strong, #ROOT table.aircraft-E90 tr.row-3 [data-seat] strong, #ROOT table.aircraft-E90 [id^="seat-0-7A"] strong,
+#ROOT table.aircraft-E90 [id^="seat-1-7A"] strong, #ROOT table.aircraft-E90 [id^="seat-2-7A"] strong, #ROOT table.aircraft-E90 [id^="seat-3-7A"] strong,
+#ROOT table.aircraft-E90 [id^="seat-4-7A"] strong, #ROOT table.aircraft-E90 [id^="seat-5-7A"] strong, #ROOT table.aircraft-E90 [id^="seat-0-7D"] strong,
+#ROOT table.aircraft-E90 [id^="seat-1-7D"] strong, #ROOT table.aircraft-E90 [id^="seat-2-7D"] strong, #ROOT table.aircraft-E90 [id^="seat-3-7D"] strong,
+#ROOT table.aircraft-E90 [id^="seat-4-7D"] strong, #ROOT table.aircraft-E90 [id^="seat-5-7D"] strong,
+#ROOT table.aircraft-E9S tr.row-1 [data-seat] strong, #ROOT table.aircraft-E9S tr.row-3 [data-seat] strong, #ROOT table.aircraft-E9S [id^="seat-0-7A"] strong,
+#ROOT table.aircraft-E9S [id^="seat-1-7A"] strong, #ROOT table.aircraft-E9S [id^="seat-2-7A"] strong, #ROOT table.aircraft-E9S [id^="seat-3-7A"] strong,
+#ROOT table.aircraft-E9S [id^="seat-4-7A"] strong, #ROOT table.aircraft-E9S [id^="seat-5-7A"] strong, #ROOT table.aircraft-E9S [id^="seat-0-7D"] strong,
+#ROOT table.aircraft-E9S [id^="seat-1-7D"] strong, #ROOT table.aircraft-E9S [id^="seat-2-7D"] strong, #ROOT table.aircraft-E9S [id^="seat-3-7D"] strong,
+#ROOT table.aircraft-E9S [id^="seat-4-7D"] strong, #ROOT table.aircraft-E9S [id^="seat-5-7D"] strong #ROOT table.aircraft-89S [id*="16A"] strong, #ROOT table.aircraft-89S [id*="16C"] strong, #ROOT table.aircraft-89S [id*="16D"] strong,
+#ROOT table.aircraft-89S [id*="16F"] strong, #ROOT table.aircraft-89S [id*="16G"] strong, #ROOT table.aircraft-89S [id*="16J"] strong,
+#ROOT table.aircraft-89S [id*="17A"] strong, #ROOT table.aircraft-89S [id*="17C"] strong, #ROOT table.aircraft-89S [id*="17D"] strong,
+#ROOT table.aircraft-89S [id*="17F"] strong, #ROOT table.aircraft-89S [id*="17G"] strong, #ROOT table.aircraft-89S [id*="17J"] strong,
+#ROOT table.aircraft-89S [id*="18A"] strong, #ROOT table.aircraft-89S [id*="18C"] strong, #ROOT table.aircraft-89S [id*="18D"] strong,
+#ROOT table.aircraft-89S [id*="18F"] strong, #ROOT table.aircraft-89S [id*="18G"] strong, #ROOT table.aircraft-89S [id*="18J"] strong,
+#ROOT table.aircraft-89S [id*="19A"] strong, #ROOT table.aircraft-89S [id*="19C"] strong, #ROOT table.aircraft-89S [id*="19D"] strong,
+#ROOT table.aircraft-89S [id*="19F"] strong, #ROOT table.aircraft-89S [id*="19G"] strong, #ROOT table.aircraft-89S [id*="19J"] strong,
+#ROOT table.aircraft-89S [id*="20A"] strong, #ROOT table.aircraft-89S [id*="20C"] strong, #ROOT table.aircraft-89S [id*="20D"] strong,
+#ROOT table.aircraft-89S [id*="20F"] strong, #ROOT table.aircraft-89S [id*="20G"] strong, #ROOT table.aircraft-89S [id*="20J"] strong {
+  background: #FFFFFF url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/moneda-blue.png") no-repeat center center;
+  border-color: #007DC3; }
+
+/* SALIDAS DE EMERGENCIA */
+/* Daniela Soler 130715 Para los 777 772 762 763 76R 73R y 787 23ABC/GHJ E95 las salidas de emergencia van en verde por ser preferred seats */
+#ROOT table.aircraft-777 .seat-map-seat-selectable-exit strong, #ROOT table.aircraft-772 .seat-map-seat-selectable-exit strong,
+#ROOT table.aircraft-787 [id*="23A"] strong, #ROOT table.aircraft-787 [id*="23B"] strong, #ROOT table.aircraft-787 [id*="23C"] strong,
+#ROOT table.aircraft-787 [id*="23G"] strong, #ROOT table.aircraft-787 [id*="23H"] strong, #ROOT table.aircraft-787 [id*="23J"] strong,
+#ROOT table.aircraft-78R [id*="23A"] strong, #ROOT table.aircraft-78R [id*="23B"] strong, #ROOT table.aircraft-78R [id*="23C"] strong,
+#ROOT table.aircraft-78R [id*="23G"] strong, #ROOT table.aircraft-78R [id*="23H"] strong, #ROOT table.aircraft-78R [id*="23J"] strong,
+#ROOT table.aircraft-788 [id*="23A"] strong, #ROOT table.aircraft-788 [id*="23B"] strong, #ROOT table.aircraft-788 [id*="23C"] strong,
+#ROOT table.aircraft-788 [id*="23G"] strong, #ROOT table.aircraft-788 [id*="23H"] strong, #ROOT table.aircraft-788 [id*="23J"] strong,
+#ROOT table.aircraft-789 [id*="27D"] strong, #ROOT table.aircraft-789 [id*="27E"] strong, #ROOT table.aircraft-789 [id*="27F"] strong,
+#ROOT table.aircraft-ER4 .seat-map-seat-selectable-exit strong, #ROOT table.aircraft-E90 .seat-map-seat-selectable-exit strong,
+#ROOT table.aircraft-E95 .seat-map-seat-selectable-exit strong, #ROOT table.aircraft-737 tr.row-7 [data-seat] strong,
+#ROOT table.aircraft-738 tr.row-8 [data-seat] strong, #ROOT table.aircraft-7S8 tr.row-8 [data-seat] strong,
+#ROOT table.aircraft-73H tr.row-14 [data-seat] strong, #ROOT table.aircraft-L38 tr.row-8 [data-seat] strong,
+#ROOT table.aircraft-LS8 tr.row-8 [data-seat] strong, #ROOT table.aircraft-789 tr.row-13 [data-seat] strong,
+#ROOT table.aircraft-ERJ .seat-map-seat-selectable-exit strong, #ROOT table.aircraft-E9S .seat-map-seat-selectable-exit strong,
+#ROOT table.aircraft-92S .seat-map-seat-selectable-exit strong, #ROOT table.aircraft-37S tr.row-7 [data-seat] strong,
+#ROOT table.aircraft-38S tr.row-8 [data-seat] strong, #ROOT table.aircraft-3S8 tr.row-8 [data-seat] strong,
+#ROOT table.aircraft-EMJ .seat-map-seat-selectable-exit strong, #ROOT table.aircraft-8AS tr.row-14 [data-seat] strong,
+#ROOT table.aircraft-E92 .seat-map-seat-selectable-exit strong, #ROOT table.aircraft-9AS .seat-map-seat-selectable-exit strong,
+#ROOT table.aircraft-ERS .seat-map-seat-selectable-exit strong, #ROOT table.aircraft-89S .seat-map-seat-selectable-exit strong,
+#ROOT table.aircraft-89S [id*="27D"] strong, #ROOT table.aircraft-89S [id*="27E"] strong, #ROOT table.aircraft-89S [id*="27F"] strong {
+  background: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/moneda-green.png") no-repeat center center;
+  border-color: #48A83E; }
+
+/* SALIDAS DE EMERGENCIA PARA EUROPA Y ASIA */
+/* Daniela Soler 130715 Para los 77L 773 783 788 las salidas de emergencia van en verde */
+#ROOT table.aircraft-788 .seat-map-seat-selectable-exit strong, #ROOT table.aircraft-77L .seat-map-seat-selectable-exit strong,
+#ROOT table.aircraft-773 .seat-map-seat-selectable-exit strong, #ROOT table.aircraft-783 .seat-map-seat-selectable-exit strong,
+#ROOT table.aircraft-73R .seat-map-seat-selectable-exit strong, #ROOT table.aircraft-72R .seat-map-seat-selectable-exit strong {
+  background: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/moneda-green.png") no-repeat center center;
+  border-color: #48A83E; }
+
+/* ASIENTOS NORMALES SELECTIVOS */
+/* Daniela Soler 130715 Del 787 el 23 DEF del 762/76R el 15CDEFG del 763/73R el 25CDEFG no son premium */
+/*#ROOT table.aircraft-787 [id*="23D"] strong, #ROOT table.aircraft-787 [id*="23E"] strong, #ROOT table.aircraft-787 [id*="23F"] strong, */
+/* ASIENTOS PREMIUM SELECTIVOS PARA EUROPA Y ASIA */
+/* Daniela Soler para el 788 ASIENTOS 23DEF, 783 ASIENTOS 22DEF 11ACDEGJ PREMIUM */
+#ROOT table.aircraft-788 [id*="23D"] strong, #ROOT table.aircraft-788 [id*="23E"] strong, #ROOT table.aircraft-788 [id*="23F"] strong,
+#ROOT table.aircraft-783 [id*="22D"] strong, #ROOT table.aircraft-783 [id*="22E"] strong, #ROOT table.aircraft-783 [id*="22F"] strong,
+#ROOT table.aircraft-783 [id*="11A"] strong, #ROOT table.aircraft-783 [id*="11C"] strong, #ROOT table.aircraft-783 [id*="11D"] strong,
+#ROOT table.aircraft-783 [id*="11F"] strong, #ROOT table.aircraft-783 [id*="11G"] strong, #ROOT table.aircraft-783 [id*="11J"] strong {
+  background: #FFFFFF url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/moneda-blue.png") no-repeat center center !important;
+  border-color: #007DC3; }
+
+/*ASIENTOS ESCONDIDOS PARA TRIPULACIÓN EUROPA Y ASIA */
+/*AVIÓN 788 783 787 */
+#ROOT table.aircraft-788 [id*="31G"], #ROOT table.aircraft-788 [id*="31H"],
+#ROOT table.aircraft-788 [id*="31J"], #ROOT table.aircraft-788 [id*="32G"],
+#ROOT table.aircraft-788 [id*="32H"], #ROOT table.aircraft-788 [id*="32J"],
+#ROOT table.aircraft-783 [id*="32C"], #ROOT table.aircraft-783 [id*="32G"],
+#ROOT table.aircraft-783 [id*="32H"], #ROOT table.aircraft-783 [id*="32J"],
+#ROOT table.aircraft-783 [id*="31G"], #ROOT table.aircraft-783 [id*="31H"],
+#ROOT table.aircraft-783 [id*="31J"], #ROOT table.aircraft-787 [id*="32G"],
+#ROOT table.aircraft-787 [id*="32H"], #ROOT table.aircraft-787 [id*="32J"],
+#ROOT table.aircraft-787 [id*="31G"], #ROOT table.aircraft-787 [id*="31H"],
+#ROOT table.aircraft-787 [id*="31J"],
+#ROOT table.aircraft-772 [id*="34D"], #ROOT table.aircraft-772 [id*="34E"],
+#ROOT table.aircraft-772 [id*="34F"], #ROOT table.aircraft-772 [id*="35D"],
+#ROOT table.aircraft-772 [id*="35E"], #ROOT table.aircraft-772 [id*="35F"],
+#ROOT table.aircraft-777 [id*="34D"], #ROOT table.aircraft-777 [id*="34E"],
+#ROOT table.aircraft-777 [id*="34F"], #ROOT table.aircraft-777 [id*="35D"],
+#ROOT table.aircraft-777 [id*="35E"], #ROOT table.aircraft-777 [id*="35F"],
+#ROOT table.aircraft-773 [id*="34D"], #ROOT table.aircraft-773 [id*="34E"],
+#ROOT table.aircraft-773 [id*="34F"], #ROOT table.aircraft-773 [id*="35D"],
+#ROOT table.aircraft-773 [id*="35E"], #ROOT table.aircraft-773 [id*="35F"],
+#ROOT table.aircraft-77L [id*="34D"], #ROOT table.aircraft-77L [id*="34E"],
+#ROOT table.aircraft-77L [id*="34F"], #ROOT table.aircraft-77L [id*="35D"],
+#ROOT table.aircraft-77L [id*="35E"], #ROOT table.aircraft-77L [id*="35F"],
+#ROOT table.aircraft-789 [id*="38J"], #ROOT table.aircraft-789 [id*="38H"], #ROOT table.aircraft-789 [id*="38J"],
+#ROOT table.aircraft-789 [id*="39G"], #ROOT table.aircraft-789 [id*="39J"] {
+  visibility: hidden; }
+
+/* ASIENTOS SELECCIONADOS */
+/* Daniela Soler asiento seleccionado 777 772 76R 73R 762 763 737 738 73H 38Y erj er4 E90 E70 E75 E19 788 77L 773 783*/
+#ROOT table.aircraft-777 tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-772 tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-787 tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-737 tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-738 tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-73H tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-ER4 tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-E90 tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-E70 tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-E75 tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-788 tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-77L tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-773 tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-72R tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-73R tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-783 tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-E95 tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-7S8 tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-L38 tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-LS8 tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-78R tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-789 tr [data-seat][class*="seat-map-pax"] strong #ROOT table.aircraft-37S tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-38S tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-8AS tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-ERJ tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-E9S tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-E7S tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-E5S tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-92S tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-3S8 tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-EMJ tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-E92 tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-9AS tr [data-seat][class*="seat-map-pax"] strong,
+#ROOT table.aircraft-ERS tr [data-seat][class*="seat-map-pax"] strong, #ROOT table.aircraft-89S tr [data-seat][class*="seat-map-pax"] strong {
+  color: #FFFFFF;
+  width: 35px;
+  height: 35px;
+  background: #E91B2F url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/selected-seat.png") no-repeat center center !important;
+  border-radius: 50%;
+  border-color: #E91B2F; }
+
+/* ASIENTOS UNAVAILABLES */
+/* Daniela Soler asientos unavailables generales */
+.seat-map-seat_unavailable strong,
+.seat-map-standard.unavailable span strong,
+#ROOT .seat-map-legend.unavailable strong,
+#ROOT .seat-map-standard.unavailable strong,
+#ROOT .seat-map-premium.unavailable strong,
+#ROOT .seat-map-seat-selectable-exit .seat-map-standard.unavailable strong,
+#ROOT .seat-map-seat-selectable-exit .seat-map-premium.unavailable strong,
+#ROOT .seat-map-price_0_premium.unavailable strong,
+#ROOT .seat-map-price_1_premium.unavailable strong,
+#ROOT .seat-map-price_2_premium.unavailable strong,
+#ROOT .seat-map-price_3_premium.unavailable strong,
+#ROOT table.aircraft-777 .seat-map-standard.unavailable strong, #ROOT table.aircraft-772 .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-787 .seat-map-standard.unavailable strong, #ROOT table.aircraft-737 .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-738 .seat-map-standard.unavailable strong, #ROOT table.aircraft-73H .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-ER4 .seat-map-standard.unavailable strong, #ROOT table.aircraft-E90 .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-E19 .seat-map-standard.unavailable strong, #ROOT table.aircraft-E70 .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-E75 .seat-map-standard.unavailable strong, #ROOT table.aircraft-788 .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-783 .seat-map-standard.unavailable strong, #ROOT table.aircraft-773 .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-73R .seat-map-standard.unavailable strong, #ROOT table.aircraft-77L .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-72R .seat-map-standard.unavailable strong, #ROOT table.aircraft-7S8 .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-LS8 .seat-map-standard.unavailable strong, #ROOT table.aircraft-L38 .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-78R .seat-map-standard.unavailable strong, #ROOT table.aircraft-789 .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-37S .seat-map-standard.unavailable strong, #ROOT table.aircraft-38S .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-8AS .seat-map-standard .unavailable strong, #ROOT table.aircraft-ERJ .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-E9S .seat-map-standard.unavailable strong, #ROOT table.aircraft-E7S .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-E5S .seat-map-standard.unavailable strong, #ROOT table.aircraft-92S .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-3S8 .seat-map-standard.unavailable strong, #ROOT table.aircraft-EMJ .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-E92 .seat-map-standard.unavailable strong, #ROOT table.aircraft-9AS .seat-map-standard.unavailable strong,
+#ROOT table.aircraft-ERS .seat-map-standard.unavailable strong, #ROOT table.aircraft-89S .seat-map-standard.unavailable strong {
+  border: 1px solid #E5E5E5 !important;
+  background-color: #E5E5E5;
+  background-image: none;
+  background: #E5E5E5 !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%; }
+
+/* ASIENTOS COMPRADOS */
+/*Regla para pintar en rojo el asiento comprado*/
+#ROOT .seat-map-pax strong, #ROOT .seat-map-legend.seat-map-standard.seat-map-pax strong, #ROOT .seat-map-legend.seat-map-price_0_premium.seat-map-prepay.seat-map-pax strong, #ROOT .seat-map-legend.seat-map-price_1_premium.seat-map-prepay.seat-map-pax strong,
+#ROOT .seat-map-legend.seat-map-price_2_premium.seat-map-prepay.seat-map-pax strong, #ROOT .seat-map-legend.seat-map-price_3_premium.seat-map-prepay.seat-map-pax strong {
+  text-indent: -9000px;
+  color: #FFFFFF;
+  width: 35px;
+  height: 35px;
+  background: #E91B2F url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/selected-seat.png") no-repeat center center !important;
+  border-radius: 50%; }
+
+/**********************************
+ TERMINA ASIENTOS DANIELA
+
+***************************/
+/*ASIENTO NUEVO PARA EL MYB */
+#ROOT .seat-map-infobox .seat-map-legend.seat-map-seat_reserved strong {
+  border: 1px solid #48A83E;
+  width: 13px !important;
+  height: 13px !important; }
+
+.seat-map-seat_reserved strong {
+  background-image: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/selected-seat.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important; }
+
+/***************************
+****************************
+
+
+							Termina configuracion 
+								de asientos
+
+
+****************************
+***************************/
+#ROOT .seat-map-keys .seat-map-price_0_premium strong,
+#ROOT .seat-map-keys .seat-map-price_1_premium strong,
+#ROOT .seat-map-keys .seat-map-price_2_premium strong,
+#ROOT .seat-map-keys .seat-map-price_3_premium strong {
+  background: none;
+  border-color: 0; }
+
+.SEATS_MTO_PURCHASE_PAGE #booking-process .process-bar ol li {
+  width: 30%; }
+
+.SEATS_MTO_PURCHASE_PAGE, .ANCILLARIES_MTO_PURCHASE_PAGE {
+  box-sizing: border-box;
+  /*
+			para ingles
+	*/
+  /*
+			/ para ingles
+	*/
+  /*sidebar*/
+  /*************
+			cuando no hay cargos a la reservación
+	****************/
+  /*
+			background images
+		
+	*/ }
+  .SEATS_MTO_PURCHASE_PAGE .card-paypal-amount-charged, .ANCILLARIES_MTO_PURCHASE_PAGE .card-paypal-amount-charged {
+    font-size: 16px; }
+  .SEATS_MTO_PURCHASE_PAGE #customhtmltaxesandfee, .SEATS_MTO_PURCHASE_PAGE #customhtmlTermsConditions, .ANCILLARIES_MTO_PURCHASE_PAGE #customhtmltaxesandfee, .ANCILLARIES_MTO_PURCHASE_PAGE #customhtmlTermsConditions {
+    display: none !important; }
+  .SEATS_MTO_PURCHASE_PAGE #btn-search, .ANCILLARIES_MTO_PURCHASE_PAGE #btn-search {
+    width: 200px; }
+  .SEATS_MTO_PURCHASE_PAGE #payImg, .ANCILLARIES_MTO_PURCHASE_PAGE #payImg {
+    top: 0 !important; }
+  .SEATS_MTO_PURCHASE_PAGE #payment .radio-view .sections-list, .SEATS_MTO_PURCHASE_PAGE .radio-view, .SEATS_MTO_PURCHASE_PAGE .multi-fop .payc_sections .multi-fop-header, .ANCILLARIES_MTO_PURCHASE_PAGE #payment .radio-view .sections-list, .ANCILLARIES_MTO_PURCHASE_PAGE .radio-view, .ANCILLARIES_MTO_PURCHASE_PAGE .multi-fop .payc_sections .multi-fop-header {
+    width: 100%; }
+  .SEATS_MTO_PURCHASE_PAGE .field .amtcharge, .ANCILLARIES_MTO_PURCHASE_PAGE .field .amtcharge {
+    font-size: 14px; }
+  .SEATS_MTO_PURCHASE_PAGE #payment .card-paypal, .ANCILLARIES_MTO_PURCHASE_PAGE #payment .card-paypal {
+    background: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb-paypal.png");
+    background-position: 0 0;
+    background-repeat: no-repeat; }
+  .SEATS_MTO_PURCHASE_PAGE .toolPay, .ANCILLARIES_MTO_PURCHASE_PAGE .toolPay {
+    background: #F7FBFD;
+    padding: 10px 20px;
+    top: 150px !important;
+    display: none;
+    left: 380px !important;
+    z-index: 10; }
+  .SEATS_MTO_PURCHASE_PAGE #cnt_0_0_2_4, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_0_0_2_4 {
+    width: 100%; }
+  .SEATS_MTO_PURCHASE_PAGE #cnt_0_1_2_3, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_0_1_2_3 {
+    max-width: 750px;
+    margin: 0 auto; }
+  .SEATS_MTO_PURCHASE_PAGE #cnt_3, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_3 {
+    display: none; }
+  .SEATS_MTO_PURCHASE_PAGE #cnt_2, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_2 {
+    width: 100%; }
+  .SEATS_MTO_PURCHASE_PAGE .marketing-text1, .ANCILLARIES_MTO_PURCHASE_PAGE .marketing-text1 {
+    font-size: 16px;
+    line-height: 180%; }
+    .SEATS_MTO_PURCHASE_PAGE .marketing-text1 strong, .ANCILLARIES_MTO_PURCHASE_PAGE .marketing-text1 strong {
+      color: #007DC3;
+      display: block;
+      font-weight: normal; }
+  .SEATS_MTO_PURCHASE_PAGE h2#selectPaymentTitle, .ANCILLARIES_MTO_PURCHASE_PAGE h2#selectPaymentTitle {
+    font-size: 22px;
+    font-weight: bold; }
+  .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 {
+    width: 100%; }
+    .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .component-top, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .component-top {
+      padding: 0; }
+    .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 #cart-component, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 #cart-component {
+      width: 100%;
+      background: #F7FBFD; }
+      .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 #cart-component h2, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 #cart-component h2 {
+        font-size: 32px;
+        color: #0B2343;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        background: #FFFFFF;
+        display: block; }
+      .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 #cart-component .component-top, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 #cart-component .component-top {
+        padding: 0 !important;
+        background-image: none !important; }
+      .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 #cart-component .prices-alternative, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 #cart-component .prices-alternative {
+        color: #004990;
+        font-style: normal; }
+    .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .total-top, .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cart-pax, .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .price-details, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .total-top, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cart-pax, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .price-details {
+      margin: 20px;
+      font-size: 16px; }
+    .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cart-total-price .total-top, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cart-total-price .total-top {
+      font-size: 16px;
+      color: #0B2343;
+      font-weight: normal;
+      padding: 0; }
+    .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cart-pax, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cart-pax {
+      padding: 20px 0 0; }
+      .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cart-pax h3, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cart-pax h3 {
+        font-size: 16px;
+        color: #0B2343;
+        margin: 0 0 20px;
+        font-weight: normal;
+        padding: 0;
+        background: none; }
+    .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .price-details h3, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .price-details h3 {
+      font-size: 16px;
+      color: #0B2343;
+      margin: 0 0 20px;
+      font-weight: normal;
+      padding: 0; }
+    .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cartPrices, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cartPrices {
+      overflow: auto;
+      margin: 10px 0; }
+      .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cartPrices li, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cartPrices li {
+        width: 50%;
+        float: left;
+        clear: none; }
+        .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cartPrices li li, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .cartPrices li li {
+          width: 100%;
+          height: auto;
+          float: none;
+          clear: both; }
+    .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .total-bottom, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .total-bottom {
+      margin: 0 auto;
+      background: #0B2343; }
+      .SEATS_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .total-bottom .prices-alternative, .ANCILLARIES_MTO_PURCHASE_PAGE #cnt_1_1_2_3 .total-bottom .prices-alternative {
+        color: #FFFFFF !important; }
+  .SEATS_MTO_PURCHASE_PAGE .complete-payment-message, .ANCILLARIES_MTO_PURCHASE_PAGE .complete-payment-message {
+    display: none; }
+  .SEATS_MTO_PURCHASE_PAGE .payc-integrated, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated {
+    background: #F7FBFD; }
+    .SEATS_MTO_PURCHASE_PAGE .payc-integrated .component, .SEATS_MTO_PURCHASE_PAGE .payc-integrated .component-tabs, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated .component, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated .component-tabs {
+      background: none; }
+    .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment {
+      background: none; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .payc #componentTitle, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .payc #componentTitle {
+        background-image: none; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .payment-type, .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment #payment-wrapper, .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .fop-paypal-item, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .payment-type, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment #payment-wrapper, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .fop-paypal-item {
+        background: none; }
+        .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .payment-type .checkbox, .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment #payment-wrapper .checkbox, .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .fop-paypal-item .checkbox, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .payment-type .checkbox, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment #payment-wrapper .checkbox, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .fop-paypal-item .checkbox {
+          background: none; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .payment-type .amount, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .payment-type .amount {
+        font-size: 16px; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .fop-paypal-marketing_block p, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .fop-paypal-marketing_block p {
+        font-size: 16px;
+        line-height: 150%; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .fop-paypal-marketing_block a.paypal-description, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .fop-paypal-marketing_block a.paypal-description {
+        display: block;
+        padding: 20px 0; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .fop-paypal-marketing_block .paypal-info, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .fop-paypal-marketing_block .paypal-info {
+        padding-bottom: 20px;
+        font-size: 16px; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view h3, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view h3 {
+        display: none; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .fop-item-label, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .fop-item-label {
+        font-weight: bold;
+        font-size: 16px !important; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .fop-item-row, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .fop-item-row {
+        width: 50%;
+        padding: 10px;
+        clear: none !important;
+        float: left;
+        margin: 0; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .fop-item-select, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .fop-item-select {
+        font-size: 16px;
+        color: #0B2343;
+        width: 100%;
+        cursor: pointer;
+        min-height: 100px; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .fop-icons, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .fop-icons {
+        margin: 0px auto;
+        display: block; }
+        .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .fop-icons .fop-icon, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .fop-icons .fop-icon {
+          margin-top: 20px; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .field, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .field {
+        border-bottom: 1px solid #E5E5E5;
+        padding: 3px 0 !important;
+        margin: 5px auto;
+        width: 100%;
+        text-align: left;
+        float: left; }
+        .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .field .amount-charged, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .field .amount-charged {
+          font-weight: bold;
+          font-size: 20px;
+          padding-left: 10px; }
+        .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .field label, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .field label {
+          font-size: 14px; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view #fop-tab-paypal-0 .fop-icons, .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view #fop-tab-creditCardTypes-0 .fop-icons, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view #fop-tab-paypal-0 .fop-icons, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view #fop-tab-creditCardTypes-0 .fop-icons {
+        display: none; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .payment-details .field, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .payment-details .field {
+        border: 0;
+        margin: 0 0 0 10px;
+        border-color: #E5E5E5; }
+        .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .payment-details .field label, .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .payment-details .field legend, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .payment-details .field label, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .payment-details .field legend {
+          color: #0B2343;
+          font-size: 14px; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .payment-details select, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .payment-details select {
+        color: #0B2343;
+        font-size: 14px;
+        border: 1px solid #E5E5E5;
+        padding: 10px;
+        margin-left: 0; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .payment-details .date-box label, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .payment-details .date-box label {
+        display: none; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view #cardsNumberInputs input, .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view #nameOnCardEnabled input, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view #cardsNumberInputs input, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view #nameOnCardEnabled input {
+        padding: 10px;
+        border: 1px solid #E5E5E5;
+        width: 300px;
+        font-size: 14px; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view #nameOnCardEnabled span.translate, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view #nameOnCardEnabled span.translate {
+        float: left;
+        margin-left: 180px; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view input.smallest, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view input.smallest {
+        padding: 10px;
+        font-size: 14px;
+        width: 60px !important;
+        border-color: #E5E5E5; }
+      .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data {
+        clear: both;
+        background: none; }
+        .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data h4, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data h4 {
+          padding: 20px 0 !important;
+          font-size: 18px; }
+        .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field {
+          border: 0; }
+          .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field input, .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field select, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field input, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field select {
+            border: 1px solid #e5e5e5;
+            font-size: 14px;
+            padding: 10px;
+            width: 300px; }
+          .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #creditCardTypes-0-ax-2_billingData_country, .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #creditCardTypes-0-ax-2_billingData_province, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #creditCardTypes-0-ax-2_billingData_country, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #creditCardTypes-0-ax-2_billingData_province {
+            width: 300px !important; }
+          .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #phone0-1-areaCode-raw, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #phone0-1-areaCode-raw {
+            width: 50px; }
+          .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #phone0-1-number-raw, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #phone0-1-number-raw {
+            width: 200px; }
+          .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #phone0-1-countryCode, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #phone0-1-countryCode {
+            width: 150px; }
+          .SEATS_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #creditCardTypes-0-ax-2_billingData_zipCode, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #payment .radio-view .billing-data .field #creditCardTypes-0-ax-2_billingData_zipCode {
+            width: 90px !important; }
+    .SEATS_MTO_PURCHASE_PAGE .payc-integrated #fop-tab-paypal-0 img, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #fop-tab-paypal-0 img {
+      margin: 10px auto 0 !important; }
+    .SEATS_MTO_PURCHASE_PAGE .payc-integrated .multi-fop-section-title, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated .multi-fop-section-title {
+      color: #0B2343;
+      font-size: 22px; }
+    .SEATS_MTO_PURCHASE_PAGE .payc-integrated #terms_and_conditions span, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated #terms_and_conditions span {
+      font-size: 14px; }
+  .SEATS_MTO_PURCHASE_PAGE .billing-data h4, .ANCILLARIES_MTO_PURCHASE_PAGE .billing-data h4 {
+    padding: 20px 0; }
+  .SEATS_MTO_PURCHASE_PAGE .yui-module, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module {
+    background-image: none;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    padding: 0; }
+    .SEATS_MTO_PURCHASE_PAGE .yui-module .hd, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .hd {
+      background: #007DC3; }
+    .SEATS_MTO_PURCHASE_PAGE .yui-module .buttons, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .buttons {
+      overflow: hidden;
+      margin: 0;
+      padding: 0; }
+      .SEATS_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .SEATS_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #selectSeat, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #cancelSeatSelection, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .buttons .button-smaller #selectSeat {
+        margin-bottom: 0;
+        background-image: none; }
+    .SEATS_MTO_PURCHASE_PAGE .yui-module .seat-with-discount-color, .SEATS_MTO_PURCHASE_PAGE .yui-module .tier-inheritance, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .seat-with-discount-color, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .tier-inheritance {
+      color: #3f6b09; }
+    .SEATS_MTO_PURCHASE_PAGE .yui-module .seat-map-flights-segment, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .seat-map-flights-segment {
+      font-size: 16px;
+      color: #007DC3; }
+    .SEATS_MTO_PURCHASE_PAGE .yui-module .button-smaller, .SEATS_MTO_PURCHASE_PAGE .yui-module .button-smaller input, .SEATS_MTO_PURCHASE_PAGE .yui-module .button-smaller-accept, .SEATS_MTO_PURCHASE_PAGE .yui-module .button-smaller-accept input, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .button-smaller, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .button-smaller input, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .button-smaller-accept, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-module .button-smaller-accept input {
+      background: none; }
+  .SEATS_MTO_PURCHASE_PAGE #simplepayment_2 h2, .ANCILLARIES_MTO_PURCHASE_PAGE #simplepayment_2 h2 {
+    color: #0B2343;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 0; }
+  .SEATS_MTO_PURCHASE_PAGE #simple-payment, .ANCILLARIES_MTO_PURCHASE_PAGE #simple-payment {
+    max-width: 750px;
+    width: 100%; }
+    .SEATS_MTO_PURCHASE_PAGE #simple-payment .simple-payment-content, .ANCILLARIES_MTO_PURCHASE_PAGE #simple-payment .simple-payment-content {
+      background: 0; }
+    .SEATS_MTO_PURCHASE_PAGE #simple-payment .simple-payment-wrapper, .ANCILLARIES_MTO_PURCHASE_PAGE #simple-payment .simple-payment-wrapper {
+      width: 100%;
+      background: none;
+      padding: 0;
+      margin: 0; }
+      .SEATS_MTO_PURCHASE_PAGE #simple-payment .simple-payment-wrapper h3, .ANCILLARIES_MTO_PURCHASE_PAGE #simple-payment .simple-payment-wrapper h3 {
+        display: none; }
+      .SEATS_MTO_PURCHASE_PAGE #simple-payment .simple-payment-wrapper .payment-type-wrapper, .ANCILLARIES_MTO_PURCHASE_PAGE #simple-payment .simple-payment-wrapper .payment-type-wrapper {
+        width: 100%;
+        background: #FECC2F;
+        font-size: 15px;
+        padding: 20px;
+        text-align: center; }
+    .SEATS_MTO_PURCHASE_PAGE #simple-payment .payment, .SEATS_MTO_PURCHASE_PAGE #simple-payment .payment-type, .ANCILLARIES_MTO_PURCHASE_PAGE #simple-payment .payment, .ANCILLARIES_MTO_PURCHASE_PAGE #simple-payment .payment-type {
+      background: none; }
+    .SEATS_MTO_PURCHASE_PAGE #simple-payment .payment, .ANCILLARIES_MTO_PURCHASE_PAGE #simple-payment .payment {
+      padding: 0; }
+  .SEATS_MTO_PURCHASE_PAGE .payment-details, .SEATS_MTO_PURCHASE_PAGE #cart-component .component-bottom, .SEATS_MTO_PURCHASE_PAGE .yui-navset li.selected, .SEATS_MTO_PURCHASE_PAGE .yui-navset .yui-nav li a, .SEATS_MTO_PURCHASE_PAGE .yui-navset-top .yui-nav li a, .SEATS_MTO_PURCHASE_PAGE .yui-navset-bottom .yui-nav li a, .SEATS_MTO_PURCHASE_PAGE .button, .SEATS_MTO_PURCHASE_PAGE .button input, .SEATS_MTO_PURCHASE_PAGE .btn-search, .ANCILLARIES_MTO_PURCHASE_PAGE .payment-details, .ANCILLARIES_MTO_PURCHASE_PAGE #cart-component .component-bottom, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-navset li.selected, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-navset .yui-nav li a, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-navset-top .yui-nav li a, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-navset-bottom .yui-nav li a, .ANCILLARIES_MTO_PURCHASE_PAGE .button, .ANCILLARIES_MTO_PURCHASE_PAGE .button input, .ANCILLARIES_MTO_PURCHASE_PAGE .btn-search {
+    background-image: none;
+    text-shadow: none; }
+  .SEATS_MTO_PURCHASE_PAGE .farerules-content, .SEATS_MTO_PURCHASE_PAGE .farerules-wrapper, .SEATS_MTO_PURCHASE_PAGE .fareruleA, .SEATS_MTO_PURCHASE_PAGE .payc-integrated .payc #componentTitle, .SEATS_MTO_PURCHASE_PAGE .yui-navset .yui-nav li, .SEATS_MTO_PURCHASE_PAGE .yui-navset .yui-navset-top .yui-nav li, .SEATS_MTO_PURCHASE_PAGE .yui-navset .yui-navset-bottom .yui-nav li, .ANCILLARIES_MTO_PURCHASE_PAGE .farerules-content, .ANCILLARIES_MTO_PURCHASE_PAGE .farerules-wrapper, .ANCILLARIES_MTO_PURCHASE_PAGE .fareruleA, .ANCILLARIES_MTO_PURCHASE_PAGE .payc-integrated .payc #componentTitle, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-navset .yui-nav li, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-navset .yui-navset-top .yui-nav li, .ANCILLARIES_MTO_PURCHASE_PAGE .yui-navset .yui-navset-bottom .yui-nav li {
+    background-image: none; }
+  .SEATS_MTO_PURCHASE_PAGE .modern #payment .payment-type h4, .ANCILLARIES_MTO_PURCHASE_PAGE .modern #payment .payment-type h4 {
+    width: 100%;
+    color: #0B2343;
+    font-size: 16px;
+    padding: 20px 0;
+    margin: 0 auto;
+    clear: both; }
+  .SEATS_MTO_PURCHASE_PAGE #credit-cards-menu-0 h4, .ANCILLARIES_MTO_PURCHASE_PAGE #credit-cards-menu-0 h4 {
+    margin: 0 !important;
+    width: 100% !important;
+    color: #0B2343 !important;
+    font-size: 16px !important;
+    font-weight: bold;
+    padding: 0 !important; }
+
+#payment .billing-data .phone-input legend {
+  width: 170px;
+  font-size: 14px; }
+
+.ANCILLARIES_MTO_PURCHASE_PAGE #booking-process .process-bar ol {
+  width: 100%; }
+
+.ANCILLARIES_MTO_PURCHASE_PAGE .process-bar, .ANCILLARIES_MTO_PURCHASE_PAGE #booking-process {
+  min-height: 100px;
+  width: 100%; }
+  .ANCILLARIES_MTO_PURCHASE_PAGE .process-bar ol li, .ANCILLARIES_MTO_PURCHASE_PAGE #booking-process ol li {
+    width: 22% !important; }
+  .ANCILLARIES_MTO_PURCHASE_PAGE .process-bar ol #step-3, .ANCILLARIES_MTO_PURCHASE_PAGE #booking-process ol #step-3 {
+    width: 196px; }
+  .ANCILLARIES_MTO_PURCHASE_PAGE .process-bar ol li:last-child, .ANCILLARIES_MTO_PURCHASE_PAGE #booking-process ol li:last-child {
+    margin-right: 0; }
+
+.ANCILLARIES_MTO_PURCHASE_PAGE .process-bar {
+  min-height: 100px !important; }
+
+.ANCILLARIES_MTO_PURCHASE_PAGE .booking-process {
+  border-bottom: 1px solid #E5E5E5; }
+
+.ANCILLARIES_MTO_PURCHASE_PAGE .farerules {
+  margin: 0 auto;
+  width: 750px;
+  padding: 40px 0 0 !important; }
+  .ANCILLARIES_MTO_PURCHASE_PAGE .farerules .heading-farerules {
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0 0;
+    color: #0B2343;
+    font-size: 32px; }
+
+.ANCILLARIES_MTO_PURCHASE_PAGE #cnt_4 {
+  position: relative !important;
+  top: 0 !important; }
+
+#payment-summary.payment-summary-multiFop .payment .details-content {
+  clear: both; }
+
+#fop-tab-creditCardTypes-0 .fop-item-select, #fop-tab-paypal-0 .fop-item-select {
+  text-align: center; }
+
+#fop-tab-creditCardTypes-0 #CreditCard_Img, #fop-tab-paypal-0 #CreditCard_Img {
+  display: block;
+  margin: 10px auto 0; }
+
+.ANCILLARIES_MTO_ANCILLARY_PAGE {
+  /*
+	#fare-rules{
+		.fare-rules-unavailable{
+			background: $yellow;
+			font-size: $font-size-base;
+			text-align: center;
+			color: $black;
+			padding: 20px;
+		}
+	}
+	
+
+	.ancillary-component-redesign {
+		.ancillary-details{
+			background: none !important;
+			background-image: none;
+		}
+		.ancillary-name{
+			font-size: 22px;
+			margin-top: 5px;
+		}
+		.ancillary-contnet-header{
+			float: right;
+			width: 600px;
+		}
+		.ancillary-pax-checked-true{
+			
+		}
+		.ancillary-description, .ancillary-price, .ancillary-free-for-all-paxes-msg{
+			font-size: $font-size-base;
+			font-weight: normal;
+			width:555px; 
+			padding-right: 0; 
+			a{
+				color: $blue-medium;
+				text-decoration: underline;
+			}
+		}
+
+		.ancillary-price{
+
+		}
+		.ancillary-item{
+			border: 0;
+			border-radius: 0;
+			border-bottom: 2px solid $grey-light;
+			margin-bottom: 20px;
+			padding-bottom: 10px;
+		}
+		.ancillary-price-button{
+			float: none;
+			max-width: 100px;
+			margin: 10px 0;
+		}
+		.ancillary-details-footer{
+			background: $blue-dark;
+			color: $white;
+			border: 0;
+			border-radius: 0;
+			min-height: 60px;
+			margin: 0 0 10px;
+			.ancillary-details-footer-price{
+				background: none;
+				.total, .label, .type{
+					color: $white;
+					font-size: $font-size-base;
+				}
+			}
+			.ancillary-price-button{
+				float: right;
+				color: $white;
+				margin-right: 10px;
+				input{
+					color: $white;
+				}
+			}
+		}
+	}
+	
+	
+	.ancillary-image{
+		width: 50px;
+		height: 50px;
+		height: auto;
+		margin: 20px 10px 100px 65px;
+		background: $white no-repeat center center;
+		background-image: none;
+		float: left;
+	}
+	*/
+  /***************************************
+						iconos
+	**************************************/
+  /*
+	.ancillary-free-for-pax-msg, .ancillary-free-for-all-paxes-msg{
+		color: $blue-medium;
+		font-size: 13px;
+		margin: 5px 0 ;
+		font-weight: bold !important;
+		text-transform: uppercase;
+	}
+	.right-side-price-info{
+		margin-right: 0;
+	}
+	.ancillary-price-action{
+		width: 550px;
+		margin: 0;
+		float: right;
+	}
+	
+	
+	.ancillary-component-redesign .ancillary-price-added{
+		background: none;
+		padding: 20px 0;
+		font-size: 18px;
+		color: $blue-medium;
+		font-weight: bold;
+	}
+
+	
+	.ancillary-component-redesign .ancillary-check-image{
+		background-image: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb_check.png");
+		background-size: 90% auto;
+		background-position: 0 2px;
+	}
+	*/
+  /*** carrit o****/
+  /*sidebar*/
+  /**** carrito ****/ }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .process-bar ol li {
+    width: 19%; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #customhtmltaxesandfee {
+    display: none !important; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .process-bar ol li:last-child {
+    margin-right: 0; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #header {
+    margin: 0; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_2 {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+    max-width: 750px; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_2 .yui-navset .yui-nav li a, .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_2 .yui-navset-top .yui-nav li a, .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_2 .yui-navset-bottom .yui-nav li a {
+      background-image: none; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .process-bar ol li #step-3 .navigation-steps {
+    font-size: 26px; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE .process-bar ol li #step-3 .navigation-steps strong {
+      font-size: 26px; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #booking-process .process-bar ol li.stepCurrent .navigation-steps {
+    font-size: 26px !important; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #tabs_1 .yui-navset-top ul.yui-nav {
+    background: #007DC3;
+    color: #FFFFFF; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #tabs_1 .yui-navset-top ul.yui-nav li {
+      width: 100%;
+      font-weight: normal;
+      color: #FFFFFF;
+      font-size: 30px;
+      margin: 0;
+      text-align: center;
+      padding: 40px 0;
+      height: 100%; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE #tabs_1 .yui-navset-top ul.yui-nav li a {
+        color: #FFFFFF;
+        width: 100%; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #tabs_1 .yui-navset-top ul.yui-nav li.selected {
+      background: none; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_0_0_3_4 {
+    background: #007DC3; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_4 {
+    width: 750px;
+    margin: 20px auto; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #login_1, .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_3 {
+    display: none; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_0_1_2_3, .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_0_0_2_4, .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_0_0_2_3, .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_0_0_3_4, .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_0_0_1_3, .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_0_0_2_4 {
+    width: 100%; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .component, .ANCILLARIES_MTO_ANCILLARY_PAGE .component-tabs, .ANCILLARIES_MTO_ANCILLARY_PAGE .component-container-top, .ANCILLARIES_MTO_ANCILLARY_PAGE .component-container-bottom, .ANCILLARIES_MTO_ANCILLARY_PAGE .confirmation-info, .ANCILLARIES_MTO_ANCILLARY_PAGE .itinerary-info,
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .view-itinerary-info, .ANCILLARIES_MTO_ANCILLARY_PAGE .itinerary-wrapper, .ANCILLARIES_MTO_ANCILLARY_PAGE .itinerary-content, .ANCILLARIES_MTO_ANCILLARY_PAGE h2.heading-flights, .ANCILLARIES_MTO_ANCILLARY_PAGE h2.heading-payment,
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #payment-summary.payment-summary-multiFop .payment-content, .ANCILLARIES_MTO_ANCILLARY_PAGE .component-container-center,
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #payment-summary.payment-summary-multiFop div.payment {
+    background: none; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .component-container-top, .ANCILLARIES_MTO_ANCILLARY_PAGE .component-container-content {
+    margin: 0 auto;
+    background: none; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #booking-process {
+    margin: 20px auto; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #booking-process .process-bar {
+      min-height: 90px;
+      border-bottom: 1px solid #E5E5E5; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE #booking-process .process-bar ol {
+        min-height: 90px; }
+        .ANCILLARIES_MTO_ANCILLARY_PAGE #booking-process .process-bar ol #step-1 {
+          width: 220px; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .yui-navset li.selected, .ANCILLARIES_MTO_ANCILLARY_PAGE .yui-navset li {
+    background-image: none; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #flow-messages-component {
+    padding: 0; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .free-ancillaries-available {
+    background: #FECC2F;
+    color: #0B2343;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+    font-weight: normal; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-content-BG_PCS img {
+    background-image: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb_equipaje.png") !important; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-content-DPM img {
+    background-image: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb_discount.png") !important; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-image-AMK {
+    background-image: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb_concierge.png") !important; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-content-AMS img {
+    background-image: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb_seguro.png") !important; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-content-DPI img {
+    background-image: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb_discount.png") !important; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-content-CO2 img {
+    background-image: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/myb_verde.png") !important; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-leg {
+    background: #F7FBFD;
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    border-radius: 0; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-leg h2 {
+      color: #004990;
+      margin: 0;
+      font-weight: bold; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .section-typical-leg {
+    width: 49%;
+    float: left; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .section-typical-leg:nth-child(2) {
+    float: right; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .connection {
+    font-size: 12px; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-bags-details {
+    margin: 20px 0 0;
+    padding-top: 20px; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .checkboxgroup {
+    margin: 5px 0;
+    padding: 0; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .checkboxgroup .prices-all {
+      font-size: 12px; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .checkboxgroup li {
+      margin: 5px 0;
+      padding: 5px 0 0; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .checkboxgroup li label {
+        font-size: 13px;
+        float: none;
+        width: auto; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .checkboxgroup li select {
+        margin: 0;
+        font-size: 10px;
+        background: #FFFFFF; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .checkboxgroup .name {
+      font-size: 16px; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-details-header {
+    font-size: 14px;
+    padding: 20px 10px 0; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #btn-search-input {
+    min-width: 250px;
+    background: none; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #btn-search-input #btn-search {
+      background-image: none;
+      text-shadow: none; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-price-button-add {
+    background: #48A83E;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px auto; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-price-button-add input {
+      width: 40px;
+      line-height: 35px;
+      height: 40px;
+      padding: 0;
+      margin: 0;
+      font-size: 16px;
+      background: none; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-small-image {
+    display: none; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-button-remove, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-component-redesign .ancillary-button-edit {
+    background: none;
+    height: auto !important;
+    margin: 0;
+    font-family: "Arial", "Helvetica", sans-serif; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-details-footer {
+    color: #002B5C;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 0;
+    min-height: 60px;
+    margin: 0 0 10px; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-details-footer .ancillary-details-footer-price {
+      background: none; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-details-footer .ancillary-details-footer-price .total, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-details-footer .ancillary-details-footer-price .label, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-details-footer .ancillary-details-footer-price .type {
+        color: #002B5C;
+        font-size: 16px; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-details-footer .ancillary-price-button {
+      float: right;
+      margin-right: 10px; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-details-footer .ancillary-price-button input {
+        color: #002B5C; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-details {
+    background: none !important;
+    background-image: none; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-content {
+    border: 0;
+    font-size: 16px;
+    font-weight: normal;
+    border-bottom: 1px solid #E5E5E5; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-image {
+    background-position: top right;
+    height: 140px;
+    width: 80px;
+    margin-top: -30px;
+    margin-left: 40px;
+    background-size: 100% auto; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-item {
+    border: 0;
+    background-color: #FFFFFF;
+    position: relative; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-contnet-header {
+    display: block;
+    margin-bottom: 0;
+    margin-left: 165px;
+    width: auto; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-description {
+    font-size: 14px;
+    float: none;
+    line-height: 18px;
+    margin-left: 165px;
+    margin-top: 10px;
+    width: 50%; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-price {
+    color: #0B2343;
+    display: block;
+    float: none;
+    margin: 0 !important;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 140px !important; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-price-action {
+    margin: 0; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-price-edit-action {
+    float: right;
+    width: 150px !important; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-price-edit-action .button-smaller, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-price-edit-action .button-smaller input, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-price-edit-action .button-smaller-accept, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-price-edit-action .button-smaller-accept input {
+      background: url("https://s3.amazonaws.com/aeromexico/booking/MYBimg/btn-edit-ancilliaries.png") no-repeat center center;
+      background-size: 88% auto; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .button {
+    position: relative; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-price-button input.ancillary-button-edit {
+    border-radius: 0;
+    font-size: 15px;
+    height: 48px !important;
+    padding: 0;
+    width: 102px !important; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-price-added, .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-price-widget-default-tax-perPax {
+    display: none; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-component-redesign .ancillary-price-widget-default {
+    white-space: normal; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 {
+    width: 100%; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .component-top {
+      padding: 0; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 #cart-component {
+      width: 100%;
+      background: #F7FBFD; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 #cart-component h2 {
+        font-size: 32px;
+        color: #0B2343;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        background: #FFFFFF;
+        display: block; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 #cart-component .component-top {
+        padding: 0 !important;
+        background-image: none !important; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 #cart-component .prices-alternative {
+        color: #004990;
+        font-style: normal; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .total-top, .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .cart-pax, .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .price-details {
+      margin: 20px;
+      font-size: 16px; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .cart-total-price .total-top {
+      font-size: 16px;
+      color: #0B2343;
+      font-weight: normal;
+      padding: 0; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .cart-pax {
+      padding: 20px 0 0; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .cart-pax h3 {
+        font-size: 16px;
+        color: #0B2343;
+        margin: 0 0 20px;
+        font-weight: normal;
+        padding: 0;
+        background: none; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .price-details h3 {
+      font-size: 16px;
+      color: #0B2343;
+      margin: 0 0 20px;
+      font-weight: normal;
+      padding: 0; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .cartPrices {
+      overflow: auto;
+      margin: 10px 0; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .cartPrices li {
+        width: 50%;
+        float: left;
+        clear: none; }
+        .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .cartPrices li li {
+          width: 100%;
+          height: auto;
+          float: none;
+          clear: both; }
+    .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .total-bottom {
+      margin: 0 auto;
+      background: #0B2343; }
+      .ANCILLARIES_MTO_ANCILLARY_PAGE #cnt_1_1_2_3 .total-bottom .prices-alternative {
+        color: #FFFFFF !important; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-discount-message {
+    color: #004990;
+    font-size: 14px; }
+  .ANCILLARIES_MTO_ANCILLARY_PAGE #cart-component .component-bottom {
+    background-image: none; }
+
+.ancillary-price-totalTax, .ancillary-price-totalPax, .ancillary-price-totalTax, .ancillary-price-totalPax, .ancillary-content-BG_PCS .ancillary-price .ancillary-price-widget-default, .ancillary-content-BG_PCS .ancillary-price .ancillary-price-perpax-perflight {
+  display: none; }
+
+.ancillary-component-redesign .ancillary-price-before-add .ancillary-price-widget-default-price-perPax .prices-amount, .ancillary-component-redesign .ancillary-price-after-add .ancillary-price-widget-default-price-perPax .prices-amount {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 7px !important;
+  text-indent: -7px !important;
+  margin-bottom: 5px;
+  display: inline-block !important;
+  line-height: 19px;
+  text-align: center; }
+
+.ancillary-component-redesign .prices-currency {
+  padding-left: 0.25em; }
+
+#ROOT .ancillary-component-redesign .ancillary-price-perpax-perflight {
+  color: #004990;
+  font-weight: bold; }
+
+.ancillary-price-action .ancillary-price-button-remove {
+  display: none; }
+
+/*
+.ancillary-component-redesign .ancillary-price-button input, #ROOT .ancillary-price-button-remove input, .seat-details-overlay #selectSeat{
+	background: #449cf4 none repeat scroll 0 0;
+    border-radius: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    height: 34px;
+    margin: 10px 10px 0;
+    padding: 8px 0;
+    text-shadow: none;
+    text-transform: capitalize;
+    transition: background-color 0.3s ease-in 0s;
+    width: 102px;
+    border-radius: 0;
+    font-size: 15px;
+    height: 48px !important;
+    padding: 0;
+    width: 102px !important;
+}
+*/
+.ancillary-edit-input, .ancillary-button-edit {
+  background: transparent url("../images/checkmark.png") no-repeat scroll 0 0 !important;
+  border: medium none !important;
+  height: 48px !important;
+  position: static !important;
+  text-indent: -123em;
+  top: -70px !important;
+  width: 102px !important; }
+
+.ancillary-content .ancillary-price-after-add:nth-child(7), .ANCILLARIES_MTO_ANCILLARY_PAGE .ancillary-content .ancillary-price-before-add:nth-child(6) {
+  display: none; }
+
+#ROOT .ancillary-button-close-details {
+  width: 100px;
+  visibility: inherit;
+  float: right;
+  margin: 0 0 10px; }
+
+.ERROR_PAGE {
+  box-sizing: border-box; }
+  .ERROR_PAGE #ROOT {
+    height: 100%;
+    background: #007DC3; }
+  .ERROR_PAGE #cnt_2 {
+    min-height: 600px; }
+  .ERROR_PAGE #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; }
+  .ERROR_PAGE #myb_cnt_3, .ERROR_PAGE #myb_cnt_5 {
+    display: none; }
+  .ERROR_PAGE #cnt_0_1_2_3, .ERROR_PAGE #cnt_0_0_2_4, .ERROR_PAGE #cnt_0_0_2_3, .ERROR_PAGE #cnt_0_0_3_4, .ERROR_PAGE #cnt_0_0_1_3, .ERROR_PAGE #cnt_0_0_2_4 {
+    width: 100%; }
+  .ERROR_PAGE #cnt_0_0_1_3 {
+    background: #004990 !important; }
+  .ERROR_PAGE .bookingretrieval {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 3px;
+    float: none;
+    margin: 0 auto; }
+  .ERROR_PAGE .component, .ERROR_PAGE .component-tabs {
+    background: none; }
+  .ERROR_PAGE .component-333-wrapper .component-content {
+    background: none;
+    padding: 0; }
+  .ERROR_PAGE .manageyourflights .scc-component-content {
+    text-align: center; }
+    .ERROR_PAGE .manageyourflights .scc-component-content h2 {
+      font-weight: normal;
+      color: #FFFFFF;
+      font-size: 30px;
+      margin: 0;
+      padding: 0; }
+  .ERROR_PAGE .manage-flights {
+    padding: 0; }
+    .ERROR_PAGE .manage-flights .component-333-wrapper {
+      background: rgba(255, 255, 255, 0.8);
+      background: #FFFFFF;
+      padding: 20px;
+      border-radius: 5px; }
+      .ERROR_PAGE .manage-flights .component-333-wrapper .component {
+        padding: 0;
+        background: none; }
+      .ERROR_PAGE .manage-flights .component-333-wrapper h3 {
+        margin: 0;
+        color: #0B2343;
+        font-weight: bold; }
+      .ERROR_PAGE .manage-flights .component-333-wrapper .field-required-legend {
+        padding: 10px 0; }
+      .ERROR_PAGE .manage-flights .component-333-wrapper label {
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: left;
+        color: #0B2343;
+        margin-right: 0;
+        padding: 10px 0;
+        font-size: 13px; }
+      .ERROR_PAGE .manage-flights .component-333-wrapper .button {
+        background: none;
+        margin: 0;
+        width: 100%; }
+        .ERROR_PAGE .manage-flights .component-333-wrapper .button input[type="submit"] {
+          margin: 20px auto;
+          width: 100%;
+          background: #E91B2F;
+          height: 60px;
+          line-height: 60px;
+          color: #FFFFFF;
+          text-align: center;
+          border-radius: 50px;
+          text-shadow: none;
+          font-family: "Arial", "Helvetica", sans-serif; }
+    .ERROR_PAGE .manage-flights .textfield, .ERROR_PAGE .manage-flights textarea, .ERROR_PAGE .manage-flights select {
+      height: 100%;
+      padding: 10px 5px;
+      border: 1px solid #CCCCCC;
+      width: 100%;
+      float: none;
+      display: block;
+      margin-right: 0;
+      font-size: 14px; }
+  .ERROR_PAGE fieldset .yui-module {
+    padding: 0; }
+  .ERROR_PAGE .yui-module {
+    border: 0;
+    color: #0B2343; }
+  .ERROR_PAGE .flow-message-title {
+    padding-top: 20px; }
+  .ERROR_PAGE .flow-message-text {
+    padding: 20px 50px; }

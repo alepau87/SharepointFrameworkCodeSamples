@@ -12,18 +12,37 @@ import {
 import ModuleLoader from '@microsoft/sp-module-loader';
 import * as strings from 'pnpcrudsampleStrings';
 import { IPnpcrudsampleWebPartProps } from './IPnpcrudsampleWebPartProps';
-import * as pnp from 'sp-pnp-js';
+//import * as pnp from 'sp-pnp-js';
+import MockHttpClient from './MockHttpClient';
+import { EnvironmentType } from '@microsoft/sp-client-base';
 
 require('jquery');
 require('datatables');
 
-interface IListItem {
+export interface ISPLists {
+    value: ISPList[];
+}
+
+export interface ISPList {
   Title?: string;
   Id: number;
 }
 
+export interface IListItems{
+   value: IListItem[];
+}
+//Title,h7vv,v7nw,mczsId,mczsStringId,BooleanColumn
+
+export interface IListItem {
+  Title: string;
+  h7vv: string;
+  v7nw: string;
+  mczsId: string;
+  BooleanColumn: string;
+}
+
 export default class PnpcrudsampleWebPart extends BaseClientSideWebPart<IPnpcrudsampleWebPartProps> {
-   private container: JQuery;
+   //private container: JQuery;
 
   //Default constructor, here we have to load css
   public constructor(context: IWebPartContext) {
@@ -31,41 +50,72 @@ export default class PnpcrudsampleWebPart extends BaseClientSideWebPart<IPnpcrud
     ModuleLoader.loadCss('//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css');
   }
 
-  /// Generar contenido HTML
-  public render(): void {
-    const webPart: PnpcrudsampleWebPart = this;
-    //webPart.readItems();
-    debugger;
-
-    ModuleLoader.loadCss('//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css');
-    if (this.renderedOnce === false) {
-      //this.domElement.innerHTML = `<div class="${styles.weather}"></div>`;
-    }
-
-    this.renderContents();
+  ///Gets data from the mock, fake data
+  private _getMockListData(): Promise<IListItems> {
+    return MockHttpClient.get(this.context.pageContext.web.absoluteUrl)
+      .then((data: IListItem[]) => {
+          var listData: IListItems = { value: data };
+          return listData;
+      }) as Promise<IListItems>;
   }
 
-  private renderContents(): void {
-     this.domElement.innerHTML = `<table id="example" class="display" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>NumberColumn</th>
-                <th>DateColumn</th>
-                <th>PersonColumn</th>
-                <th>BooleanColumn</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th>Title</th>
-                <th>NumberColumn</th>
-                <th>DateColumn</th>
-                <th>PersonColumn</th>
-                <th>BooleanColumn</th>
-            </tr>
-        </tfoot>
-    </table>`;
+  ///Checks if the environment is local, then we will load data from mock, if not from the list
+  private _renderListAsync(): void {
+    // Local environment
+    if (this.context.environment.type === EnvironmentType.Local) {
+      this._getMockListData().then((response) => {
+        this._renderList(response.value);
+      });
+    }
+    else{
+      this._getListData()
+        .then((response) => {
+          this._renderList(response.value);
+        });
+    }
+  }
+//Title,h7vv,v7nw,mczsId,mczsStringId,BooleanColumn
+
+  ///Render list on the datatable
+  private _renderList(items: IListItem[]): void {
+    $('#example').DataTable({
+      data: items,
+      columns: [
+          { "data": "Title" },
+          { "data": "h7vv" },
+          { "data": "v7nw" },
+          { "data": "mczsId" },
+          { "data": "BooleanColumn" }
+      ]
+    });
+  }
+
+  ///Get list data
+  private _getListData(): Promise<IListItems> {
+    return this.context.httpClient.get(this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Lista')/items?$select=Title,h7vv,v7nw,mczsId,mczsStringId,BooleanColumn`)
+      .then((response: Response) => {
+        return response.json();
+      });
+  }
+
+  /// Generar contenido HTML
+  public render(): void {
+    debugger;
+    ModuleLoader.loadCss('//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css');
+    if (this.renderedOnce === false) {
+       this.domElement.innerHTML = `<table id="example" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>NumberColumn</th>
+                    <th>DateColumn</th>
+                    <th>PersonColumn</th>
+                    <th>BooleanColumn</th>
+                </tr>
+            </thead>
+        </table>`;
+    }
+   this._renderListAsync();
   }
 
   //Property pane fields
@@ -89,47 +139,5 @@ export default class PnpcrudsampleWebPart extends BaseClientSideWebPart<IPnpcrud
         }
       ]
     };
-  }
-
-
-  //Update item status
-  private updateStatus(status: string, items: IListItem[] = []): void {
-    this.domElement.querySelector('.status').innerHTML = status;
-    this.updateItemsHtml(items);
-  }
-
-  //Read items from list
-  private readItems(): void {
-    debugger;
-    this.updateStatus('Loading all items...');
-    pnp.sp.web.lists.getByTitle(this.properties.listName)
-      .items.select('Title', 'Id').get()
-      .then((items: IListItem[]): void => {
-        this.updateStatus(`Successfully loaded ${items.length} items`, items);
-         $(document).ready(() => {
-          $('#example').DataTable( {
-            data: items,
-            columns: [
-                { title: "Title" },
-                { title: "NumberColumn" },
-                { title: "DateColumn" },
-                { title: "PersonColumn" },
-                { title: "BooleanColumn" }
-            ]
-          });
-        });
-      }, (error: any): void => {
-        this.updateStatus('Loading all items failed with error: ' + error);
-      });
-  }
-
-  //Update html elements
-  private updateItemsHtml(items: IListItem[]): void {
-    const itemsHtml: string[] = [];
-    for (let i: number = 0; i < items.length; i++) {
-      itemsHtml.push(`<li>${items[i].Title} (${items[i].Id})</li>`);
-    }
-
-    this.domElement.querySelector('.items').innerHTML = itemsHtml.join('');
   }
 }
