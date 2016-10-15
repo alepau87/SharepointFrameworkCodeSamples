@@ -1,3 +1,5 @@
+#Simple listview with datatables on Sharepoint Framework webpart
+
 In this post I will explain how to integrate the plugin DataTables into SPF to show data like a gridview, this plugin is awesome because it allows you to paginate async, search async/on screen, and it has very good looking style.  We could even use this as replacement for the standard sharepoint list view webpart.  I dont understand why after so many years the list view webpart is so ugly and slow, perhaps with the modern sites coming soon, this will look better and be faster.
 
 
