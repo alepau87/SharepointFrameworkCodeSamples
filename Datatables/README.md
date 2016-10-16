@@ -1,9 +1,8 @@
-#Simple listview with datatables on Sharepoint Framework webpart
+#Grilla con datatables y Sharepoint Framework
 
-In this post I will explain how to integrate the plugin DataTables into SPF to show data like a gridview, this plugin is awesome because it allows you to paginate async, search async/on screen, and it has very good looking style.  We could even use this as replacement for the standard sharepoint list view webpart.  I dont understand why after so many years the list view webpart is so ugly and slow, perhaps with the modern sites coming soon, this will look better and be faster.
+En este post voy a explicar cómo integrar las DataTables un plugi de jquery, en SPF para mostrar los datos como un gridview, este plugin es impresionante, ya que le permite paginar de manera asincrona, búsqueda asíncrona/en la pantalla, y tiene muy buen estilo. Incluso podríamos utilizar esto como reemplazo para las vista estandares de Sharepoint. No entiendo por qué después de tantos años la vista de lista elemento Web es tan fea y lenta, tal vez con los sitios modernos que viene pronto, esto se vea mejor y sea más rápida.
 
-
-As you know testing REST API calls to Sharepoint its not possible from the local computer, so in order to do that we need to create a Mock to hardcode results locally and test in our workbench, and then test on our Sharepoint Site.
+Como saben en el workbench local no podemos hacer llamadas API REST a Sharepoint, por lo tanto tenemos que crear un cliente Mock para simular los datos de las listas de sharepoint.
 
 ######MockHttpClient.ts
 ```Typescript
@@ -25,10 +24,10 @@ export default class MockHttpClient {
 }
 ```
 
-When I created my list, I added some columns with names: datecolumn, personcolumn, however sharepoint added the internal names that you see in the json hardcoded above.
+Cuando yo cree mi lista, Agregue algunas comunas con nombres: datecolumn, personcolumn, sin embargo Sharepoint agrego nombres especiales a estas columnas, segun lo pueden ver en el codigo anterior.
 
+En nuestro webpart tenemos que chequear si estamos trabajando localmente, es por eso que tuvimos que agregar el MockHttpClient.
 
-In our webpart code we have to check if we are working locally or in the server, thats why we added the MockClient
 ```Typescript
  private _renderListAsync(): void {
     // Local environment
@@ -46,7 +45,8 @@ In our webpart code we have to check if we are working locally or in the server,
   }
 ```
 
-As you can see if its local it calls the MockHttpClient, if its not local it calls another method which actually makes the api call as shown below:
+Como puedes ver si es local utilizamos el Mock, y si es remoto utilizamos el REST API de sharepoint.
+
 ```typescript
   private _getListData(): Promise<IListItems> {
     return this.context.httpClient.get(this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Lista')/items?$select=Title,h7vv,v7nw,mczsId,mczsStringId,BooleanColumn`)
@@ -56,8 +56,8 @@ As you can see if its local it calls the MockHttpClient, if its not local it cal
   }
 ```
 
+Como sabes, el punto de entrada de todos los webparts es el metodo render, es por eso que en este metodo construimos el html que va a alojar nuestra tabla construida con el plugin de Datatables.
 
-As you know the entry point of every webpart is the render method, thats why here we add our html for the table, and then call the async method
 ```typescript
   public render(): void {
     debugger;
@@ -79,7 +79,7 @@ As you know the entry point of every webpart is the render method, thats why her
   }
 ```
 
-and our renderlist method which actually calls the datatables plugin to render the json data on screen:
+Y en el metodo render list es donde llamamos el API de Datatables para renderizar el json en pantalla.
 
 ```typescript
   ///Render list on the datatable
@@ -97,10 +97,8 @@ and our renderlist method which actually calls the datatables plugin to render t
   }
 ```
 
-
-The end result: a very good looking grid, which I can sort, paginate, and even search faster than what a Sharepoint Listview allows us.
-
+El resultado final, una grilla de datos, que puede ordenar, pagina e incluso buscar mas rapido que los controles estandares de Sharepoint.
 
 Full code [here](https://github.com/levalencia/SharepointFrameworkCodeSamples/tree/master/Datatables)
 
-![](http://www.luisevalencia.com/content/images/2016/10/2016-10-15_18-44-19.png)
+![](/content/images/2016/10/2016-10-15_18-44-19.png)
