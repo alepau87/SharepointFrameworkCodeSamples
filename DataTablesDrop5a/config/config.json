@@ -1,14 +1,9 @@
 {
   "entries": [
     {
-      "entry": "./lib/webparts/pnpcrudsample/PnpcrudsampleWebPart.js",
-      "manifest": "./src/webparts/pnpcrudsample/PnpcrudsampleWebPart.manifest.json",
-      "outputPath": "./dist/pnpcrudsample.bundle.js"
-    },
-    {
-      "entry": "./lib/webparts/datatablesdrop5/Datatablesdrop5WebPart.js",
-      "manifest": "./src/webparts/datatablesdrop5/Datatablesdrop5WebPart.manifest.json",
-      "outputPath": "./dist/datatablesdrop-5.bundle.js"
+      "entry": "./lib/webparts/hellodata/HellodataWebPart.js",
+      "manifest": "./src/webparts/hellodata/HellodataWebPart.manifest.json",
+      "outputPath": "./dist/hellodata.bundle.js"
     }
   ],
   "externals": {
@@ -20,10 +15,10 @@
     "react": "node_modules/react/dist/react.min.js",
     "react-dom": "node_modules/react-dom/dist/react-dom.min.js",
     "react-dom/server": "node_modules/react-dom/dist/react-dom-server.min.js",
-    "jquery": {
+     "jquery": {
       "path": "node_modules/jquery/dist/jquery.min.js",
       "globalName": "jQuery"
-    },
+      },
     "datatables": {
       "path": "https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js",
       "globalName": "jQuery",
@@ -33,7 +28,6 @@
     }
   },
   "localizedResources": {
-    "pnpcrudsampleStrings": "webparts/pnpcrudsample/loc/{locale}.js",
-    "datatablesdrop5Strings": "webparts/datatablesdrop5/loc/{locale}.js"
+    "hellodataStrings": "webparts/hellodata/loc/{locale}.js"
   }
 }
