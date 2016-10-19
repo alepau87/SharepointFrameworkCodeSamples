@@ -81,7 +81,7 @@ export default class HellodataWebPart extends BaseClientSideWebPart<IHellodataWe
           { "data": "Title" },
           { "data": "h7vv" },
           { "data": "v7nw" },
-          { "data": "mczsId" },
+          { "data": "mczs.Title" },
           { "data": "BooleanColumn" }
       ]
     });
@@ -89,7 +89,7 @@ export default class HellodataWebPart extends BaseClientSideWebPart<IHellodataWe
 
   ///Get list data
   private _getListData(): Promise<IListItems> {
-    return this.context.httpClient.get(this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Lista')/items?$select=Title,h7vv,v7nw,mczsId,mczsStringId,BooleanColumn`)
+    return this.context.httpClient.get(this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Lista')/items?$select=Title,h7vv,v7nw,mczsId,mczsStringId,BooleanColumn,mczs/Name,mczs/Title&$expand=mczs/Id`)
       .then((response: Response) => {
         return response.json();
       });
