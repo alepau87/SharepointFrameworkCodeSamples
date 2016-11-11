@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "spfsamplewithaureliatest-2-client-side-solution",
+    "id": "409d5e87-c7c3-425b-a84d-5cc34650b1d7",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfsamplewithaureliatest-2.spapp"
+  }
+}
