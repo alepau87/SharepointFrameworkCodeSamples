@@ -8,11 +8,10 @@ import {
   PropertyPaneTextField
 } from '@microsoft/sp-webpart-base';
 
-//import styles from './Pnpcrudsample.module.scss';
+import styles from './Hellodata.module.scss';
+import * as strings from 'hellodataStrings';
 import ModuleLoader from '@microsoft/sp-module-loader';
-import * as strings from 'pnpcrudsampleStrings';
-import { IPnpcrudsampleWebPartProps } from './IPnpcrudsampleWebPartProps';
-//import * as pnp from 'sp-pnp-js';
+import { IHellodataWebPartProps } from './IHellodataWebPartProps';
 import MockHttpClient from './MockHttpClient';
 import { EnvironmentType } from '@microsoft/sp-client-base';
 
@@ -31,7 +30,6 @@ export interface ISPList {
 export interface IListItems{
    value: IListItem[];
 }
-//Title,h7vv,v7nw,mczsId,mczsStringId,BooleanColumn
 
 export interface IListItem {
   Title: string;
@@ -41,13 +39,12 @@ export interface IListItem {
   BooleanColumn: string;
 }
 
-export default class PnpcrudsampleWebPart extends BaseClientSideWebPart<IPnpcrudsampleWebPartProps> {
-   //private container: JQuery;
+export default class HellodataWebPart extends BaseClientSideWebPart<IHellodataWebPartProps> {
 
-  //Default constructor, here we have to load css
   public constructor(context: IWebPartContext) {
     super(context);
-    ModuleLoader.loadCss('//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css');
+       ModuleLoader.loadCss('//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css');
+
   }
 
   ///Gets data from the mock, fake data
@@ -84,7 +81,7 @@ export default class PnpcrudsampleWebPart extends BaseClientSideWebPart<IPnpcrud
           { "data": "Title" },
           { "data": "h7vv" },
           { "data": "v7nw" },
-          { "data": "mczsId" },
+          { "data": "mczs.Title" },
           { "data": "BooleanColumn" }
       ]
     });
@@ -92,7 +89,7 @@ export default class PnpcrudsampleWebPart extends BaseClientSideWebPart<IPnpcrud
 
   ///Get list data
   private _getListData(): Promise<IListItems> {
-    return this.context.httpClient.get(this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Lista')/items?$select=Title,h7vv,v7nw,mczsId,mczsStringId,BooleanColumn`)
+    return this.context.httpClient.get(this.context.pageContext.web.absoluteUrl + `/_api/web/lists/getbytitle('Lista')/items?$select=Title,h7vv,v7nw,mczsId,mczsStringId,BooleanColumn,mczs/Name,mczs/Title&$expand=mczs/Id`)
       .then((response: Response) => {
         return response.json();
       });
